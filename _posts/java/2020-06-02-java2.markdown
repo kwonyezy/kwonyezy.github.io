@@ -7,7 +7,20 @@ description: Java post test
 excerpt: excerpt 
 imageminiature: https://github.com/kwonyezy/kwonyezy.github.io/blob/master/_posts/pictures/bg.jpg?raw=true
 ---
-자바 포스팅
+Java posting
 
 테스트 내용이 나왔으면 좋겠다능
 꺄륵
+
+# 이건 제목임둥
+## 이건 두번ㅉ ㅐ쿠
+
+여기서 중요한건 **스레드**라는점!
+
+```java
+class abc{
+  static void main(){
+    System.out.println("자바코드임둥~");
+   }
+}
+```
