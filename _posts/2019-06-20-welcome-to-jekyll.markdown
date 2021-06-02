@@ -2,7 +2,7 @@
 layout: post # 1 - layout of this post
 title: "Welcome to Jekyll!" # 2 - title of post
 date: 27/06/2019 # 3 - date of post
-categories:  # 4 - Categories of post
+categories:  Java # 4 - Categories of post
 description: Jekyll automatic post # 6 - description post
 excerpt: This a excerpt for a post. # 7 - excpert of post
 imageminiature: https://picsum.photos/id/1062/400/300 # 9 - image of index
