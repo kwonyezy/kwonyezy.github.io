@@ -5,7 +5,7 @@ date: 02/06/2020
 categories: Java
 description: Java post test
 excerpt: excerpt 
-imageminiature: https://picsum.photos/id/1062/400/300 
+imageminiature: https://github.com/kwonyezy/kwonyezy.github.io/blob/master/_posts/pictures/bg.jpg?raw=true
 ---
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
