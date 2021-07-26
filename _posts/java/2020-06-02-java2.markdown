@@ -17,10 +17,10 @@ Java posting
 
 여기서 중요한건 **스레드**라는점!
 
-```javascript
+```java
 class abc{
   static void main(){
-    System.out.println("자바스크립트코드임");
+    System.out.println("자바");
    }
 }
 ```
