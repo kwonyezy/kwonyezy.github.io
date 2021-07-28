@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Java #1 "
+title: "Java #1 ABOUT Java Installation"
 date: 02/06/2020
 categories: Java
 description: Java post test
