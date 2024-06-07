@@ -1,42 +1,71 @@
-source "https://rubygems.org"
+title: Kwonyezy
+email: kwonyezy@naver.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Java developer
+url: "https://kwonyezy.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
 
-# Hello! This is where you manage which Jekyll version is used to run.
-# When you want to use a different version, change it below, save the
-# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
-#
-#     bundle exec jekyll serve
-#
-# This will help ensure the proper Jekyll version is running.
-# Happy Jekylling!
-gem "jekyll", ">= 3.9", "< 5.0"
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+theme: jekyll-theme-satellite
+permalink: /:title/
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
 
-# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
-# uncomment the line below. To upgrade, run `bundle update github-pages`.
-# gem "github-pages", group: :jekyll_plugins
-# If you have any plugins, put them here!
-group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
-end
+# Exclude from processing.
+exclude: [
+  'Gemfile', 
+  'Gemfile.lock', 
+  'node_modules', 
+  'Gemfile',
+  'gray.gemspec',
+  'Gulpfile.js', 
+  'package.json',
+  'package-lock.json',
+  'LICENSE.txt',
+  'README.md',
+  'yarn.lock',
+  '.gitignore'
+]
 
-gem "jekyll-sitemap", "~> 1.3"
-gem "jekyll-seo-tag", "~> 2.6"
-gem "kramdown-parser-gfm", "~> 1.1.0"
-gem "webrick", "~> 1.7.0"
-gem 'jekyll-loading-lazy', "~> 0.1.1"
+#number posts for paginate
+paginate: 20
+paginate_path: /page/:num
+locale: EN
 
-# Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
-# and associated library.
-platforms :mingw, :x64_mingw, :mswin, :jruby do
-  gem "tzinfo", ">= 1", "< 3"
-  gem "tzinfo-data"
-end
+#new variables:
 
-# Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
+#social networks
+facebookurl: ''
+twitterurl: ''
+youtubeurl: ''
+stackoverflowurl: ''
+githuburl: ''
+instagramurl: ''
 
-# Lock `http_parser.rb` gem to `v0.6.x` on JRuby builds since newer versions of the gem
-# do not have a Java counterpart.
-gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
+#for analytics
+idanalitycs: ''
 
-# Add the jekyll-theme-satellite theme
-gem "jekyll-theme-satellite", :path => "."
+#language site
+language: ''
+
+#google verification
+googleverify: ''
+
+#email formspree
+emailform: email@email.com
+
+#disqus 
+disqus_user: https-kwonyezy-github-io
+disqus_url: disqus.com/by/disqus_ed2tD4zj4o
+disqus_id: kwonyezy
+
+#about-me
+aboutme: kwonyezy@gmail.com
+aboutmeimg: https://github.com/kwonyezy/kwonyezy.github.io/blob/master/_posts/pictures/img.jpeg?raw=true
