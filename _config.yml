@@ -1,27 +1,29 @@
-title: example.com
-description: "Satellite - jekyll blog theme"
+title: Portfolio
+description: "My development blog and portfolio"
 logo_img: "/assets/img/favicon.webp"
 profile_img: "/assets/img/profile.webp"
 
 # Social Links
-email: example@gmail.com
-github_username: github
-twitter_username: twitter
-instagram_username: instagram
-linkedin_username: linkedin
-facebook_username: facebook
+email: kwonyezy@naver.com
+github_username: kwonyezy
+# twitter_username: twitter
+# instagram_username: instagram
+# linkedin_username: linkedin
+# facebook_username: facebook
 
 # External API
-giscus_repo: "byanko55/jekyll-theme-satellite"
+giscus_repo: "kwonyezy/kwonyezy.github.io" # 자신의 리포지토리로 변경
 giscus_repoId: "R_kgDOJ6fqWg"
 giscus_category: "Q&A"
 giscus_categoryId: "DIC_kwDOJ6fqWs4Cc7p7"
-goatcounter_code: byanko77
-google_analytics:
+
+# 웹사이트의 방문자 트래픽을 추적하고 분석하는 도구 / 추후 적용 예정
+# goatcounter_code: your_goatcounter_code # 자신의 코드로 변경
+# google_analytics: your_google_analytics_code # 자신의 코드로 변경
 
 # If your repo name follows the format "<user-name>.github.io", then leave the below blank.
 # Otherwise, set its value as "/<repo-name>". ex) baseurl: /myblog
-baseurl:
+baseurl: ""
 
 # Build settings
 plugins:
@@ -45,7 +47,7 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      date: "1900-01-01"
+      date: "2024-06-07" # 오늘 날짜로 설정
 
 # Markdown newline activator 
 kramdown:
