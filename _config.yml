@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your whole blog, values
@@ -27,10 +28,39 @@ kramdown:
   syntax_highlighter: rouge
 theme: jekyll-theme-satellite
 permalink: /:title/
+=======
+title: example.com
+description: "Satellite - jekyll blog theme"
+logo_img: "/assets/img/favicon.webp"
+profile_img: "/assets/img/profile.webp"
+
+# Social Links
+email: example@gmail.com
+github_username: github
+twitter_username: twitter
+instagram_username: instagram
+linkedin_username: linkedin
+facebook_username: facebook
+
+# External API
+giscus_repo: "byanko55/jekyll-theme-satellite"
+giscus_repoId: "R_kgDOJ6fqWg"
+giscus_category: "Q&A"
+giscus_categoryId: "DIC_kwDOJ6fqWs4Cc7p7"
+goatcounter_code: byanko77
+google_analytics:
+
+# If your repo name follows the format "<user-name>.github.io", then leave the below blank.
+# Otherwise, set its value as "/<repo-name>". ex) baseurl: /myblog
+baseurl:
+
+# Build settings
+>>>>>>> 3be12514486a013c3b80d25f574a680baeed8aaa
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+<<<<<<< HEAD
   - jekyll-paginate
 
 # Exclude from processing.
@@ -86,3 +116,28 @@ disqus_id: kwonyezy
 #about-me
 aboutme: kwonyezy@gmail.com
 aboutmeimg: https://github.com/kwonyezy/kwonyezy.github.io/blob/master/_posts/pictures/img.jpeg?raw=true
+=======
+  - jekyll-loading-lazy
+
+exclude:
+  - docs/
+
+collections:
+  pages:
+    output: true
+    permalink: /:path.html
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      date: "1900-01-01"
+
+# Markdown newline activator 
+kramdown:
+  input: GFM
+  hard_wrap: true
+>>>>>>> 3be12514486a013c3b80d25f574a680baeed8aaa
