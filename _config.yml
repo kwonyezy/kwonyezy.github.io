@@ -12,7 +12,7 @@ github_username: kwonyezy
 # facebook_username: facebook
 
 # External API
-giscus_repo: "kwonyezy/kwonyezy.github.io" # 자신의 리포지토리로 변경
+giscus_repo: "kwonyezy/kwonyezy.github.io"
 giscus_repoId: "R_kgDOJ6fqWg"
 giscus_category: "Q&A"
 giscus_categoryId: "DIC_kwDOJ6fqWs4Cc7p7"
@@ -24,6 +24,9 @@ giscus_categoryId: "DIC_kwDOJ6fqWs4Cc7p7"
 # If your repo name follows the format "<user-name>.github.io", then leave the below blank.
 # Otherwise, set its value as "/<repo-name>". ex) baseurl: /myblog
 baseurl: ""
+
+# Theme 설정
+theme: jekyll-theme-satellite
 
 # Build settings
 plugins:
