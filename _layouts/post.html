@@ -1,24 +1,26 @@
-{% include header.html %}
-<!-- 2 - content of post -->
-<main>
-    <section class="row ">
-        <article class="small-12 large-8 large-offset-2 columns margin-bottom-2" >
-            <div class="post-content callout">
-                {{ content }}
-                <p>
-                    {% for category in page.categories %}
-                        <a class="hollow button secondary" href="{{site.url}}/categories/#{{category|slugize}}">
-                            #{{category}}</a>
-                        {% unless forloop.last %}&nbsp;{% endunless %}
-                    {% endfor %}
-                </p>
-            </div>
-            <div class="row share-content">
-                {% include share.html %}
-            </div>
-        </article>
-    </section>
-</main>
-<!-- 3 - includes disqus and footer -->
-{% include disqus.html %}
-{% include footer.html %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+</head>
+<body>
+  <header>
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
+  </header>
+  <main>
+    <article>
+      <h1>{{ page.title }}</h1>
+      <div>
+        {{ content }}
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} {{ site.title }}</p>
+  </footer>
+</body>
+</html>
