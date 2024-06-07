@@ -1,67 +1,53 @@
-# Site settings
-title: Kwonyezy
-email: kwonyezy@naver.com
-description: >-
-  Java developer
-url: "https://kwonyezy.github.io"
-baseurl: "/"
+title: example.com
+description: "Satellite - jekyll blog theme"
+logo_img: "/assets/img/favicon.webp"
+profile_img: "/assets/img/profile.webp"
+
+# Social Links
+email: example@gmail.com
+github_username: github
+twitter_username: twitter
+instagram_username: instagram
+linkedin_username: linkedin
+facebook_username: facebook
+
+# External API
+giscus_repo: "byanko55/jekyll-theme-satellite"
+giscus_repoId: "R_kgDOJ6fqWg"
+giscus_category: "Q&A"
+giscus_categoryId: "DIC_kwDOJ6fqWs4Cc7p7"
+goatcounter_code: byanko77
+google_analytics:
+
+# If your repo name follows the format "<user-name>.github.io", then leave the below blank.
+# Otherwise, set its value as "/<repo-name>". ex) baseurl: /myblog
+baseurl:
 
 # Build settings
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
-theme: jekyll-theme-satellite
-permalink: /:title/
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-paginate
+  - jekyll-loading-lazy
 
-exclude: [
-  'Gemfile', 
-  'Gemfile.lock', 
-  'node_modules', 
-  'gray.gemspec',
-  'Gulpfife.js', 
-  'package.json',
-  'package-lock.json',
-  'LICENSE.txt',
-  'README.md',
-  'yarn.lock',
-  '.gitignore'
-]
+exclude:
+  - docs/
 
-paginate: 20
-paginate_path: /page/:num
-locale: EN
+collections:
+  pages:
+    output: true
+    permalink: /:path.html
 
-# Social networks
-facebookurl: ''
-twitterurl: ''
-youtubeurl: ''
-stackoverflowurl: ''
-githuburl: ''
-instagramurl: ''
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      date: "1900-01-01"
 
-# For analytics
-idanalitycs: ''
-
-# Language site
-language: ''
-
-# Google verification
-googleverify: ''
-
-# Email formspree
-emailform: email@email.com
-
-# Disqus 
-disqus_user: https-kwonyezy-github-io
-disqus_url: disqus.com/by/disqus_ed2tD4zj4o
-disqus_id: kwonyezy
-
-# About me
-aboutme: kwonyezy@gmail.com
-aboutmeimg: https://github.com/kwonyezy/kwonyezy.github.io/blob/master/_posts/pictures/img.jpeg?raw=true
+# Markdown newline activator 
+kramdown:
+  input: GFM
+  hard_wrap: true

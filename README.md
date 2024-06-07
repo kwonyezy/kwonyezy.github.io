@@ -1,90 +1,139 @@
-# gray
+[![CI](https://img.shields.io/badge/Github%20Pages-passing-gold.svg?logo=github)](ci)
+[![License: MIT](https://img.shields.io/badge/License-MIT-orange.svg)](https://opensource.org/licenses/MIT)
+[![Jekyll](https://img.shields.io/badge/jekyll-%3E%3D%204.3.2-green.svg)](https://jekyllrb.com/)
+[![Jekyll](https://img.shields.io/badge/gem%20version-3.2.33-blue.svg)](gem)
+<a href="https://jekyll-themes.com/byanko55/jekyll-theme-satellite">
+  <img
+    src="https://img.shields.io/badge/featured%20on-JT-red.svg"
+    height="20"
+    alt="Jekyll Themes Shield"
+  />
+</a>
 
-Welcome to your new Gray Jekyll theme! In this directory, you'll find the files you need to be able to package up your theme into a gem. Put your layouts in `_layouts`, your includes in `_includes`, your scss files in `_sass` and any other assets in `assets` in your respectives folders.
+# Satellite🛰️ - Jekyll blog theme
+An emotional and adorable blog theme powered by ***Jekyll***. 
 
-To experiment with this code, add some sample content and run `bundle exec jekyll serve` – this directory is setup just like a Jekyll site!
+Live demo is available [here](https://byanko55.github.io)
 
-This is a simple blog template for Jekyll in wich I created for testing my skyll on Jekyll and Web Developer.
+![Demo Page](https://i.ibb.co/h1QF06V/demo.webp)
 
-I hope you enjoy it!
+### Light Mode
+![Demo Page-light](https://i.ibb.co/DtDPCpR/white.webp)
+
+### Dark Mode
+![Demo Page-dark](https://i.ibb.co/BjsrWg2/dark.webp)
+
+### Fresh and Attractive Design
+<p>
+<img src="https://i.ibb.co/4NwrTyj/image-2.webp" height="400px" align="center"/>
+<img src="https://i.ibb.co/WvyBzkL/Animation.gif" height="400px" align="center"/>
+</p>
+
+<br></br>
+
+## Features
+
+* Comment System using *giscus*
+* Copy contents of Code Block
+* Dark/Light Theme
+* Google Analytics
+* Hierarchical Categorization
+* Mobile friendly design
+* Related Posts
+* RSS/Sitemap support
+* Search Post by Title or Tags
+* Syntax Highlighter (*highlight.js*)
+* Table of Contents
+* Visitor Counter (*goatcounter*)
 
 
 ## Installation
 
-Add this line to your Jekyll site's `Gemfile`:
+There are two ways to setup this theme:
+<br></br>
 
-```ruby
-gem "gray"
+### Method 1: Build from source (Recommended)
+Fork [this repository](https://github.com/byanko55/jekyll-theme-satellite) or download the [source](https://github.com/byanko55/jekyll-theme-satellite/releases) as a zip. 
+
+If you use as destination a repository named USERNAME.github.io, then your url will be https://USERNAME.github.io/.
+
+Otherwise (let's say `myblog`), you need to edit the '*baseurl*' parameter in `_config.yml`. In this case, the root page will be served to "https://USERNAME.github.io/myblog/".
+
+```yml
+# set baseurl as "/<repo-name>". ex) baseurl: /myblog
+baseurl: /myblog
+```
+<br></br>
+
+
+### Method 2: Utilize Gem package
+Create a clean site directory (Follow the **Instruction 1~4** described [here](https://jekyllrb.com/docs/)).
+
+The following materials are redundant, so remove them.
+* index.markdown
+* about.markdown
+<br></br>
+
+Then, add this line to your Jekyll site's `Gemfile`:
+
+```bash
+gem "jekyll-theme-satellite"
 ```
 
-And add this line to your Jekyll site's `_config.yml`:
+You need to replace the initial `_config.yml` file with the [prepared one](https://github.com/byanko55/jekyll-theme-satellite/blob/master/docs/_config.yml).
+<br></br>
 
-```yaml
-theme: gray
+### Modify your site setting
+
+Now fill in the **site variable** such as blog name, profile image, and social accounts in `_config.yml`.
+
+```yml
+title: Example.com
+description: "Satellite - jekyll blog theme"
+logo_img: "/assets/img/favicon.webp"
+profile_img: "/assets/img/profile.jpg"
+
+# Social Links
+email: example@gmail.com
+github_username: github
+twitter_username: twitter
+instagram_username: instagram
+linkedin_username: linkedin
+facebook_username: facebook
 ```
 
-And then execute:
 
-    $ bundle
+### Run site locally
 
-Or install it yourself as:
+From the site root directory, install the dependencies:
 
-    $ gem install gray
+```
+bundle install
+```
 
-## Usage
 
-This template make with [Foundation 6](https://foundation.zurb.com/sites/docs/installation.html) using Flex Grid, and few [Building Blocks](https://foundation.zurb.com/building-blocks/). I used a monochromatic gray styles.
+Start a Jekyll service.
 
-**Pages**
+```
+bundle exec jekyll serve
+```
 
-Contact Form by https://formspree.io/
+Now open [http://localhost:4000](http://localhost:4000) in your browser.
+<br></br>
 
-Categories Page
+## Customizing
 
-Index with 20 posts (can be editable)
+You can find useful manuals for customizing your site from the below table:
 
-**Plugins**
+|||
+|---|---|
+|Posting guidelines|[link](https://github.com/byanko55/jekyll-theme-satellite/blob/master/docs/Posting%20Guide.md)|
+|Enabling ***comment system***|[link](https://github.com/byanko55/jekyll-theme-satellite/blob/master/docs/Comment%20System.md)|
+|Enabling ***Visitor counter***|[link](https://github.com/byanko55/jekyll-theme-satellite/blob/master/docs/Visitor%20Counter.md)|
 
-[Simple-Jekyll-Search](https://github.com/christian-fei/Simple-Jekyll-Search)
-
-**CSS Classes**
-
-[Foundation 6](https://foundation.zurb.com/sites/docs/installation.html)
-
-[Font Awesome](https://fontawesome.com)
-
-**Loading Contribution**
-
-[tobiasahlin](https://tobiasahlin.com/spinkit/)
-
-**Building Blocks Contributions**
-
-[STICKY NAV SHRINK HERO By Rafi](https://foundation.zurb.com/building-blocks/blocks/sticky-shrinknav.html)
-
-[ARTICLE CARD HOVER By Laurel Beyers](https://foundation.zurb.com/building-blocks/blocks/article-card-hover.html)
-
-[CSS MASONRY GRID By Rafi](https://foundation.zurb.com/building-blocks/blocks/masonry-css.html)
-
-## Demo
-
-In my personal blog I use same template but in portughese language.
-
-https://brunofolle.com.br
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/brunofolle/. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
-## Development
-
-To set up your environment to develop this theme, run `bundle install`.
-
-Your theme is setup just like a normal Jekyll site! To test your theme, run `bundle exec jekyll serve` and open your browser at `http://localhost:4000`. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme's contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.
-
-When your theme is released, only the files in `_layouts`, `_includes`, `_sass`  and `assets` tracked with Git will be bundled.
-To add a custom directory to your theme-gem, please edit the regexp in `gray.gemspec` accordingly.
+## Contribution
+If you would like to report a bug or request a new feature, please open [an issue](https://github.com/byanko55/jekyll-theme-satellite/issues) We are open to any kind of feedback or collaboration.
+<br></br>
 
 ## License
-
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
+© 2024 *Yankos*. This theme is available as open source under the terms of the [MIT License](https://opensource.org/license/mit/).
