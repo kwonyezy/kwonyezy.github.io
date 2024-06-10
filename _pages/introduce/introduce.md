@@ -8,7 +8,6 @@ tags:
 date: "2024-06-10"
 thumbnail: ""
 bookmark: true
-category: "introduce"
 ---
 
 Hi, this is my first post on changing themes.
