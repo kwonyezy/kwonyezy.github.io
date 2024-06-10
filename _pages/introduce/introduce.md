@@ -7,7 +7,7 @@ tags:
     - portfolio
 date: "2024-06-10"
 thumbnail: ""
-bookmark: false
+bookmark: true
 ---
 
 Hi, this is my first post on changing themes.
