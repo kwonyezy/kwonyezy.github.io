@@ -3,7 +3,7 @@ name: Jekyll site CI
 on:
   push:
     branches:
-      - main  # 또는 master, 기본 브랜치 이름을 사용하세요
+      - master  # 기본 브랜치 이름
 
 jobs:
   build:
