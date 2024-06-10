@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java_#7 ABOUT Array</title>
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+    <p>My development blog and portfolio</p>
+  </header>
+  <main>
+    <article>
+      <h1>Java_#7 ABOUT Array</h1>
+      <div>
+        <h4 id="java의-array">Java의 Array<br /><br /></h4>
+
+<p>배열이란 연관된 데이터를 하나의 변수에 그룹핑해서 관리하기 위한 방법이다.    <br />
+프로그램을 만들다가 변수를 하나 선언할 때 <code class="language-plaintext highlighter-rouge">int a;</code> 이렇게 선언한다고 생각해보면, 두 개를 선언 할 땐 <code class="language-plaintext highlighter-rouge">int a, b;</code>, 3개는 <code class="language-plaintext highlighter-rouge">int a, b, c;</code>…    <br />
+그러다 변수 100개, 200개가 필요하다면 아주 수고스러운 일이 생길 수 있다.</p>
+
+<p>100개의 변수가 필요하다면 배열을 통해 <code class="language-plaintext highlighter-rouge">int i[] = new int[100]; //0번부터 99번까지 100개</code> 한 번에 선언 할 수 있다. 이렇게 선언하면, <code class="language-plaintext highlighter-rouge">변수명[인덱스]</code> 형식으로 <code class="language-plaintext highlighter-rouge">i[0] = 10;</code> <code class="language-plaintext highlighter-rouge">i[2] = 30;</code> 처럼 각각 변수에 접근하여 사용할 수 있다.</p>
+
+<p>문자열 배열 또한 <code class="language-plaintext highlighter-rouge">String s[] = new String[100];</code> 처럼 선언하여 사용 할 수 있고, 각각의 변수에 <code class="language-plaintext highlighter-rouge">s[0] = "aaaa";</code> 문자열을 넣어 사용할 수 있다.    <br />
+(실상 문자열은 내부적으로 배열로 이루어져 있기 때문에 문자열 배열은 실질적으로 2차원 배열로 정의가 되어있다고 생각하면 된다.)</p>
+
+<p><code class="language-plaintext highlighter-rouge">int j[] = {1, 2, 3, 4, 5};</code> 이처럼 배열을 선언하면서 안의 값들을 초기화해 줄 수도 있다. 이러면 <code class="language-plaintext highlighter-rouge">j</code>의 배열은 0~4까지의 인덱스를 같는 변수 5개가 만들어지는 셈이다.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">java.util.Scanner</span><span class="o">;</span>
+<span class="kd">class</span> <span class="nc">ArraryEx2</span><span class="o">{</span>
+	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span> <span class="n">args</span><span class="o">[]){</span>
+		<span class="nc">Scanner</span> <span class="n">s</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Scanner</span><span class="o">(</span><span class="nc">System</span><span class="o">.</span><span class="na">in</span><span class="o">);</span>
+		
+		<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">"배열의 크기를 정해 주세요 : "</span><span class="o">);</span>
+		<span class="kt">int</span> <span class="n">size</span> <span class="o">=</span> <span class="n">s</span><span class="o">.</span><span class="na">nextInt</span><span class="o">();</span>
+		<span class="kt">int</span><span class="o">[]</span> <span class="n">data</span> <span class="o">=</span> <span class="k">new</span> <span class="kt">int</span><span class="o">[</span><span class="n">size</span><span class="o">];</span> <span class="c1">//data는 배열의 이름</span>
+		<span class="c1">//배열은 변수의 집합 =&gt; 변수에 번호를 붙인다 </span>
+		<span class="c1">//배열의 크기를 new를 이용해 정함</span>
+		
+		<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"만든 배열의 크기는 "</span> <span class="o">+</span> <span class="n">size</span> <span class="o">+</span> <span class="s">"입니다"</span><span class="o">);</span>
+		<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"만든 배열의 크기는 "</span> <span class="o">+</span> <span class="n">data</span><span class="o">.</span><span class="na">length</span> <span class="o">+</span> <span class="s">"입니다"</span><span class="o">);</span>
+		<span class="c1">//같음</span>
+		
+		<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"숫자를 "</span> <span class="o">+</span> <span class="n">data</span><span class="o">.</span><span class="na">length</span> <span class="o">+</span> <span class="s">"개 입력해주세요"</span><span class="o">);</span>
+		<span class="kt">int</span> <span class="n">total</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span>
+		<span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span><span class="o">=</span><span class="mi">0</span><span class="o">;</span> <span class="n">i</span><span class="o">&lt;</span><span class="n">data</span><span class="o">.</span><span class="na">length</span><span class="o">;</span> <span class="n">i</span><span class="o">++){</span>
+			<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">((</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="o">)+</span><span class="s">"번째 숫자를 입력하세요"</span><span class="o">);</span>
+			<span class="n">data</span><span class="o">[</span><span class="n">i</span><span class="o">]=</span><span class="n">s</span><span class="o">.</span><span class="na">nextInt</span><span class="o">();</span>
+			<span class="n">total</span> <span class="o">=</span> <span class="n">total</span> <span class="o">+</span> <span class="n">data</span><span class="o">[</span><span class="n">i</span><span class="o">];</span>
+		<span class="o">}</span>
+		<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"평균은 "</span> <span class="o">+</span> <span class="o">(</span><span class="n">total</span><span class="o">/</span><span class="n">data</span><span class="o">.</span><span class="na">length</span><span class="o">)</span> <span class="o">+</span> <span class="s">"입니다"</span><span class="o">);</span>
+		
+	<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>위의 예제는 배열의 크기를 입력받아서 입력받은 크기만큼 배열을 생성하고 평균값을 구하는 프로그램이다.    <br />
+배열의 경우도 <code class="language-plaintext highlighter-rouge">new</code> 연산자로 생성되기 때문에 변수를 만들 때 필요한 메모리가 heap영역에 생성된다. 때문에 컴파일 시에 배열의 크기를 지정해주지 않고 프로그램 동작 중에 값을 입력받아 선언해줄 수 있는 것이다.</p>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2024 Portfolio</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,1221 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2024-06-10T00:37:11+00:00</updated><id>/feed.xml</id><title type="html">Portfolio</title><subtitle>My development blog and portfolio</subtitle><entry><title type="html">html_#13 About CSS [7]</title><link href="/html/2021/07/03/html_13.html" rel="alternate" type="text/html" title="html_#13 About CSS [7]" /><published>2021-07-03T00:00:00+00:00</published><updated>2021-07-03T00:00:00+00:00</updated><id>/html/2021/07/03/html_13</id><content type="html" xml:base="/html/2021/07/03/html_13.html"><![CDATA[<h4 id="css-7-">CSS [7] <br /><br /></h4>
+
+<h3 id="div의-hidden">div의 hidden</h3>
+<p><br /><br /></p>
+
+<ul>
+  <li>visibility를 hidden으로 준 경우 <br /></li>
+</ul>
+<head>
+    <style>
+          .box{
+              width: 100px;
+              height: 100px;
+              background-color: red;
+              border: 1px solid black;
+          }
+          #box2{
+              visibility: hidden;
+          }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">3</div>
+</body>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+          <span class="nc">.box</span><span class="p">{</span>
+              <span class="nl">width</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+              <span class="nl">height</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+              <span class="nl">background-color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+              <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
+          <span class="p">}</span>
+          <span class="nf">#box2</span><span class="p">{</span>
+              <span class="nl">visibility</span><span class="p">:</span> <span class="nb">hidden</span><span class="p">;</span>
+          <span class="p">}</span>
+    <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box"</span> <span class="na">id=</span><span class="s">"box1"</span><span class="nt">&gt;</span>1<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box"</span> <span class="na">id=</span><span class="s">"box2"</span><span class="nt">&gt;</span>2<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box"</span> <span class="na">id=</span><span class="s">"box3"</span><span class="nt">&gt;</span>3<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>
+
+<p><br /><br /></p>
+
+<ul>
+  <li>display를 none으로 준 경우 <br /></li>
+</ul>
+
+<head>
+      <style>
+            #warp{
+                width: 1024px;
+                margin: 0 auto;
+                border: 1px solid black;
+                font-size: 0;
+            }
+            .box{
+                width: 100px;
+                height: 100px;
+                border: 1px solid red;
+                display: inline-block;
+                font-size: 12px;
+            }
+            #box2{
+                display: none; /* visibilty 랑 "유사" */
+            }
+      </style>
+</head>
+<body>
+    <div id="warp">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+&lt;/body&gt;
+  
+  
+  
+  
+  
+  
+  ```html
+<head>
+<head>
+      <style>
+            #warp{
+                width: 1024px;
+                margin: 0 auto;
+                border: 1px solid black;
+                font-size: 0;
+            }
+            .box{
+                width: 100px;
+                height: 100px;
+                border: 1px solid red;
+                display: inline-block;
+                font-size: 12px;
+            }
+            #box2{
+                display: none; /* visibilty 랑 "유사" */
+            }
+      </style>
+</head>
+<body>
+    <div id="warp">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+&lt;/body&gt;
+```
+</div></body></head></div></body>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#11 About CSS [5]</title><link href="/html/2021/06/29/html_11.html" rel="alternate" type="text/html" title="html_#11 About CSS [5]" /><published>2021-06-29T00:00:00+00:00</published><updated>2021-06-29T00:00:00+00:00</updated><id>/html/2021/06/29/html_11</id><content type="html" xml:base="/html/2021/06/29/html_11.html"><![CDATA[<h4 id="css-5-">CSS [5] <br /><br /></h4>
+
+<h3 id="ul-li-및-을-이용한-문단-바로가기">ul, li 및 #을 이용한 문단 바로가기</h3>
+<p><br /><br /></p>
+
+<head>
+      <style>
+      #title{
+              color: blue;
+              font-size: 20px;
+              text-align: center;
+          }
+          .title2{
+              color: green;
+              font-size: 15px;
+              font-style: italic;
+              font-weight: bold;
+          }
+          a{
+              text-decoration: none;
+          }
+          #author{
+              font-family: 고딕체;
+              text-transform: capitalize;
+              font-variant: small-caps;
+          }
+      </style>
+</head>
+<body>
+    <p id="title">css 예제</p>
+    <br />
+    목차
+    <ul>
+        <li><a href="#1">문단1</a></li>
+        <li><a href="#2">문단2</a></li>
+        <li><a href="#3">문단3</a></li>
+        <li><a href="#4">문단4</a></li>
+        <li><a href="#5">문단5</a></li>
+        <li><a href="#6">문단6</a></li>
+    </ul>
+    <br />
+
+    <p class="title2">문단1</p>
+    <p id="1">&nbsp;국가안전보장에 관련되는 대외정책·군사정책과 국내정책의 수립에 관하여 국무회의의 심의에 앞서 대통령의 자문에 응하기 위하여 국가안전보장회의를 둔다.</p>
+
+    <p class="title2">문단2</p>
+    <p id="2">&nbsp;법원은 최고법원인 대법원과 각급법원으로 조직된다. 모든 국민은 학문과 예술의 자유를 가진다.</p>
+
+    <p class="title2">문단3</p>
+    <p id="3">&nbsp;국가는 모성의 보호를 위하여 노력하여야 한다. 군인 또는 군무원이 아닌 국민은 대한민국의 영역안에서는 중대한 군사상 기밀·군용물 등에 관한 죄중 법률이 정한 경우와 비상계엄이 선포된 경우를 제외하고는 군사법원의 재판을 받지 아니한다.</p>
+
+    <p class="title2">문단4</p>
+    <p id="4">&nbsp;국가의 세입·세출의 결산, 국가 및 법률이 정한 단체의 회계검사와 행정기관 및 공무원의 직무에 관한 감찰을 하기 위하여 대통령 소속하에 감사원을 둔다.</p>
+
+    <p class="title2">문단5</p>
+    <p id="5">&nbsp;대통령으로 선거될 수 있는 자는 국회의원의 피선거권이 있고 선거일 현재 40세에 달하여야 한다.</p>
+
+    <p class="title2">문단6</p>
+    <p id="6">&nbsp;평화통일정책의 수립에 관한 대통령의 자문에 응하기 위하여 민주평화통일자문회의를 둘 수 있다.</p>
+
+    <span-inline id="author">저자&nbsp;aa</span-inline>aaa
+</body>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
+      <span class="nt">&lt;style&gt;</span>
+      <span class="nf">#title</span><span class="p">{</span>
+              <span class="nl">color</span><span class="p">:</span> <span class="no">blue</span><span class="p">;</span>
+              <span class="nl">font-size</span><span class="p">:</span> <span class="m">20px</span><span class="p">;</span>
+              <span class="nl">text-align</span><span class="p">:</span> <span class="nb">center</span><span class="p">;</span>
+          <span class="p">}</span>
+          <span class="nc">.title2</span><span class="p">{</span>
+              <span class="nl">color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+              <span class="nl">font-size</span><span class="p">:</span> <span class="m">15px</span><span class="p">;</span>
+              <span class="nl">font-style</span><span class="p">:</span> <span class="nb">italic</span><span class="p">;</span>
+              <span class="nl">font-weight</span><span class="p">:</span> <span class="nb">bold</span><span class="p">;</span>
+          <span class="p">}</span>
+          <span class="nt">a</span><span class="p">{</span>
+              <span class="nl">text-decoration</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span>
+          <span class="p">}</span>
+          <span class="nf">#author</span><span class="p">{</span>
+              <span class="nl">font-family</span><span class="p">:</span> <span class="n">고딕체</span><span class="p">;</span>
+              <span class="nl">text-transform</span><span class="p">:</span> <span class="nb">capitalize</span><span class="p">;</span>
+              <span class="nl">font-variant</span><span class="p">:</span> <span class="nb">small-caps</span><span class="p">;</span>
+          <span class="p">}</span>
+      <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"title"</span><span class="nt">&gt;</span>css 예제<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;br&gt;</span>
+    목차
+    <span class="nt">&lt;ul&gt;</span>
+        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#1"</span><span class="nt">&gt;</span>문단1<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#2"</span><span class="nt">&gt;</span>문단2<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#3"</span><span class="nt">&gt;</span>문단3<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#4"</span><span class="nt">&gt;</span>문단4<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#5"</span><span class="nt">&gt;</span>문단5<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;&lt;a</span> <span class="na">href=</span><span class="s">"#6"</span><span class="nt">&gt;</span>문단6<span class="nt">&lt;/a&gt;&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;br&gt;</span>
+
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"title2"</span><span class="nt">&gt;</span>문단1<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"1"</span><span class="nt">&gt;</span><span class="ni">&amp;nbsp;</span>국가안전보장에 관련되는 대외정책·군사정책과 국내정책의 수립에 관하여 국무회의의 심의에 앞서 대통령의 자문에 응하기 위하여 국가안전보장회의를 둔다.<span class="nt">&lt;/p&gt;</span>
+
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"title2"</span><span class="nt">&gt;</span>문단2<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"2"</span><span class="nt">&gt;</span><span class="ni">&amp;nbsp;</span>법원은 최고법원인 대법원과 각급법원으로 조직된다. 모든 국민은 학문과 예술의 자유를 가진다.<span class="nt">&lt;/p&gt;</span>
+
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"title2"</span><span class="nt">&gt;</span>문단3<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"3"</span><span class="nt">&gt;</span><span class="ni">&amp;nbsp;</span>국가는 모성의 보호를 위하여 노력하여야 한다. 군인 또는 군무원이 아닌 국민은 대한민국의 영역안에서는 중대한 군사상 기밀·군용물 등에 관한 죄중 법률이 정한 경우와 비상계엄이 선포된 경우를 제외하고는 군사법원의 재판을 받지 아니한다.<span class="nt">&lt;/p&gt;</span>
+
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"title2"</span><span class="nt">&gt;</span>문단4<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"4"</span><span class="nt">&gt;</span><span class="ni">&amp;nbsp;</span>국가의 세입·세출의 결산, 국가 및 법률이 정한 단체의 회계검사와 행정기관 및 공무원의 직무에 관한 감찰을 하기 위하여 대통령 소속하에 감사원을 둔다.<span class="nt">&lt;/p&gt;</span>
+
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"title2"</span><span class="nt">&gt;</span>문단5<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"5"</span><span class="nt">&gt;</span><span class="ni">&amp;nbsp;</span>대통령으로 선거될 수 있는 자는 국회의원의 피선거권이 있고 선거일 현재 40세에 달하여야 한다.<span class="nt">&lt;/p&gt;</span>
+
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"title2"</span><span class="nt">&gt;</span>문단6<span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"6"</span><span class="nt">&gt;</span><span class="ni">&amp;nbsp;</span>평화통일정책의 수립에 관한 대통령의 자문에 응하기 위하여 민주평화통일자문회의를 둘 수 있다.<span class="nt">&lt;/p&gt;</span>
+
+    <span class="nt">&lt;span-inline</span> <span class="na">id=</span><span class="s">"author"</span><span class="nt">&gt;</span>저자<span class="ni">&amp;nbsp;</span>aa<span class="nt">&lt;/span-inline&gt;</span>aaa
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#10 About CSS [4]</title><link href="/html/2021/06/28/html_10.html" rel="alternate" type="text/html" title="html_#10 About CSS [4]" /><published>2021-06-28T00:00:00+00:00</published><updated>2021-06-28T00:00:00+00:00</updated><id>/html/2021/06/28/html_10</id><content type="html" xml:base="/html/2021/06/28/html_10.html"><![CDATA[<h4 id="css-4-">CSS [4] <br /><br /></h4>
+
+<h3 id="css를-이용한-div-태그">CSS를 이용한 div 태그</h3>
+<p><br /><br /></p>
+
+<p>box 자체를 가운데로 보내고 싶다면 마진을 이용 <br /></p>
+<ul>
+  <li>블록 태그일 경우 마진을 이용해서 가운데로 옮길 수 있다. <br /></li>
+  <li>마진의 왼쪽, 오른쪽으로 auto로 설정하면 된다. <br /></li>
+</ul>
+
+<head>
+    <style>
+        *,html,body{
+            padding: 0;
+            margin: 0;
+        }
+
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: greenyellow;
+            border-width: 1px;
+            border-style: solid;
+            border-color: black;
+
+            /* margin-left: auto;
+            margin-right: auto; */
+            margin: 0 auto; /*마진으로 통한 가운데 정렬*/
+        }
+
+        .top{
+            width: 200px;
+            height: 100px;
+            background-color: red;
+        }
+
+        .bottom{
+            width: 200px;
+            height: 100px;
+            background-color: blue;
+        }
+
+        .box2{
+            width: 100px;
+            height: 100px;
+            background-color: chartreuse;
+            padding-top: 50px;
+            padding-left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="top"></div>
+        <div class="bottom"></div>
+    </div>
+
+    <div class="box2">하이</div>
+</body>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+        <span class="o">*,</span><span class="nt">html</span><span class="o">,</span><span class="nt">body</span><span class="p">{</span>
+            <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+            <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="nc">.box</span><span class="p">{</span>
+            <span class="nl">width</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+            <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+            <span class="nl">background-color</span><span class="p">:</span> <span class="no">greenyellow</span><span class="p">;</span>
+            <span class="nl">border-width</span><span class="p">:</span> <span class="m">1px</span><span class="p">;</span>
+            <span class="nl">border-style</span><span class="p">:</span> <span class="nb">solid</span><span class="p">;</span>
+            <span class="nl">border-color</span><span class="p">:</span> <span class="no">black</span><span class="p">;</span>
+
+            <span class="c">/* margin-left: auto;
+            margin-right: auto; */</span>
+            <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span> <span class="nb">auto</span><span class="p">;</span> <span class="c">/*마진으로 통한 가운데 정렬*/</span>
+        <span class="p">}</span>
+
+        <span class="nc">.top</span><span class="p">{</span>
+            <span class="nl">width</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+            <span class="nl">height</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+            <span class="nl">background-color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="nc">.bottom</span><span class="p">{</span>
+            <span class="nl">width</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+            <span class="nl">height</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+            <span class="nl">background-color</span><span class="p">:</span> <span class="no">blue</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="nc">.box2</span><span class="p">{</span>
+            <span class="nl">width</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+            <span class="nl">height</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+            <span class="nl">background-color</span><span class="p">:</span> <span class="no">chartreuse</span><span class="p">;</span>
+            <span class="nl">padding-top</span><span class="p">:</span> <span class="m">50px</span><span class="p">;</span>
+            <span class="nl">padding-left</span><span class="p">:</span> <span class="m">50px</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"top"</span><span class="nt">&gt;&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"bottom"</span><span class="nt">&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box2"</span><span class="nt">&gt;</span>div<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>
+
+<p><br /><br /></p>
+
+<head>
+    <style>
+       .box-container{
+           display: inline-block;
+           background-color: #d2f4ff;
+           border: 2px solid #09c;
+           margin: 5px 15px;
+       }
+
+       .box-container div{
+           width: 120px;
+           height: 80px;
+           background-color: #fde6ff;
+           border: 2px solid #90C;
+           font-size: 15px;
+       }
+
+       #box1{ 
+           margin: 10px; padding: 0;
+       }
+       #box2{ 
+           margin: 5px 25px; padding: 0; 
+       }
+       #box3{ 
+           margin: 0; padding: 10px 30px 5px; 
+       }
+       #box4{ 
+           margin: 10px; padding: 10px 20px; 
+       }
+       #box5{ 
+           margin: 10px 30px 0 50px; padding: 30px 0 
+           }
+    </style>
+</head>
+<body>
+    <div class="box-container">
+        <div id="box1">m: 10<br />p: 0
+    </div>
+    </div>
+        <div class="box-container">
+        <div id="box2">m: 5 25<br />p: 0
+    </div>
+    </div>
+        <div class="box-container">
+        <div id="box3">m: 0<br />p: 10 30 5
+    </div>
+    </div>
+        <div class="box-container">
+        <div id="box4">m: 10<br />p: 10 20
+    </div>
+    </div>
+    <div class="box-container">
+    <div id="box5">m: 10 30 0 50<br />p: 30 0</div>
+    </div>
+</body>
+
+<p><br /></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+       <span class="nc">.box-container</span><span class="p">{</span>
+           <span class="nl">display</span><span class="p">:</span> <span class="n">inline-block</span><span class="p">;</span>
+           <span class="nl">background-color</span><span class="p">:</span> <span class="m">#d2f4ff</span><span class="p">;</span>
+           <span class="nl">border</span><span class="p">:</span> <span class="m">2px</span> <span class="nb">solid</span> <span class="m">#09c</span><span class="p">;</span>
+           <span class="nl">margin</span><span class="p">:</span> <span class="m">5px</span> <span class="m">15px</span><span class="p">;</span>
+       <span class="p">}</span>
+
+       <span class="nc">.box-container</span> <span class="nt">div</span><span class="p">{</span>
+           <span class="nl">width</span><span class="p">:</span> <span class="m">120px</span><span class="p">;</span>
+           <span class="nl">height</span><span class="p">:</span> <span class="m">80px</span><span class="p">;</span>
+           <span class="nl">background-color</span><span class="p">:</span> <span class="m">#fde6ff</span><span class="p">;</span>
+           <span class="nl">border</span><span class="p">:</span> <span class="m">2px</span> <span class="nb">solid</span> <span class="m">#90C</span><span class="p">;</span>
+           <span class="nl">font-size</span><span class="p">:</span> <span class="m">15px</span><span class="p">;</span>
+       <span class="p">}</span>
+
+       <span class="nf">#box1</span><span class="p">{</span> 
+           <span class="nl">margin</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span> <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span>
+       <span class="p">}</span>
+       <span class="nf">#box2</span><span class="p">{</span> 
+           <span class="nl">margin</span><span class="p">:</span> <span class="m">5px</span> <span class="m">25px</span><span class="p">;</span> <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span> 
+       <span class="p">}</span>
+       <span class="nf">#box3</span><span class="p">{</span> 
+           <span class="nl">margin</span><span class="p">:</span> <span class="m">0</span><span class="p">;</span> <span class="nl">padding</span><span class="p">:</span> <span class="m">10px</span> <span class="m">30px</span> <span class="m">5px</span><span class="p">;</span> 
+       <span class="p">}</span>
+       <span class="nf">#box4</span><span class="p">{</span> 
+           <span class="nl">margin</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span> <span class="nl">padding</span><span class="p">:</span> <span class="m">10px</span> <span class="m">20px</span><span class="p">;</span> 
+       <span class="p">}</span>
+       <span class="nf">#box5</span><span class="p">{</span> 
+           <span class="nl">margin</span><span class="p">:</span> <span class="m">10px</span> <span class="m">30px</span> <span class="m">0</span> <span class="m">50px</span><span class="p">;</span> <span class="nl">padding</span><span class="p">:</span> <span class="m">30px</span> <span class="m">0</span> 
+           <span class="p">}</span>
+    <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box-container"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"box1"</span><span class="nt">&gt;</span>m: 10<span class="nt">&lt;br&gt;</span>p: 0
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box-container"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"box2"</span><span class="nt">&gt;</span>m: 5 25<span class="nt">&lt;br&gt;</span>p: 0
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box-container"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"box3"</span><span class="nt">&gt;</span>m: 0<span class="nt">&lt;br&gt;</span>p: 10 30 5
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box-container"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"box4"</span><span class="nt">&gt;</span>m: 10<span class="nt">&lt;br&gt;</span>p: 10 20
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box-container"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"box5"</span><span class="nt">&gt;</span>m: 10 30 0 50<span class="nt">&lt;br&gt;</span>p: 30 0<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>
+<p><br /><br /></p>
+
+<head>
+    <style>
+       #box2-1 {
+               width: 100%;
+               height: 100%;
+               border: 1px solid black;
+               background-image: url("1.jpg.png");
+               background-repeat: no-repeat;
+               background-position: top;
+               background-size: contain;
+
+               /* cover, contain의 차이 => cover는 배경이 들어갈 객체 기준, contain은 그림이 기준*/
+        }
+    </style>
+</head>
+<body>
+    <div id="box2-1"></div>
+</body>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+       <span class="nf">#box2-1</span> <span class="p">{</span>
+               <span class="nl">width</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+               <span class="nl">height</span><span class="p">:</span> <span class="m">100%</span><span class="p">;</span>
+               <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
+               <span class="nl">background-image</span><span class="p">:</span> <span class="sx">url("1.jpg.png")</span><span class="p">;</span>
+               <span class="nl">background-repeat</span><span class="p">:</span> <span class="nb">no-repeat</span><span class="p">;</span>
+               <span class="nl">background-position</span><span class="p">:</span> <span class="nb">top</span><span class="p">;</span>
+               <span class="nl">background-size</span><span class="p">:</span> <span class="n">contain</span><span class="p">;</span>
+
+               <span class="c">/* cover, contain의 차이 =&gt; cover는 배경이 들어갈 객체 기준, contain은 그림이 기준*/</span>
+        <span class="p">}</span>
+    <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"box2-1"</span><span class="nt">&gt;&lt;/div&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#9 About CSS [3]</title><link href="/html/2021/06/26/html_09.html" rel="alternate" type="text/html" title="html_#9 About CSS [3]" /><published>2021-06-26T00:00:00+00:00</published><updated>2021-06-26T00:00:00+00:00</updated><id>/html/2021/06/26/html_09</id><content type="html" xml:base="/html/2021/06/26/html_09.html"><![CDATA[<h4 id="css-3-">CSS [3] <br /><br /></h4>
+
+<h3 id="빈-태그의">빈 태그의</h3>
+<p><br /><br /></p>
+
+<p>css에서는 반드시 숫자를 입력할 경우 단위가 필수 <br /><br />
+기본 단위는 px(픽셀) <br /><br />
+<br /><br /><br />
+css는 무조건 태그 기준으로 한다. 그런데 보통의 태그들은 다 자기만의 의미가 있고, 속성이 있다. <br /><br />
+그래서 의미없이 묶어줄 수 있는 빈 태그가 필요하다. <br /></p>
+<ul>
+  <li>블록 태그 : div / 모든 블록 태그는 크기 설정이 가능 / 한 줄 차지 <br /></li>
+  <li>인라인 태그 : span / 모든 인라인 태그는 크기 설정이 불가능 / 바로 옆에 붙는다 <br /></li>
+  <li>특이한 케이스 : inline-block 타입의 태그 - 가로로 바로 옆에 붙으면서 크기 설정 가능<br />
+<br /><br /></li>
+</ul>
+
+<head>
+    <style>
+        div.contents{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+
+        button.contents{
+            width: 200px;
+            height: 200px;
+        }
+
+        /* input[type=button]{
+            width: 100px;
+            height: 100px;
+            background-color: greenyellow;
+        }*/
+    </style>
+</head>
+<body>
+    <div class="contents"></div>
+    <input type="button" value="인풋태크" style="width: 150px; height: 80px; background-color: #d2f4ff; border: 2px solid #09c;" /> <!--아무런 기능이 없다-->
+    <button class="contents">버튼태그</button> <!--input type="submit"과 동일-->
+</body>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+        <span class="nt">div</span><span class="p">{</span>
+            <span class="nl">width</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+            <span class="nl">height</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+            <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="nt">button</span><span class="p">{</span>
+            <span class="nl">width</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+            <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="c">/* input[type=button]{
+            width: 100px;
+            height: 100px;
+            background-color: greenyellow;
+        }*/</span>
+    <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">value=</span><span class="s">"인풋태크"</span> <span class="na">style=</span><span class="s">"width: 150px; height: 80px; background-color: #d2f4ff; border: 2px solid #09c;"</span><span class="nt">&gt;</span> <span class="c">&lt;!--아무런 기능이 없다--&gt;</span>
+    <span class="nt">&lt;button&gt;</span>버튼태그<span class="nt">&lt;/button&gt;</span> <span class="c">&lt;!--input type="submit"과 동일--&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#8 About CSS [2]</title><link href="/html/2021/06/24/html_08.html" rel="alternate" type="text/html" title="html_#8 About CSS [2]" /><published>2021-06-24T00:00:00+00:00</published><updated>2021-06-24T00:00:00+00:00</updated><id>/html/2021/06/24/html_08</id><content type="html" xml:base="/html/2021/06/24/html_08.html"><![CDATA[<h4 id="css-2-">CSS [2] <br /><br /></h4>
+
+<h3 id="table에서-css">table에서 css</h3>
+<p><br /><br /></p>
+
+<head>
+    <style>
+        td{
+            border-width: 1px;
+            border-color: black;
+            border-style: solid;
+        }
+
+        td:nth-child(2n+1){ /* 2n=>짝수줄, 2n+1=>홀수줄, n=>전체, 1 2=>td의 첫번째 두번째*/
+            color: red;
+        }
+
+        td:last-child{
+            color: red;
+        }
+
+        td:first-child{
+            color: blue;
+        }
+
+        td:hover{ /*마우스를 올렸을 때*/
+            background-color: grey;
+        }
+
+        tr:hover{
+            background-color: grey;
+        }
+
+        table{
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>번호</td>
+            <td>제목</td>
+            <td>글쓴이</td>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>노인과 바다</td>
+            <td>헤밍웨이</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>오만과 편견</td>
+            <td>제인 오스틴</td>
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>개미</td>
+            <td>베르나르 베르베르</td>
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>소년이 온다</td>
+            <td>한강</td>
+        </tr>
+    </table>
+</body>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+        <span class="nt">td</span><span class="p">{</span>
+            <span class="nl">border-width</span><span class="p">:</span> <span class="m">1px</span><span class="p">;</span>
+            <span class="nl">border-color</span><span class="p">:</span> <span class="no">black</span><span class="p">;</span>
+            <span class="nl">border-style</span><span class="p">:</span> <span class="nb">solid</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="nt">td</span><span class="nd">:nth-child</span><span class="o">(</span><span class="err">2</span><span class="nt">n</span><span class="o">+</span><span class="err">1</span><span class="o">)</span><span class="p">{</span> <span class="c">/* 2n=&gt;짝수줄, 2n+1=&gt;홀수줄, n=&gt;전체, 1 2=&gt;td의 첫번째 두번째*/</span>
+            <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="nt">td</span><span class="nd">:last-child</span><span class="p">{</span>
+            <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="nt">td</span><span class="nd">:first-child</span><span class="p">{</span>
+            <span class="nl">color</span><span class="p">:</span> <span class="no">blue</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="nt">td</span><span class="nd">:hover</span><span class="p">{</span> <span class="c">/*마우스를 올렸을 때*/</span>
+            <span class="nl">background-color</span><span class="p">:</span> <span class="n">grey</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="nt">tr</span><span class="nd">:hover</span><span class="p">{</span>
+            <span class="nl">background-color</span><span class="p">:</span> <span class="n">grey</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="nt">table</span><span class="p">{</span>
+            <span class="nl">margin-left</span><span class="p">:</span> <span class="nb">auto</span><span class="p">;</span>
+            <span class="nl">margin-right</span><span class="p">:</span> <span class="nb">auto</span><span class="p">;</span>
+        <span class="p">}</span>
+
+    <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;table&gt;</span>
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;td&gt;</span>번호<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>제목<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>글쓴이<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;td&gt;</span>1<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>노인과 바다<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>헤밍웨이<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;td&gt;</span>2<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>오만과 편견<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>제인 오스틴<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;td&gt;</span>3<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>개미<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>베르나르 베르베르<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+
+        <span class="nt">&lt;tr&gt;</span>
+            <span class="nt">&lt;td&gt;</span>4<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>소년이 온다<span class="nt">&lt;/td&gt;</span>
+            <span class="nt">&lt;td&gt;</span>한강<span class="nt">&lt;/td&gt;</span>
+        <span class="nt">&lt;/tr&gt;</span>
+    <span class="nt">&lt;/table&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#7 About CSS [1]</title><link href="/html/2021/06/23/html_07.html" rel="alternate" type="text/html" title="html_#7 About CSS [1]" /><published>2021-06-23T00:00:00+00:00</published><updated>2021-06-23T00:00:00+00:00</updated><id>/html/2021/06/23/html_07</id><content type="html" xml:base="/html/2021/06/23/html_07.html"><![CDATA[<h4 id="css-1-">CSS [1] <br /><br /></h4>
+
+<h3 id="선택자">선택자</h3>
+<p><br /><br /></p>
+
+<p>css는 이 사이트 전반에 대한 설정이다.<br />
+그런 이유로 head에 작성하고 작성 태그는 style이다</p>
+
+<ul>
+  <li>태그 선택자 : 태그 이름을 쓴다 ex) p <br /></li>
+  <li>전체 선택자 : 전체를 의미한다. ex) * <br /></li>
+  <li>클래스 선택자 : 클래스를 의미한다 / 중복 클래스 가능 ex) .클래스명 <br /></li>
+  <li>아이디 선택자 : 아이디를 의미한다 / 중복 아이디 불가(다만 써도 에러는 없음) ex) #아이디명 <br /></li>
+  <li>속성 선택자 : 속성을 써준다 ex) input[type=text] <br /></li>
+  <li>가상 선택자 : 눈에 보이지 않는 선택자(특정한 상황에서) ex) a:active <br /></li>
+  <li>그룹 선택자 : 여러 개 태그 또는 클래스, 아이디를 동시에 같은 속성으로 ex) p, a, .pink <br /><br />
+ <br /> <br /><br />
+(css2.html) <br /></li>
+  <li>자손 결합 선택자 - 띄어쓰기 / 어디 밑에 있는 태그 ex) ul li <br /></li>
+  <li>직계 자손 결합 선택자 - &gt;(꺽새) / 어디 바로 밑에 있는 태그 ex) ul&gt;li <br /></li>
+  <li>일반 형제 선택자 - 같은 라인의 있는 모든 애들 ex) .title ~ li <br /></li>
+  <li>인접 형제 선택자 - 같은 라인의 바로 옆 그 녀석 ex) .title + li <br /><br /></li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+        <span class="nt">p</span><span class="p">{</span> <span class="c">/*여기서 p는 태그의 이름이다. 이것을 태그 선택자라고 한다*/</span>
+            <span class="nl">background-color</span><span class="p">:</span> <span class="no">pink</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="nt">input</span><span class="p">{</span>
+            <span class="nl">background-color</span><span class="p">:</span> <span class="no">orchid</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="nt">hr</span><span class="p">{</span>
+            <span class="nl">height</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+            <span class="nl">background-color</span><span class="p">:</span> <span class="no">mediumorchid</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="o">*</span><span class="p">{</span>
+            <span class="nl">color</span><span class="p">:</span> <span class="no">midnightblue</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="nc">.pink</span><span class="p">{</span>
+            <span class="nl">background-color</span><span class="p">:</span> <span class="no">yellow</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="nf">#id</span><span class="p">{</span>
+            <span class="nl">background-color</span><span class="p">:</span> <span class="no">purple</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="nt">text</span><span class="o">]</span><span class="p">{</span>
+            <span class="nl">background-color</span><span class="p">:</span> <span class="no">fuchsia</span><span class="p">;</span>
+        <span class="p">}</span> 
+        <span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="nt">button</span><span class="o">]</span><span class="p">{</span>
+            <span class="nl">background-color</span><span class="p">:</span> <span class="no">forestgreen</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="nt">password</span><span class="o">]</span><span class="p">{</span>
+            <span class="nl">background-color</span><span class="p">:</span> <span class="no">gold</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="nt">a</span><span class="p">{</span>
+            <span class="nl">color</span><span class="p">:</span> <span class="no">deeppink</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="nt">a</span><span class="nd">:active</span><span class="p">{</span>
+            <span class="nl">color</span><span class="p">:</span> <span class="no">lightskyblue</span><span class="p">;</span>
+        <span class="p">}</span>
+        <span class="nt">a</span><span class="nd">:visited</span><span class="p">{</span>
+            <span class="nl">color</span><span class="p">:</span> <span class="no">saddlebrown</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="nt">text</span><span class="o">],</span> <span class="nt">input</span><span class="o">[</span><span class="nt">type</span><span class="o">=</span><span class="nt">button</span><span class="o">]</span><span class="p">{</span>
+            <span class="nl">color</span><span class="p">:</span> <span class="no">slateblue</span><span class="p">;</span>
+        <span class="p">}</span>
+    <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;input&gt;</span>
+    <span class="nt">&lt;a</span> <span class="na">href=</span><span class="s">"http://naver.com"</span><span class="nt">&gt;</span>네이버<span class="nt">&lt;/a&gt;</span>
+
+    <span class="nt">&lt;hr&gt;</span>
+
+    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">value=</span><span class="s">"버튼"</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"password"</span><span class="nt">&gt;</span>
+
+    안녕
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"pink"</span><span class="nt">&gt;</span>
+        이것은 패러그래프
+    <span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;hr&gt;</span>
+
+    <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"pink"</span><span class="nt">&gt;</span>
+        이것은 패러그래프
+    <span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;hr&gt;</span>
+
+    <span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"bora"</span><span class="nt">&gt;</span>
+        이것은 패러그래프
+    <span class="nt">&lt;/p&gt;</span>
+    <span class="nt">&lt;hr&gt;</span>
+
+    <span class="nt">&lt;p</span> <span class="na">id=</span><span class="s">"bora"</span><span class="nt">&gt;</span>
+        가능은 하지만 id 중복은 쓰지 않기를 권함. 중복해야 한다면 클래스로!
+    <span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#6 About HTML tag[5]</title><link href="/html/2021/06/21/html_06.html" rel="alternate" type="text/html" title="html_#6 About HTML tag[5]" /><published>2021-06-21T00:00:00+00:00</published><updated>2021-06-21T00:00:00+00:00</updated><id>/html/2021/06/21/html_06</id><content type="html" xml:base="/html/2021/06/21/html_06.html"><![CDATA[<h4 id="html-태그-5-">HTML 태그 [5] <br /><br /></h4>
+
+<h3 id="select">select</h3>
+<p><br /><br /><br />
+<select name="sel">
+        &lt;optgroup label="남자신발"&gt;
+            <option value="1">255mm</option>
+            <option value="2">260mm</option>
+            <option value="3">265mm</option>
+            <option value="4">270mm</option>
+        &lt;/optgroup&gt;</select></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    &lt;optgroup label="여자신발"&gt;
+        &lt;option value="5"&gt;230mm&lt;/option&gt;
+        &lt;option value="6"&gt;235mm&lt;/option&gt;
+        &lt;option value="7"&gt;240mm&lt;/option&gt;
+        &lt;option value="8"&gt;245mm&lt;/option&gt;
+    &lt;/optgroup&gt; &lt;/select&gt;
+</code></pre></div></div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;select</span> <span class="na">name=</span><span class="s">"sel"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;optgroup</span> <span class="na">label=</span><span class="s">"남자신발"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"1"</span><span class="nt">&gt;</span>255mm<span class="nt">&lt;/option&gt;</span>
+            <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"2"</span><span class="nt">&gt;</span>260mm<span class="nt">&lt;/option&gt;</span>
+            <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"3"</span><span class="nt">&gt;</span>265mm<span class="nt">&lt;/option&gt;</span>
+            <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"4"</span><span class="nt">&gt;</span>270mm<span class="nt">&lt;/option&gt;</span>
+        <span class="nt">&lt;/optgroup&gt;</span>
+        
+        <span class="nt">&lt;optgroup</span> <span class="na">label=</span><span class="s">"여자신발"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"5"</span><span class="nt">&gt;</span>230mm<span class="nt">&lt;/option&gt;</span>
+            <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"6"</span><span class="nt">&gt;</span>235mm<span class="nt">&lt;/option&gt;</span>
+            <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"7"</span><span class="nt">&gt;</span>240mm<span class="nt">&lt;/option&gt;</span>
+            <span class="nt">&lt;option</span> <span class="na">value=</span><span class="s">"8"</span><span class="nt">&gt;</span>245mm<span class="nt">&lt;/option&gt;</span>
+        <span class="nt">&lt;/optgroup&gt;</span>
+<span class="nt">&lt;/select&gt;</span>
+</code></pre></div></div>
+<p><br /><br /><br /></p>
+
+<h3 id="메타-태그">메타 태그</h3>
+<p><br /><br /></p>
+<meta http-equiv="refresh" content="5;url=http://www.naver.com" />
+<p><br /><br />
+5초 뒤 해당 사이트로 이동 <br /></p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;meta</span> <span class="na">http-equiv=</span><span class="s">"refresh"</span> <span class="na">content=</span><span class="s">"5;url=http://www.naver.com"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+<p><br /><br /></p>
+<ul>
+  <li>body가 아닌 <em>head</em>에 쓴다. 설정에 대한 태그 <br /></li>
+  <li>닫는 태그가 없다. <br /></li>
+  <li>주로 사이트에 대한 설명들을 작성한다. <br /><br /></li>
+  <li>keywords : 검색에 사용됨. 지금은 사용 X <br /></li>
+  <li>description : 사이트에 대한 설명 <br /></li>
+  <li>author : 만든 사람 <br /></li>
+  <li>generator : 만든 툴 -&gt; Visual Studio Code <br /></li>
+  <li>application-name : 이 웹 프로그램의 이름</li>
+</ul>
+
+<p><br /><br /><br /></p>
+
+<h3 id="아이프레임">아이프레임</h3>
+<p><br /><br /></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;iframe</span> <span class="na">width=</span><span class="s">"560"</span> <span class="na">height=</span><span class="s">"315"</span> <span class="na">src=</span><span class="s">"https://www.youtube.com/embed/lf-q7F6S8Zw"</span> <span class="na">title=</span><span class="s">"YouTube video player"</span> <span class="na">frameborder=</span><span class="s">"0"</span> <span class="na">allow=</span><span class="s">"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"</span> <span class="na">allowfullscreen</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;/iframe&gt;</span> 
+</code></pre></div></div>
+<p><br /></p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;iframe</span> <span class="na">src=</span><span class="s">"ex14.html"</span> <span class="na">width=</span><span class="s">"300"</span> <span class="na">height=</span><span class="s">"300"</span><span class="nt">&gt;&lt;/iframe&gt;</span>
+</code></pre></div></div>
+<p><br /><br /></p>
+
+<p>아이프레임은 웹 조각을 원하는 곳에 붙여넣을 때 사용. <br /><br />
+주 사용은 유튜브에서 사용하고 있고 보통은 많이 사용되지는 않는다. <br /><br />
+소스는 다 src로 가져온다. <br /></p>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[html]]></summary></entry><entry><title type="html">html_#5 About HTML tag[4]</title><link href="/html/2021/06/20/html_05.html" rel="alternate" type="text/html" title="html_#5 About HTML tag[4]" /><published>2021-06-20T00:00:00+00:00</published><updated>2021-06-20T00:00:00+00:00</updated><id>/html/2021/06/20/html_05</id><content type="html" xml:base="/html/2021/06/20/html_05.html"><![CDATA[<h4 id="html-태그-4-">HTML 태그 [4] <br /><br /></h4>
+
+<h3 id="input의-종류">input의 종류</h3>
+<p><br /><br /></p>
+<ul>
+  <li>버튼 <br /><br />
+<input type="button" value="클릭" /></li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">value=</span><span class="s">"클릭"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+<p><br /><br />
+<input type="submit" value="전송" /></p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"submit"</span> <span class="na">value=</span><span class="s">"전송"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+<p><br /><br />
+submit 버튼은 form 태그 안의 input의 value를 백앤드로 넘겨주기 위해 있는 버튼 <br /><br />
+반드시 form안에 있어야 하며, form안에 있는 모든 input은 name을 가져야 한다. <br /><br />
+name이 자바에서 마치 변수와 같으며, 변수 값은 value에 담는다. <br /><br />
+데이터의 type은 문자열이다. <br /></p>
+
+<p>추가적으로,</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">name=</span><span class="s">"id"</span><span class="nt">&gt;</span> <span class="nt">&lt;</span><span class="err">=</span> <span class="na">이렇게</span> <span class="na">작성했을</span> <span class="na">경우</span>
+</code></pre></div></div>
+<p>String id = null; &lt;= 이것과 같은 말이 된다. <br /><br />
+문자 입력을 할 수 있는 input 이므로 입력된 글씨가 value가 된다.<br />
+ <br /><br /></p>
+
+<ul>
+  <li>글씨를 눌러도 체크가 가능하게끔<br /><br />
+<input type="checkbox" id="fruit" /><br />
+<label for="fruit">사과</label></li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">id=</span><span class="s">"fruit"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"fruit"</span><span class="nt">&gt;</span>사과<span class="nt">&lt;/label&gt;</span> 
+</code></pre></div></div>
+<p><br /><br /></p>
+
+<ul>
+  <li>색깔 선택창 <br /><br />
+<input type="color" /></li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"color"</span><span class="nt">&gt;</span> 
+</code></pre></div></div>
+<p><br /><br /></p>
+
+<ul>
+  <li>날짜 선택창 <br /><br />
+<input type="date" /></li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"date"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+<p><br /><br />
+<input type="datetime" /></p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"datetime"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+<p><br /><br />
+<input type="datetime-local" name="" /></p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"datetime-local"</span> <span class="na">name=</span><span class="s">""</span> <span class="na">id=</span><span class="s">""</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+<p><br /><br /></p>
+
+<ul>
+  <li>파일 선택창 <br /><br />
+<input type="file" />
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"file"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+    <p><br /><br /></p>
+  </li>
+  <li>히든 : 회원 번호 같이 숨겨서 값을 넘겨줄 때 사용 <br /><br />
+<input type="hidden" />hidden
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"hidden"</span><span class="nt">&gt;</span>hidden
+</code></pre></div>    </div>
+    <p><br /><br /></p>
+  </li>
+  <li>이미지 <br /><br />
+<input type="image" alt="이미지" src="https://github.com/kwonyezy/kwonyezy.github.io/blob/master/_posts/pictures/skyimg.jpg?raw=true ---" />
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"image"</span> <span class="na">alt=</span><span class="s">"이미지"</span> <span class="na">src=</span><span class="s">"https://github.com/kwonyezy/kwonyezy.github.io/blob/master/_posts/pictures/skyimg.jpg?raw=true
+---"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+    <p><br /><br /></p>
+  </li>
+  <li>년, 월만 선택가능 <br /><br />
+<input type="month" />
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"month"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+    <p><br /><br /></p>
+  </li>
+  <li>수량 선택과 같은 숫자창<br /><br />
+<input type="number" />
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"number"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+    <p><br /><br /></p>
+  </li>
+  <li>비밀번호의 * 표시를 볼 수 있게끔 하는 창<br /><br />
+<input type="password" />
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"password"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+    <p><br /><br /></p>
+  </li>
+  <li>라디오 버튼창 (name속성으로 할 경우 중복 선택 불가능) <br /><br />
+<input type="radio" name="vag" />감자<br /><br />
+<input type="radio" name="vag" />고구마
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">name=</span><span class="s">"vag"</span><span class="nt">&gt;</span>감자<span class="nt">&lt;br&gt;</span>
+<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">name=</span><span class="s">"vag"</span><span class="nt">&gt;</span>고구마
+</code></pre></div>    </div>
+    <p><br /><br /></p>
+  </li>
+  <li>슬라이더 창<br /><br />
+<input type="range" />
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"range"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+    <p><br /><br /></p>
+  </li>
+  <li>서치창 전체 지우기 기능<br /><br />
+<input type="search" />
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"search"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+    <p><br /><br /></p>
+  </li>
+  <li>밑 두가지 지원안되므로 기능이 따로 없음<br /><br />
+<input type="tel" />
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"tel"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+    <p><br /><br />
+<input type="url" /></p>
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"url"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+  </li>
+</ul>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[html]]></summary></entry><entry><title type="html">html_#12 About CSS [6]</title><link href="/html/2021/06/20/html_12.html" rel="alternate" type="text/html" title="html_#12 About CSS [6]" /><published>2021-06-20T00:00:00+00:00</published><updated>2021-06-20T00:00:00+00:00</updated><id>/html/2021/06/20/html_12</id><content type="html" xml:base="/html/2021/06/20/html_12.html"><![CDATA[<h4 id="css-6-">CSS [6] <br /><br /></h4>
+
+<h3 id="border-style의-종류">border-style의 종류</h3>
+<p><br /><br /></p>
+
+<head>
+    <style>
+          .border-styles > #pp{
+                  margin: 2px 0;
+                  padding: 1px 3px;
+                  /* border-width: 2px; */
+                  border-top: 1px;
+                  border-color: #aaa;
+          }
+    </style>
+</head>
+<body>
+    <div class="border-styles">
+        <p id="pp" style="border-style: solid">solid</p>
+        <p id="pp" style="border-style: dotted">dotted</p>
+        <p id="pp" style="border-style: dashed">dashed</p>
+        <p id="pp" style="border-style: double">double</p>
+        <p id="pp" style="border-style: groove">groove</p>
+        <p id="pp" style="border-style: ridge">ridge</p>
+        <p id="pp" style="border-style: inset">inset</p>
+        <p id="pp" style="border-style: outset">outset</p>
+&lt;/body&gt;
+  
+  
+  
+  
+```html
+<head>
+    <style>
+          .border-styles > #pp{
+                  margin: 2px 0;
+                  padding: 1px 3px;
+                  /* border-width: 2px; */
+                  border-top: 1px;
+                  border-color: #aaa;
+          }
+    </style>
+</head>
+<body>
+    <div class="border-styles">
+        <p id="pp" style="border-style: solid">solid</p>
+        <p id="pp" style="border-style: dotted">dotted</p>
+        <p id="pp" style="border-style: dashed">dashed</p>
+        <p id="pp" style="border-style: double">double</p>
+        <p id="pp" style="border-style: groove">groove</p>
+        <p id="pp" style="border-style: ridge">ridge</p>
+        <p id="pp" style="border-style: inset">inset</p>
+        <p id="pp" style="border-style: outset">outset</p>
+&lt;/body&gt;
+```
+
+</div></body></div></body>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#14 About CSS [8]</title><link href="/html/2021/06/20/html_14.html" rel="alternate" type="text/html" title="html_#14 About CSS [8]" /><published>2021-06-20T00:00:00+00:00</published><updated>2021-06-20T00:00:00+00:00</updated><id>/html/2021/06/20/html_14</id><content type="html" xml:base="/html/2021/06/20/html_14.html"><![CDATA[<h4 id="css-8-">CSS [8] <br /><br /></h4>
+
+<h3 id="ul과-li로-배너-만들기">ul과 li로 배너 만들기</h3>
+<p><br /><br /></p>
+
+<head>
+      <style>
+            #wrap{
+                border: 1px solid black;
+            }
+            #ulul li{
+                display: inline-block; /* 가로 배치 */
+                border: 1px solid black;
+                margin-left: 10px;
+                padding: 0 5px;
+                list-style: none; /* li 앞에 점 없애기 */
+            }
+      </style>
+</head>
+<body>
+    <div id="wrap">
+        <ul id="ulul">
+            <li>메일</li>
+            <li>카페</li>
+            <li>블로그</li>
+            <li>지식iN</li>
+            <li>쇼핑</li>
+        </ul>
+    </div>
+</body>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
+      <span class="nt">&lt;style&gt;</span>
+            <span class="nf">#wrap</span><span class="p">{</span>
+                <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="nf">#ulul</span> <span class="nt">li</span><span class="p">{</span>
+                <span class="nl">display</span><span class="p">:</span> <span class="n">inline-block</span><span class="p">;</span> <span class="c">/* 가로 배치 */</span>
+                <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
+                <span class="nl">margin-left</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+                <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span> <span class="m">5px</span><span class="p">;</span>
+                <span class="nl">list-style</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span> <span class="c">/* li 앞에 점 없애기 */</span>
+            <span class="p">}</span>
+      <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"wrap"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;ul</span> <span class="na">id=</span><span class="s">"ulul"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;li&gt;</span>메일<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>카페<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>블로그<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>지식iN<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>쇼핑<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>
+<p><br /><br /></p>
+
+<h3 id="li의-list-style">li의 list-style</h3>
+<p><br /><br /></p>
+
+<head>
+      <style>
+            #ululul{
+                list-style-image: url("https://github.com/kwonyezy/kwonyezy.github.io/blob/master/_posts/pictures/skyimg.jpg?raw=true");
+                /*사진을 하나씩 주고 싶으면 아래 li에서 주면 된다*/
+            }
+
+            /* #lili{
+                list-style: none;
+            } */
+      </style>
+</head>
+<body>
+    <ul id="ululul">
+        <li id="lili">메뉴1</li>
+        <li id="lili">메뉴2</li>
+        <li id="lili">메뉴3</li>
+        <li id="lili">메뉴4</li>
+        <li> id="lili"메뉴5</li>
+    </ul>
+    <br />
+    <pre>
+        list-style 종류
+            - disk : 검은 원
+            - circle : 원
+            - square : 사각형
+            - decimal : 숫자(10진수)
+            - lower-alpha : 영어 소문자
+            - upper-alpha : 영어 대문자
+            - upper-roman : 로마 대문자
+
+            - armenian : 아르메니아 숫자
+            - georgian : 조지왕조 숫자
+            - decimal-leading-zero : 앞에 0이 붙는 숫자
+            - lower-greek : 그리스 소문자
+            - lower-latin : 라틴 소문자
+            - upper-latin : 라틴 대문자
+            - chk-ideographic : 한자 숫자
+            - hebrew : 히브리 수
+            - hiragana : 히라가나 수
+            - hiragana-iroha : 히라가나 이로하 수
+            - katakana : 카타카나
+            - katakana-iroha : 카타카나 이로하 수
+    </pre>
+</body>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;ul</span> <span class="na">id=</span><span class="s">"ululul"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">id=</span><span class="s">"lili"</span><span class="nt">&gt;</span>메뉴1<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">id=</span><span class="s">"lili"</span><span class="nt">&gt;</span>메뉴2<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">id=</span><span class="s">"lili"</span><span class="nt">&gt;</span>메뉴3<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">id=</span><span class="s">"lili"</span><span class="nt">&gt;</span>메뉴4<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span> id="lili"메뉴5<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;br&gt;</span>
+    <span class="nt">&lt;pre&gt;</span>
+        list-style 종류
+            - disk : 검은 원
+            - circle : 원
+            - square : 사각형
+            - decimal : 숫자(10진수)
+            - lower-alpha : 영어 소문자
+            - upper-alpha : 영어 대문자
+            - upper-roman : 로마 대문자
+
+            - armenian : 아르메니아 숫자
+            - georgian : 조지왕조 숫자
+            - decimal-leading-zero : 앞에 0이 붙는 숫자
+            - lower-greek : 그리스 소문자
+            - lower-latin : 라틴 소문자
+            - upper-latin : 라틴 대문자
+            - chk-ideographic : 한자 숫자
+            - hebrew : 히브리 수
+            - hiragana : 히라가나 수
+            - hiragana-iroha : 히라가나 이로하 수
+            - katakana : 카타카나
+            - katakana-iroha : 카타카나 이로하 수
+    <span class="nt">&lt;/pre&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry></feed>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java_#2 ABOUT String</title>
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+    <p>My development blog and portfolio</p>
+  </header>
+  <main>
+    <article>
+      <h1>Java_#2 ABOUT String</h1>
+      <div>
+        <h4 id="java의-문자열">Java의 문자열<br /><br /></h4>
+
+<p>String = 클래스 = 클래스의 변수 (레퍼런스형 변수 = 참조형 변수)<br /><br />
+참조형 변수는 실제 주소값을 갖고 있고, 주소값을 따라가면 실제 값으로 연결<br /></p>
+
+<p>String str1 = “aaa”;<br /><br />
+보통의 언어에서 대부분 문자열을 쓰는 경우가 많으므로 예외를 만들어 변수로 둔 것, 기초형처럼 사용 가능<br /></p>
+
+<p>String str2 = new String(“bbb”); <br /><br />
+위와 같은 의미로 정식으로 사용하는 방법이지만, 줄여서 위처럼 사용 가능<br /></p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">StringEx1</span><span class="o">{</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span> <span class="n">args</span><span class="o">[]){</span>
+  
+    <span class="nc">String</span> <span class="n">str1</span> <span class="o">=</span> <span class="s">"aaa"</span><span class="o">;</span>
+    <span class="nc">String</span> <span class="n">str2</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">String</span><span class="o">(</span><span class="s">"bbb"</span><span class="o">);</span>
+    
+    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">str1</span> <span class="o">==</span> <span class="n">str2</span><span class="o">);</span> <span class="c1">// false</span>
+    
+    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">str1</span><span class="o">.</span><span class="na">equals</span><span class="o">(</span><span class="n">str2</span><span class="o">));</span> <span class="c1">//true</span>
+    <span class="c1">// equals = 문자 비교 시 사용 = 주소를 따라가서 가져온 값을 비교</span>
+       <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+<p><br /><br /></p>
+
+<h4 id="문자의-길이-위치-등을-가져오는-함수">문자의 길이, 위치 등을 가져오는 함수<br /><br /></h4>
+
+<p>String 타입의 변수에는 String이 클래스이기 때문에 내부적으로 아래와 같은 많은 메서드들을 들고 있다.<br /></p>
+
+<ul>
+  <li>length() = 글자의 길이를 가져오는 메서드</li>
+</ul>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">StringEx2</span><span class="o">{</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span> <span class="n">args</span><span class="o">[]){</span>
+    <span class="kt">int</span> <span class="n">str_length</span> <span class="o">=</span> <span class="n">str1</span><span class="o">.</span><span class="na">length</span><span class="o">();</span>
+    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">str_length</span><span class="o">);</span>
+   <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<ul>
+  <li>charAt() = 특정 위치의 글자를 가져오는 메서드<br /><br />
+  charAt(int idx) = int형 변수 idx에 숫자를 넣으면 해당 문자열의 순서에 따라 숫자에 해당하는 문자열의 문자를 갖고 온다.</li>
+</ul>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">StringEx3</span><span class="o">{</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span> <span class="n">args</span><span class="o">[]){</span>
+  
+    <span class="nc">String</span> <span class="n">str3</span> <span class="o">=</span> <span class="s">"Let it be"</span><span class="o">;</span>
+    <span class="kt">char</span> <span class="n">a</span> <span class="o">=</span> <span class="n">str3</span><span class="o">.</span><span class="na">charAt</span><span class="o">(</span><span class="mi">2</span><span class="o">);</span> <span class="c1">// 항상 0부터 시작</span>
+    <span class="c1">// str3의 문자열에서 2에 해당하는 문자는 t</span>
+    <span class="c1">// L(0), e(1), t(2)</span>
+    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">jprintln</span><span class="o">(</span><span class="n">a</span><span class="o">);</span>
+   <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<ul>
+  <li>indexOf() = 특정 글자의 위치를 가져오는 메서드</li>
+</ul>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">StringEx4</span><span class="o">{</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span> <span class="n">args</span><span class="o">[]){</span>
+    <span class="nc">String</span> <span class="n">str4</span> <span class="o">=</span> <span class="s">"안녕하세요 반가워요"</span><span class="o">;</span> 
+    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">str4</span><span class="o">.</span><span class="na">indexOf</span><span class="o">(</span><span class="s">"하"</span><span class="o">);</span>
+   <span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<ul>
+  <li>substring() = 글자를 잘라내는 메서드<br /></li>
+</ul>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2024 Portfolio</p>
+  </footer>
+</body>
+</html>

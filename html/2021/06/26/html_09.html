@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html_#9 About CSS [3]</title>
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+    <p>My development blog and portfolio</p>
+  </header>
+  <main>
+    <article>
+      <h1>html_#9 About CSS [3]</h1>
+      <div>
+        <h4 id="css-3-">CSS [3] <br /><br /></h4>
+
+<h3 id="빈-태그의">빈 태그의</h3>
+<p><br /><br /></p>
+
+<p>css에서는 반드시 숫자를 입력할 경우 단위가 필수 <br /><br />
+기본 단위는 px(픽셀) <br /><br />
+<br /><br /><br />
+css는 무조건 태그 기준으로 한다. 그런데 보통의 태그들은 다 자기만의 의미가 있고, 속성이 있다. <br /><br />
+그래서 의미없이 묶어줄 수 있는 빈 태그가 필요하다. <br /></p>
+<ul>
+  <li>블록 태그 : div / 모든 블록 태그는 크기 설정이 가능 / 한 줄 차지 <br /></li>
+  <li>인라인 태그 : span / 모든 인라인 태그는 크기 설정이 불가능 / 바로 옆에 붙는다 <br /></li>
+  <li>특이한 케이스 : inline-block 타입의 태그 - 가로로 바로 옆에 붙으면서 크기 설정 가능<br />
+<br /><br /></li>
+</ul>
+
+<head>
+    <style>
+        div.contents{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+        }
+
+        button.contents{
+            width: 200px;
+            height: 200px;
+        }
+
+        /* input[type=button]{
+            width: 100px;
+            height: 100px;
+            background-color: greenyellow;
+        }*/
+    </style>
+</head>
+<body>
+    <div class="contents"></div>
+    <input type="button" value="인풋태크" style="width: 150px; height: 80px; background-color: #d2f4ff; border: 2px solid #09c;" /> <!--아무런 기능이 없다-->
+    <button class="contents">버튼태그</button> <!--input type="submit"과 동일-->
+</body>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+        <span class="nt">div</span><span class="p">{</span>
+            <span class="nl">width</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+            <span class="nl">height</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+            <span class="nl">background-color</span><span class="p">:</span> <span class="no">green</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="nt">button</span><span class="p">{</span>
+            <span class="nl">width</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+            <span class="nl">height</span><span class="p">:</span> <span class="m">200px</span><span class="p">;</span>
+        <span class="p">}</span>
+
+        <span class="c">/* input[type=button]{
+            width: 100px;
+            height: 100px;
+            background-color: greenyellow;
+        }*/</span>
+    <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div&gt;&lt;/div&gt;</span>
+    <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">value=</span><span class="s">"인풋태크"</span> <span class="na">style=</span><span class="s">"width: 150px; height: 80px; background-color: #d2f4ff; border: 2px solid #09c;"</span><span class="nt">&gt;</span> <span class="c">&lt;!--아무런 기능이 없다--&gt;</span>
+    <span class="nt">&lt;button&gt;</span>버튼태그<span class="nt">&lt;/button&gt;</span> <span class="c">&lt;!--input type="submit"과 동일--&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2024 Portfolio</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java_#5 ABOUT if</title>
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+    <p>My development blog and portfolio</p>
+  </header>
+  <main>
+    <article>
+      <h1>Java_#5 ABOUT if</h1>
+      <div>
+        <h4 id="java의-if-조건문">Java의 if 조건문<br /><br /></h4>
+
+<p>Java언어는 클래스를 기반으로 객체지향언어라 불리지만 내부적으로는 결국 한줄한줄 실행되고있는 절차지향적 성질도 가질수밖에없다.    <br />
+메서드 내부에서 프로그램이 동작할때 조건문이 없다면 한방향으로만, 매번 동일한 동작을 수행하는 프로그램만 작성할수 없을 것이다.    <br />
+프로그램은 다양한 변수와 상황에따라 여러 동작을 수행할수 있어야하고 이를위해 조건문을 사용해야한다.</p>
+
+<p>if문은 기본적으로 아래의 형태를 가진다</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span><span class="o">(</span><span class="n">조건식</span><span class="o">)</span>
+<span class="o">{</span>
+	<span class="n">내용1</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>조건식 안의 식을 보고 식이 참이면 내부의 <code class="language-plaintext highlighter-rouge">내용1</code>이 실행되고 거짓일경우 내부를 실행하지않고 넘어간다</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span><span class="o">(</span><span class="n">조건식</span><span class="o">)</span>
+<span class="o">{</span>
+	<span class="n">내용1</span>
+<span class="o">}</span>
+<span class="k">else</span>
+<span class="o">{</span>
+	<span class="n">내용2</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>조건식 안의 식을 보고 식이 참이면 if문 내부의 <code class="language-plaintext highlighter-rouge">내용1</code>이 실행되고 거짓일경우 else 내부의 <code class="language-plaintext highlighter-rouge">내용2</code>를 실행한다</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span><span class="o">(</span><span class="n">조건식1</span><span class="o">)</span>
+<span class="o">{</span>
+	<span class="n">내용1</span>
+<span class="o">}</span>
+<span class="k">else</span> <span class="nf">if</span><span class="o">(</span><span class="n">조건식2</span><span class="o">)</span>
+<span class="o">{</span>
+	<span class="n">내용2</span>
+<span class="o">}</span>
+<span class="k">else</span>
+<span class="o">{</span>
+	<span class="n">내용3</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>처음 <code class="language-plaintext highlighter-rouge">조건식1</code>을 보고 식이 참이면 if문 내부의 <code class="language-plaintext highlighter-rouge">내용1</code>이 실행되고 거짓일경우 else if의 <code class="language-plaintext highlighter-rouge">조건식2</code>를보고 참이면 <code class="language-plaintext highlighter-rouge">내용2</code>를 실행, <code class="language-plaintext highlighter-rouge">조건식2</code>도 거짓일 경우 else 내부의 <code class="language-plaintext highlighter-rouge">내용3</code>를 실행한다</p>
+
+<p>아래의 예제는 점수를 입력받아 학점을 A~F까지 출력하는 예제이다</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">java.util.Scanner</span><span class="o">;</span>
+<span class="kd">public</span> <span class="kd">class</span> <span class="nc">Y2</span> <span class="o">{</span>
+	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span> <span class="n">args</span><span class="o">[]){</span>
+		<span class="nc">Scanner</span> <span class="n">sc</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Scanner</span><span class="o">(</span><span class="nc">System</span><span class="o">.</span><span class="na">in</span><span class="o">);</span>
+		
+		<span class="kt">int</span> <span class="n">a</span><span class="o">;</span>
+		
+		<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">"점수 : "</span><span class="o">);</span>
+		<span class="n">a</span> <span class="o">=</span> <span class="n">sc</span><span class="o">.</span><span class="na">nextInt</span><span class="o">();</span>
+		
+		<span class="k">if</span><span class="o">(</span><span class="n">a</span> <span class="o">&gt;=</span> <span class="mi">90</span><span class="o">){</span>
+			<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"A"</span><span class="o">);</span>
+		<span class="o">}</span><span class="k">else</span> <span class="k">if</span><span class="o">(</span><span class="n">a</span> <span class="o">&gt;=</span> <span class="mi">80</span><span class="o">){</span>
+			<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"B"</span><span class="o">);</span>
+		<span class="o">}</span><span class="k">else</span> <span class="k">if</span><span class="o">(</span><span class="n">a</span> <span class="o">&gt;=</span> <span class="mi">70</span><span class="o">){</span>
+			<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"C"</span><span class="o">);</span>
+		<span class="o">}</span><span class="k">else</span> <span class="k">if</span><span class="o">(</span><span class="n">a</span> <span class="o">&gt;=</span> <span class="mi">60</span><span class="o">){</span>
+			<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"D"</span><span class="o">);</span>
+		<span class="o">}</span><span class="k">else</span> <span class="k">if</span><span class="o">(</span><span class="n">a</span> <span class="o">&gt;=</span> <span class="mi">50</span><span class="o">){</span>
+			<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"F"</span><span class="o">);</span>
+		<span class="o">}</span>
+		
+	<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p><code class="language-plaintext highlighter-rouge">int a</code> 변수에 점수를 입력받은 후 그 점수에 따라서 성적이 A~F중 하나가 출력이된다.    <br />
+첫번째 조건문에서 a가 90보다 같거나 큰지를 확인하게되고 조건이 참이라면 A를 출력하고, 그렇지않으면 다음조건문 a&gt;=80, a&gt;=70 … 순차적으로 계속비교해나가게 된다</p>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2024 Portfolio</p>
+  </footer>
+</body>
+</html>

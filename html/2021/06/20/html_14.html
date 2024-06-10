@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html_#14 About CSS [8]</title>
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+    <p>My development blog and portfolio</p>
+  </header>
+  <main>
+    <article>
+      <h1>html_#14 About CSS [8]</h1>
+      <div>
+        <h4 id="css-8-">CSS [8] <br /><br /></h4>
+
+<h3 id="ul과-li로-배너-만들기">ul과 li로 배너 만들기</h3>
+<p><br /><br /></p>
+
+<head>
+      <style>
+            #wrap{
+                border: 1px solid black;
+            }
+            #ulul li{
+                display: inline-block; /* 가로 배치 */
+                border: 1px solid black;
+                margin-left: 10px;
+                padding: 0 5px;
+                list-style: none; /* li 앞에 점 없애기 */
+            }
+      </style>
+</head>
+<body>
+    <div id="wrap">
+        <ul id="ulul">
+            <li>메일</li>
+            <li>카페</li>
+            <li>블로그</li>
+            <li>지식iN</li>
+            <li>쇼핑</li>
+        </ul>
+    </div>
+</body>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
+      <span class="nt">&lt;style&gt;</span>
+            <span class="nf">#wrap</span><span class="p">{</span>
+                <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
+            <span class="p">}</span>
+            <span class="nf">#ulul</span> <span class="nt">li</span><span class="p">{</span>
+                <span class="nl">display</span><span class="p">:</span> <span class="n">inline-block</span><span class="p">;</span> <span class="c">/* 가로 배치 */</span>
+                <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
+                <span class="nl">margin-left</span><span class="p">:</span> <span class="m">10px</span><span class="p">;</span>
+                <span class="nl">padding</span><span class="p">:</span> <span class="m">0</span> <span class="m">5px</span><span class="p">;</span>
+                <span class="nl">list-style</span><span class="p">:</span> <span class="nb">none</span><span class="p">;</span> <span class="c">/* li 앞에 점 없애기 */</span>
+            <span class="p">}</span>
+      <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"wrap"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;ul</span> <span class="na">id=</span><span class="s">"ulul"</span><span class="nt">&gt;</span>
+            <span class="nt">&lt;li&gt;</span>메일<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>카페<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>블로그<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>지식iN<span class="nt">&lt;/li&gt;</span>
+            <span class="nt">&lt;li&gt;</span>쇼핑<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>
+<p><br /><br /></p>
+
+<h3 id="li의-list-style">li의 list-style</h3>
+<p><br /><br /></p>
+
+<head>
+      <style>
+            #ululul{
+                list-style-image: url("https://github.com/kwonyezy/kwonyezy.github.io/blob/master/_posts/pictures/skyimg.jpg?raw=true");
+                /*사진을 하나씩 주고 싶으면 아래 li에서 주면 된다*/
+            }
+
+            /* #lili{
+                list-style: none;
+            } */
+      </style>
+</head>
+<body>
+    <ul id="ululul">
+        <li id="lili">메뉴1</li>
+        <li id="lili">메뉴2</li>
+        <li id="lili">메뉴3</li>
+        <li id="lili">메뉴4</li>
+        <li> id="lili"메뉴5</li>
+    </ul>
+    <br />
+    <pre>
+        list-style 종류
+            - disk : 검은 원
+            - circle : 원
+            - square : 사각형
+            - decimal : 숫자(10진수)
+            - lower-alpha : 영어 소문자
+            - upper-alpha : 영어 대문자
+            - upper-roman : 로마 대문자
+
+            - armenian : 아르메니아 숫자
+            - georgian : 조지왕조 숫자
+            - decimal-leading-zero : 앞에 0이 붙는 숫자
+            - lower-greek : 그리스 소문자
+            - lower-latin : 라틴 소문자
+            - upper-latin : 라틴 대문자
+            - chk-ideographic : 한자 숫자
+            - hebrew : 히브리 수
+            - hiragana : 히라가나 수
+            - hiragana-iroha : 히라가나 이로하 수
+            - katakana : 카타카나
+            - katakana-iroha : 카타카나 이로하 수
+    </pre>
+</body>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;ul</span> <span class="na">id=</span><span class="s">"ululul"</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">id=</span><span class="s">"lili"</span><span class="nt">&gt;</span>메뉴1<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">id=</span><span class="s">"lili"</span><span class="nt">&gt;</span>메뉴2<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">id=</span><span class="s">"lili"</span><span class="nt">&gt;</span>메뉴3<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li</span> <span class="na">id=</span><span class="s">"lili"</span><span class="nt">&gt;</span>메뉴4<span class="nt">&lt;/li&gt;</span>
+        <span class="nt">&lt;li&gt;</span> id="lili"메뉴5<span class="nt">&lt;/li&gt;</span>
+    <span class="nt">&lt;/ul&gt;</span>
+    <span class="nt">&lt;br&gt;</span>
+    <span class="nt">&lt;pre&gt;</span>
+        list-style 종류
+            - disk : 검은 원
+            - circle : 원
+            - square : 사각형
+            - decimal : 숫자(10진수)
+            - lower-alpha : 영어 소문자
+            - upper-alpha : 영어 대문자
+            - upper-roman : 로마 대문자
+
+            - armenian : 아르메니아 숫자
+            - georgian : 조지왕조 숫자
+            - decimal-leading-zero : 앞에 0이 붙는 숫자
+            - lower-greek : 그리스 소문자
+            - lower-latin : 라틴 소문자
+            - upper-latin : 라틴 대문자
+            - chk-ideographic : 한자 숫자
+            - hebrew : 히브리 수
+            - hiragana : 히라가나 수
+            - hiragana-iroha : 히라가나 이로하 수
+            - katakana : 카타카나
+            - katakana-iroha : 카타카나 이로하 수
+    <span class="nt">&lt;/pre&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2024 Portfolio</p>
+  </footer>
+</body>
+</html>

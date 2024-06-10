@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html_#5 About HTML tag[4]</title>
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+    <p>My development blog and portfolio</p>
+  </header>
+  <main>
+    <article>
+      <h1>html_#5 About HTML tag[4]</h1>
+      <div>
+        <h4 id="html-태그-4-">HTML 태그 [4] <br /><br /></h4>
+
+<h3 id="input의-종류">input의 종류</h3>
+<p><br /><br /></p>
+<ul>
+  <li>버튼 <br /><br />
+<input type="button" value="클릭" /></li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">value=</span><span class="s">"클릭"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+<p><br /><br />
+<input type="submit" value="전송" /></p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"submit"</span> <span class="na">value=</span><span class="s">"전송"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+<p><br /><br />
+submit 버튼은 form 태그 안의 input의 value를 백앤드로 넘겨주기 위해 있는 버튼 <br /><br />
+반드시 form안에 있어야 하며, form안에 있는 모든 input은 name을 가져야 한다. <br /><br />
+name이 자바에서 마치 변수와 같으며, 변수 값은 value에 담는다. <br /><br />
+데이터의 type은 문자열이다. <br /></p>
+
+<p>추가적으로,</p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"text"</span> <span class="na">name=</span><span class="s">"id"</span><span class="nt">&gt;</span> <span class="nt">&lt;</span><span class="err">=</span> <span class="na">이렇게</span> <span class="na">작성했을</span> <span class="na">경우</span>
+</code></pre></div></div>
+<p>String id = null; &lt;= 이것과 같은 말이 된다. <br /><br />
+문자 입력을 할 수 있는 input 이므로 입력된 글씨가 value가 된다.<br />
+ <br /><br /></p>
+
+<ul>
+  <li>글씨를 눌러도 체크가 가능하게끔<br /><br />
+<input type="checkbox" id="fruit" /><br />
+<label for="fruit">사과</label></li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"checkbox"</span> <span class="na">id=</span><span class="s">"fruit"</span><span class="nt">&gt;</span>
+<span class="nt">&lt;label</span> <span class="na">for=</span><span class="s">"fruit"</span><span class="nt">&gt;</span>사과<span class="nt">&lt;/label&gt;</span> 
+</code></pre></div></div>
+<p><br /><br /></p>
+
+<ul>
+  <li>색깔 선택창 <br /><br />
+<input type="color" /></li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"color"</span><span class="nt">&gt;</span> 
+</code></pre></div></div>
+<p><br /><br /></p>
+
+<ul>
+  <li>날짜 선택창 <br /><br />
+<input type="date" /></li>
+</ul>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"date"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+<p><br /><br />
+<input type="datetime" /></p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"datetime"</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+<p><br /><br />
+<input type="datetime-local" name="" /></p>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"datetime-local"</span> <span class="na">name=</span><span class="s">""</span> <span class="na">id=</span><span class="s">""</span><span class="nt">&gt;</span>
+</code></pre></div></div>
+<p><br /><br /></p>
+
+<ul>
+  <li>파일 선택창 <br /><br />
+<input type="file" />
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"file"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+    <p><br /><br /></p>
+  </li>
+  <li>히든 : 회원 번호 같이 숨겨서 값을 넘겨줄 때 사용 <br /><br />
+<input type="hidden" />hidden
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"hidden"</span><span class="nt">&gt;</span>hidden
+</code></pre></div>    </div>
+    <p><br /><br /></p>
+  </li>
+  <li>이미지 <br /><br />
+<input type="image" alt="이미지" src="https://github.com/kwonyezy/kwonyezy.github.io/blob/master/_posts/pictures/skyimg.jpg?raw=true ---" />
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"image"</span> <span class="na">alt=</span><span class="s">"이미지"</span> <span class="na">src=</span><span class="s">"https://github.com/kwonyezy/kwonyezy.github.io/blob/master/_posts/pictures/skyimg.jpg?raw=true
+---"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+    <p><br /><br /></p>
+  </li>
+  <li>년, 월만 선택가능 <br /><br />
+<input type="month" />
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"month"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+    <p><br /><br /></p>
+  </li>
+  <li>수량 선택과 같은 숫자창<br /><br />
+<input type="number" />
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"number"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+    <p><br /><br /></p>
+  </li>
+  <li>비밀번호의 * 표시를 볼 수 있게끔 하는 창<br /><br />
+<input type="password" />
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"password"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+    <p><br /><br /></p>
+  </li>
+  <li>라디오 버튼창 (name속성으로 할 경우 중복 선택 불가능) <br /><br />
+<input type="radio" name="vag" />감자<br /><br />
+<input type="radio" name="vag" />고구마
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">name=</span><span class="s">"vag"</span><span class="nt">&gt;</span>감자<span class="nt">&lt;br&gt;</span>
+<span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"radio"</span> <span class="na">name=</span><span class="s">"vag"</span><span class="nt">&gt;</span>고구마
+</code></pre></div>    </div>
+    <p><br /><br /></p>
+  </li>
+  <li>슬라이더 창<br /><br />
+<input type="range" />
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"range"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+    <p><br /><br /></p>
+  </li>
+  <li>서치창 전체 지우기 기능<br /><br />
+<input type="search" />
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"search"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+    <p><br /><br /></p>
+  </li>
+  <li>밑 두가지 지원안되므로 기능이 따로 없음<br /><br />
+<input type="tel" />
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"tel"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+    <p><br /><br />
+<input type="url" /></p>
+    <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"url"</span><span class="nt">&gt;</span>
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2024 Portfolio</p>
+  </footer>
+</body>
+</html>

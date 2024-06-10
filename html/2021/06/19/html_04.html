@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html_#4 About HTML tag[3]</title>
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+    <p>My development blog and portfolio</p>
+  </header>
+  <main>
+    <article>
+      <h1>html_#4 About HTML tag[3]</h1>
+      <div>
+        <h4 id="html-태그-3-">HTML 태그 [3] <br /><br /></h4>
+
+<h3 id="table">Table</h3>
+
+<p>table - 표<br />
+tr - table row<br />
+td - table data</p>
+
+<p>화면에 출력될 모든 내용은 td에만<br />
+th는 가운데 정렬에 진하게</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table</span> <span class="na">border=</span><span class="s">"1"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;tr&gt;</span>
+      <span class="nt">&lt;th&gt;</span>글번호<span class="nt">&lt;/th&gt;</span>
+      <span class="nt">&lt;th&gt;</span>글제목<span class="nt">&lt;/th&gt;</span>
+      <span class="nt">&lt;th&gt;</span>글쓴이<span class="nt">&lt;/th&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+  
+  <span class="nt">&lt;tr</span> <span class="na">align=</span><span class="s">"center"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;th&gt;</span>글번호<span class="nt">&lt;/th&gt;</span>
+      <span class="nt">&lt;th&gt;</span>글제목<span class="nt">&lt;/th&gt;</span>
+      <span class="nt">&lt;th&gt;</span>글쓴이<span class="nt">&lt;/th&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+  
+  <span class="nt">&lt;tr</span> <span class="na">bgcolor=</span><span class="s">"red"</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;td&gt;</span>1<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td&gt;</span>노인과 바다<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td&gt;</span>헤밍웨이<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+  
+  <span class="nt">&lt;tr&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">bgcolor=</span><span class="s">"blue"</span><span class="nt">&gt;</span>2<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td&gt;</span>오만과 편견<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td&gt;</span>제인 오스턴<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;/table&gt;</span>
+</code></pre></div></div>
+<p><br /><br /><br />
+예제1</p>
+<ul>
+  <li>rowspan : 세로로 합치기</li>
+</ul>
+<table border="1">
+  <tr>
+      <td rowspan="3">색깔</td>
+      <td>하얀색</td>
+  </tr>
+  
+  <tr>
+      <td>노란색</td>
+  </tr>
+  
+  <tr>
+      <td>연두색</td>
+  </tr>
+</table>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table</span> <span class="na">border=</span><span class="s">"1"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;tr&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">rowspan=</span><span class="s">"3"</span><span class="nt">&gt;</span>색깔<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td&gt;</span>하얀색<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+  
+  <span class="nt">&lt;tr&gt;</span>
+      <span class="nt">&lt;td&gt;</span>노란색<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+  
+  <span class="nt">&lt;tr&gt;</span>
+      <span class="nt">&lt;td&gt;</span>연두색<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;/table&gt;</span>
+</code></pre></div></div>
+
+<p><br /><br /><br />
+예제2</p>
+<ul>
+  <li>colspan : 가로로 합치기</li>
+</ul>
+<table border="1">
+  <tr>
+      <td colspan="3">색깔</td>
+  </tr>
+  
+  <tr>
+      <td>하얀색</td>
+      <td>노란색</td>
+      <td>연두색</td>
+  </tr>
+</table>
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;table</span> <span class="na">border=</span><span class="s">"1"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;tr&gt;</span>
+      <span class="nt">&lt;td</span> <span class="na">colspan=</span><span class="s">"3"</span><span class="nt">&gt;</span>색깔<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+  
+  <span class="nt">&lt;tr&gt;</span>
+      <span class="nt">&lt;td&gt;</span>하얀색<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td&gt;</span>노란색<span class="nt">&lt;/td&gt;</span>
+      <span class="nt">&lt;td&gt;</span>연두색<span class="nt">&lt;/td&gt;</span>
+  <span class="nt">&lt;/tr&gt;</span>
+<span class="nt">&lt;/table&gt;</span>
+</code></pre></div></div>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2024 Portfolio</p>
+  </footer>
+</body>
+</html>

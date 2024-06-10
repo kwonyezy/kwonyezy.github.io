@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java_#12 ABOUT Inheritance</title>
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+    <p>My development blog and portfolio</p>
+  </header>
+  <main>
+    <article>
+      <h1>Java_#12 ABOUT Inheritance</h1>
+      <div>
+        <h4 id="java의-상속">Java의 상속<br /><br /></h4>
+
+<p>Java에서 상속이란 한 클래스에서 다른 클래스로 속성(변수와 메서드)을 획득하는 개념이다. 일반적으로 부모와 자식 관계라고 표현한다.</p>
+
+<p>Java에서 클래스는 다른 클래스의 속성과 메서드를 상속할 수 있습니다. 속성을 상속하는 클래스를 하위 클래스 또는 자식 클래스라고 한다. 속성이 상속되는 클래스를 상위 클래스 또는 부모 클래스라고 한다.</p>
+
+<p>기본적인 상속의 형태</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span><span class="err">​</span> <span class="nc">superclass</span> 
+<span class="o">{</span> 
+   <span class="c1">// superclass data variables </span>
+   <span class="c1">// superclass member functions </span>
+<span class="o">}</span> 
+<span class="kd">class</span><span class="err">​</span> <span class="nc">subclass</span> <span class="err">​</span><span class="kd">extends</span><span class="err">​</span> <span class="n">superclass</span> 
+<span class="o">{</span> 
+   <span class="c1">// subclass data variables </span>
+   <span class="c1">// subclass member functions </span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>상속은 <code class="language-plaintext highlighter-rouge">extends</code> 키워드를 사용하여 할 수 있고 상위 클래스의 자원을 재 사용하여 하위 클래스에서 사용 할 수 있다.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Base</span> 
+<span class="o">{</span> 
+   <span class="kd">public</span> <span class="kt">void</span> <span class="nf">M1</span><span class="o">()</span> 
+  <span class="o">{</span> 
+    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="err">“</span> <span class="nc">Base</span> <span class="nc">Class</span> <span class="nc">Method</span> <span class="err">”</span><span class="o">);</span> 
+  <span class="o">}</span> 
+<span class="o">}</span> 
+<span class="kd">class</span> <span class="nc">Derived</span> <span class="kd">extends</span> <span class="nc">Base</span> 
+<span class="o">{</span> 
+  <span class="kd">public</span> <span class="kt">void</span> <span class="nf">M2</span><span class="o">()</span> 
+  <span class="o">{</span> 
+    <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">printIn</span><span class="o">(</span><span class="err">“</span> <span class="nc">Derived</span> <span class="nc">Class</span> <span class="nc">Methods</span> <span class="err">“</span><span class="o">);</span> 
+  <span class="o">}</span> 
+<span class="o">}</span> 
+<span class="kd">class</span> <span class="nc">Test</span> 
+<span class="o">{</span> 
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> 
+  <span class="o">{</span> 
+    <span class="nc">Derived</span> <span class="n">d</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Derived</span><span class="o">();</span> <span class="c1">// creating object </span>
+    <span class="n">d</span><span class="o">.</span><span class="na">M1</span><span class="o">();</span> <span class="c1">// print Base Class Method </span>
+    <span class="n">d</span><span class="o">.</span><span class="na">M2</span><span class="o">();</span> <span class="c1">// print Derived Class Method </span>
+  <span class="o">}</span> 
+<span class="o">}</span> 
+</code></pre></div></div>
+
+<p>위의 예제는 상속의 기초 예제이다.    <br />
+실행 결과는 아래와 같다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Base Class Method
+Derived Class Methods
+</code></pre></div></div>
+
+<p>상위클래스의 <code class="language-plaintext highlighter-rouge">M1()</code> 메서드를 상속받아 바로 사용 할 수 있는 모습이다.    <br />
+상속을 사용 하는 주요 이유는 코드의 재사용성과 메서드의 재정의이고 이는 객체지향에서 가장 중요한 키워드인 다형성을 의미한다.</p>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2024 Portfolio</p>
+  </footer>
+</body>
+</html>

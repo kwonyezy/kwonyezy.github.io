@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java_#9 ABOUT Constructor</title>
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+    <p>My development blog and portfolio</p>
+  </header>
+  <main>
+    <article>
+      <h1>Java_#9 ABOUT Constructor</h1>
+      <div>
+        <h4 id="java의-constructor">Java의 Constructor<br /><br /></h4>
+
+<p>클래스의 객체를 하나 만들 때 제일처음, 생성자가 실행된다. 보통 클래스 내부의 맴버 변수 값을 초기화하기 위한 목표로 실행되며 생성자는 오버로딩을 통해 여러개의 메소드 형태로 정의 할 수 있다.</p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="nc">Car</span><span class="o">{</span>
+	<span class="kt">int</span> <span class="n">gear</span><span class="o">;</span>
+   	<span class="nc">String</span> <span class="n">color</span><span class="o">;</span>
+   
+	<span class="nc">Car</span><span class="o">(){</span><span class="c1">//1</span>
+		<span class="k">this</span><span class="o">(</span><span class="mi">8</span><span class="o">);</span>
+	<span class="o">}</span>
+	<span class="nc">Car6</span><span class="o">(</span><span class="kt">int</span> <span class="n">g</span><span class="o">){</span><span class="c1">//2</span>
+		<span class="k">this</span><span class="o">(</span><span class="n">g</span><span class="o">,</span><span class="s">"빨강"</span><span class="o">);</span>
+	<span class="o">}</span>
+	<span class="nc">Car</span><span class="o">(</span><span class="kt">int</span> <span class="n">g</span><span class="o">,</span> <span class="nc">String</span> <span class="n">c</span><span class="o">){</span><span class="c1">//3</span>
+		<span class="n">gear</span><span class="o">=</span><span class="n">g</span><span class="o">;</span>
+		<span class="n">color</span><span class="o">=</span><span class="n">c</span><span class="o">;</span>
+	<span class="o">}</span>
+	<span class="kt">void</span> <span class="nf">printCar</span><span class="o">(){</span>
+		<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">gear</span><span class="o">+</span><span class="s">" : "</span><span class="o">+</span><span class="n">color</span><span class="o">);</span>
+	<span class="o">}</span>
+	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span> <span class="n">args</span><span class="o">[]){</span>
+		<span class="nc">Car</span> <span class="n">c</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Car</span><span class="o">();</span>
+		<span class="n">c</span><span class="o">.</span><span class="na">printCar</span><span class="o">();</span>
+	<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+
+<p>위의 예제는 클래스 <code class="language-plaintext highlighter-rouge">Car</code>에대한 생성자 예제이다.    <br />
+생성자의 이름은 반드시 클래스이름과 같아야하고 반환값을 가지지않는다. 또, <code class="language-plaintext highlighter-rouge">Car()</code>, <code class="language-plaintext highlighter-rouge">Car6(int g)</code>, <code class="language-plaintext highlighter-rouge">Car(int g, String c)</code> 등 생성자는 오버로딩이 가능하다</p>
+
+<p><code class="language-plaintext highlighter-rouge">Car</code> 라는 클래스의 객체 <code class="language-plaintext highlighter-rouge">c</code>를 만들면서 시작된다. <code class="language-plaintext highlighter-rouge">new</code> 라는 명령으로 프로그램은 heap영역에 <code class="language-plaintext highlighter-rouge">class Car</code> 의 새로운 객체영역을 할당하고 그 주소를 변수 <code class="language-plaintext highlighter-rouge">c</code>가 참조하게된다. 그리고 <code class="language-plaintext highlighter-rouge">new</code> 뒤에 <code class="language-plaintext highlighter-rouge">Car()</code> 라는 생성자를 호출하게되는데 생성자 호출시에 매개변수를 전달하지 않았으므로 <code class="language-plaintext highlighter-rouge">//1</code> 의 매개변수가 없는 생성자가 호출된다.</p>
+
+<p>그 내부는 <code class="language-plaintext highlighter-rouge">this(8)</code>을 실행하는데 클래스 내부에서 this는 자기자신을 가리킨다. 결국 <code class="language-plaintext highlighter-rouge">this(8)</code>은 <code class="language-plaintext highlighter-rouge">Car(8)</code>을 의미하고 <code class="language-plaintext highlighter-rouge">//2</code> 의 매개변수를 하나가지는 <code class="language-plaintext highlighter-rouge">Car6(int g)</code> 생성자를 호출하게 된다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">Car6(int g)</code> 생성자 내부에서 <code class="language-plaintext highlighter-rouge">this(g,"빨강")</code><code class="language-plaintext highlighter-rouge">로 바로</code><code class="language-plaintext highlighter-rouge">Car(int g, String c)</code>`` 생성자를 호출한다.</p>
+
+<p>결국 어느 생성자를 호출하든 <code class="language-plaintext highlighter-rouge">Car(int g, String c)</code> 생성자가 최종적으로 호출되고 생성자 호출시에 <code class="language-plaintext highlighter-rouge">Car c = new Car()</code>와 같이 매개변수가 하나도없는경우 default값으로  <code class="language-plaintext highlighter-rouge">gear</code>에 매개변수 <code class="language-plaintext highlighter-rouge">int g</code> 로 들어온 8 이 들어가고, <code class="language-plaintext highlighter-rouge">color</code>에 <code class="language-plaintext highlighter-rouge">string c</code>로 전달받은 <code class="language-plaintext highlighter-rouge">"빨강"</code> 이란 문자열이 들어가게된다.</p>
+
+<p><code class="language-plaintext highlighter-rouge">Car c = new Car(8,"빨강");</code> 과 같이 생성자를 호출한것과 같은 결과를가진다.</p>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2024 Portfolio</p>
+  </footer>
+</body>
+</html>

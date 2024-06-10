@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Java_#3 ABOUT  For</title>
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+    <p>My development blog and portfolio</p>
+  </header>
+  <main>
+    <article>
+      <h1>Java_#3 ABOUT  For</h1>
+      <div>
+        <h4 id="for문에-대해서">For문에 대해서</h4>
+<p><br /><br />
+-for(초기값;조건식;증감식) <br /></p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">ForEx1</span> <span class="o">{</span>
+	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span> <span class="n">args</span><span class="o">[]){</span>
+		<span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="o">;</span> <span class="n">i</span><span class="o">++){</span>
+			<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"i의 값은 : "</span> <span class="o">+</span> <span class="n">i</span><span class="o">);</span>
+		<span class="o">}</span>
+	<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+<p>위의 for문을 해석해보자면, <br />
+for (i가 0이고; i가 5보다 작으면; i값을 증가시켜라) 는 의미이다. <br /><br />
+println으로 i의 값을 출력시켰으므로, 결과는 1 2 3 4가 될 것이다. <br /><br />
+<br /><br /></p>
+
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">public</span> <span class="kd">class</span> <span class="nc">ForEx2</span> <span class="o">{</span>
+	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span> <span class="n">args</span><span class="o">[]){</span>
+		<span class="kt">int</span> <span class="n">sum</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="c1">// 전체 합</span>
+		<span class="kt">int</span> <span class="n">odd</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="c1">// 홀수의 합</span>
+		<span class="kt">int</span> <span class="n">even</span> <span class="o">=</span> <span class="mi">0</span><span class="o">;</span> <span class="c1">// 짝수의 합</span>
+		
+		<span class="k">for</span> <span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="mi">100</span><span class="o">;</span> <span class="n">i</span><span class="o">++){</span>
+			<span class="n">sum</span> <span class="o">+=</span> <span class="n">i</span><span class="o">;</span>
+			<span class="k">if</span><span class="o">(</span><span class="n">i</span><span class="o">%</span><span class="mi">2</span> <span class="o">==</span> <span class="mi">0</span><span class="o">){</span> <span class="c1">// i를 2로 나눴을 때의 나머지가 0과 같다면</span>
+				<span class="n">even</span> <span class="o">+=</span> <span class="n">i</span><span class="o">;</span>
+			<span class="o">}</span><span class="k">else</span><span class="o">{</span>
+				<span class="n">odd</span> <span class="o">+=</span> <span class="n">i</span><span class="o">;</span>
+			<span class="o">}</span>
+		<span class="o">}</span>
+		
+	<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"1부터 100까지의 합 : "</span> <span class="o">+</span> <span class="n">sum</span><span class="o">);</span>
+	<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"1부터 100까지의 홀수의 합 : "</span> <span class="o">+</span> <span class="n">odd</span><span class="o">);</span>
+	<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="s">"1부터 100까지의 짝수의 합 : "</span> <span class="o">+</span> <span class="n">even</span><span class="o">);</span>
+	<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+<p>for문을 사용하여 특정 수까지의 모든 합을 구하기 위해서는 변수를 하나 만들어둬야 하고, 필요에 따라 if문을 사용하여 조건을 맞춰주면 된다. <br />									   <br />
+<br /></p>
+
+<p>-For문으로 구구단 출력하기 <br /></p>
+<div class="language-java highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kn">import</span> <span class="nn">java.util.Scanner</span><span class="o">;</span>
+<span class="kd">class</span> <span class="nc">Gugu2</span><span class="o">{</span>
+	<span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span> <span class="n">args</span><span class="o">[]){</span>
+		<span class="nc">Scanner</span> <span class="n">sc</span> <span class="o">=</span> <span class="k">new</span> <span class="nc">Scanner</span><span class="o">(</span><span class="nc">System</span><span class="o">.</span><span class="na">in</span><span class="o">);</span>
+		
+		<span class="kt">int</span> <span class="n">n</span><span class="o">;</span>
+		<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">print</span><span class="o">(</span><span class="s">"숫자를 입력하세요 : "</span><span class="o">);</span>
+		<span class="n">n</span> <span class="o">=</span> <span class="n">sc</span><span class="o">.</span><span class="na">nextInt</span><span class="o">();</span>
+		
+		<span class="k">for</span><span class="o">(</span><span class="kt">int</span> <span class="n">i</span> <span class="o">=</span> <span class="mi">1</span><span class="o">;</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="mi">9</span><span class="o">;</span> <span class="n">i</span><span class="o">++){</span>
+			<span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">println</span><span class="o">(</span><span class="n">n</span><span class="o">+</span><span class="s">"*"</span><span class="o">+</span><span class="n">i</span><span class="o">+</span><span class="s">"="</span><span class="o">+(</span><span class="n">n</span><span class="o">*</span><span class="n">i</span><span class="o">));</span>
+		<span class="o">}</span>
+	<span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div></div>
+<p>구구단에서 원하는 단의 숫자를 입력하면, int i는 1이고, i가 9 이하까지 i를 증가시키는 for문을 통해서 구구단 출력이 가능하다. <br /><br /><br />
+추가적으로, 숫자를 입력 받아야 한다면 Scanner를 import 해야하고, new를 통해 Scanner 객체를 생성해주고, <br /><br />
+입력 받아야 하는 변수를 하나 정해준 다음, int형을 입력받을 시에는 nextInt() 메서드를 사용해야 한다. <br /></p>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2024 Portfolio</p>
+  </footer>
+</body>
+</html>

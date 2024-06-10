@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html_#3 ABOUT HTML tag[2]</title>
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+    <p>My development blog and portfolio</p>
+  </header>
+  <main>
+    <article>
+      <h1>html_#3 ABOUT HTML tag[2]</h1>
+      <div>
+        <h4 id="html-태그-2">HTML 태그 [2]<br><br>
+</h4>
+
+<h3 id="목록-관련">목록 관련</h3>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;ul&gt;</code>: 순서 없는 목록(unordered list)을 표시한다.    <br>
+속성 : type = “disk”, type = “cicle”, type = “square”</p>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;ol&gt;</code>: 순서 있는 목록(ordered list)을 표시한다. 참고로 이 태그는 단지 비주얼적인 태그라는 이유로 HTML4에서 비권장 태그로 들어갔다가 HTML5에서 <code class="language-plaintext highlighter-rouge">&lt;ul&gt;</code> 태그와 구별해서 사용할 필요성이 제기되면서 표준 태그로 재<br>
+지정되었다.    <br>
+속성 : type = “1”, type = “I”, type = “i”, type = “A”, type = “a”</p>
+
+<p><code class="language-plaintext highlighter-rouge">&lt;li&gt;</code>: 목록에서 각 항목(list item)은 <code class="language-plaintext highlighter-rouge">&lt;li&gt;</code>와 <code class="language-plaintext highlighter-rouge">&lt;/li&gt;</code>사이에 넣는다.  <br>
+<code class="language-plaintext highlighter-rouge">&lt;ol&gt;</code>이나 <code class="language-plaintext highlighter-rouge">&lt;ul&gt;</code> 사이에 들어가야 하며 실체 화면에 출력되는 부분이다.</p>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;ul</span> <span class="na">type=</span><span class="s">"disk"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;li&gt;</span>이것<span class="nt">&lt;/li&gt;</span>
+	<span class="nt">&lt;li&gt;</span>목록<span class="nt">&lt;/li&gt;</span>
+	<span class="nt">&lt;li&gt;</span>내용<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+
+<span class="nt">&lt;ul&gt;</span>
+	<span class="nt">&lt;li</span> <span class="na">type=</span><span class="s">"disk"</span><span class="nt">&gt;</span>이것<span class="nt">&lt;/li&gt;</span>
+	<span class="nt">&lt;li</span> <span class="na">type=</span><span class="s">"circle"</span><span class="nt">&gt;</span>목록<span class="nt">&lt;/li&gt;</span>
+	<span class="nt">&lt;li&gt;</span>내용<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ul&gt;</span>
+
+<span class="nt">&lt;ol</span> <span class="na">type=</span><span class="s">"1"</span><span class="nt">&gt;</span>
+	<span class="nt">&lt;li&gt;</span>이것<span class="nt">&lt;/li&gt;</span>
+	<span class="nt">&lt;li&gt;</span>목록<span class="nt">&lt;/li&gt;</span>
+	<span class="nt">&lt;li&gt;</span>내용<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span>
+
+<span class="nt">&lt;ol&gt;</span>
+	<span class="nt">&lt;li</span> <span class="na">type=</span><span class="s">"1"</span><span class="nt">&gt;</span>이것<span class="nt">&lt;/li&gt;</span>
+	<span class="nt">&lt;li</span> <span class="na">type=</span><span class="s">"A"</span><span class="nt">&gt;</span>목록<span class="nt">&lt;/li&gt;</span>
+	<span class="nt">&lt;li&gt;</span>내용<span class="nt">&lt;/li&gt;</span>
+<span class="nt">&lt;/ol&gt;</span>
+</code></pre></div></div>
+
+<h3 id="링크--이미지-관련">링크 / 이미지 관련</h3>
+
+<p><a> : 하이퍼링크를 생성하는 태그이다. href 속성을 써서 <code class="language-plaintext highlighter-rouge">&lt;a href="링크할 페이지"&gt;</code>내용<code class="language-plaintext highlighter-rouge">&lt;/a&gt;</code>와 같이 작성한다.    
+※ 페이지 내에서의 이동도 가능    
+</a><a href="http://naver.com" id="top"> id 속성을 설정해 준다.    
+</a><a href="#top">으로 링크를 걸어 주면 id 가 있는 위치로 페이지 내에서 이동시켜준다.    
+속성 : target=“옵션”    
+_self : 현재 보고있는 창이 바뀝니다.    
+_blank : 새 창으로 열립니다.    
+_parent : 여러 프레임을 사용 할 경우, 한 단계 상위 프레임에서 열립니다.    
+_top : 여러 프레임을 사용 할 경우, 가장 상위 프레임에서 열립니다.    
+title=“내용” : 링크에 대한 설명이 나온다.    
+<img>: 페이지에 이미지를 추가하는 태그이다.</a></p>
+<ul>
+  <li>형식 : <img>
+</li>
+</ul>
+
+<p>src=”이미지 파일 이름” : 삽입될 이미지 파일을 지정함.    <br>
+alt=”간단한 설명” : 그림에 마우스를 올렸을 때 나올 글씨 ※필수※ 이미지를 화면에 표시하지 않고 사용하는 사용자들을 위하여 이미지에 대한 간단한 설명을 붙이는 것<br>
+align=”left” , align=”right” : left는 이미지를 왼쪽으로 정렬하면서 만약 텍스트가 있다면 이미지의 오른쪽에 정렬시킨다. right는 이미지를 오른쪽에 정렬하면서 텍스트는 이미지의 왼쪽에 정렬<br>
+align=”top”, align=”middle”, align=”bottom” : 텍스트의 위치를 이미지의 세로 방향에서 위쪽, 가운데, 아래쪽으로 정렬시킨다.   <br>
+border=”숫자” : 이미지 경계선의 두께를 설정하는 것이며, 숫자가 커질수록 두꺼워지고 픽셀 단위로 입력한다.    <br>
+height=”숫자”, width=”숫자” : height는 이미지의 높이, width는 이미지의 너비를 지정하는 것으로 픽셀 단위나 % 단위로 입력 가능하다. 이 속성을 지정하지 않아도 이미지를 표시 하는 데는 지장이 없으나 작은 이미지를 크게 나타내거나 큰 이미지를 작게 나타낼 수 있지만, 원본 이미지의 크기를 조정하는 것은 아니다.<br>
+hspace=”숫자” : 픽셀 단위로 입력하며 이미지 좌우로 여백을 설정한다<br>
+vspace=”숫자” : 픽셀 단위로 입력하며 이미지 상하로 여백을 설정한다.</p>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>© 2024 Portfolio</p>
+  </footer>
+</body>
+</html>

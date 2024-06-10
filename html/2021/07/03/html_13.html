@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html_#13 About CSS [7]</title>
+  <link rel="stylesheet" href="/assets/main.css">
+</head>
+<body>
+  <header>
+    <h1>Portfolio</h1>
+    <p>My development blog and portfolio</p>
+  </header>
+  <main>
+    <article>
+      <h1>html_#13 About CSS [7]</h1>
+      <div>
+        <h4 id="css-7-">CSS [7] <br /><br /></h4>
+
+<h3 id="div의-hidden">div의 hidden</h3>
+<p><br /><br /></p>
+
+<ul>
+  <li>visibility를 hidden으로 준 경우 <br /></li>
+</ul>
+<head>
+    <style>
+          .box{
+              width: 100px;
+              height: 100px;
+              background-color: red;
+              border: 1px solid black;
+          }
+          #box2{
+              visibility: hidden;
+          }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">1</div>
+    <div class="box" id="box2">2</div>
+    <div class="box" id="box3">3</div>
+</body>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;head&gt;</span>
+    <span class="nt">&lt;style&gt;</span>
+          <span class="nc">.box</span><span class="p">{</span>
+              <span class="nl">width</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+              <span class="nl">height</span><span class="p">:</span> <span class="m">100px</span><span class="p">;</span>
+              <span class="nl">background-color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+              <span class="nl">border</span><span class="p">:</span> <span class="m">1px</span> <span class="nb">solid</span> <span class="no">black</span><span class="p">;</span>
+          <span class="p">}</span>
+          <span class="nf">#box2</span><span class="p">{</span>
+              <span class="nl">visibility</span><span class="p">:</span> <span class="nb">hidden</span><span class="p">;</span>
+          <span class="p">}</span>
+    <span class="nt">&lt;/style&gt;</span>
+<span class="nt">&lt;/head&gt;</span>
+<span class="nt">&lt;body&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box"</span> <span class="na">id=</span><span class="s">"box1"</span><span class="nt">&gt;</span>1<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box"</span> <span class="na">id=</span><span class="s">"box2"</span><span class="nt">&gt;</span>2<span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">class=</span><span class="s">"box"</span> <span class="na">id=</span><span class="s">"box3"</span><span class="nt">&gt;</span>3<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/body&gt;</span>
+</code></pre></div></div>
+
+<p><br /><br /></p>
+
+<ul>
+  <li>display를 none으로 준 경우 <br /></li>
+</ul>
+
+<head>
+      <style>
+            #warp{
+                width: 1024px;
+                margin: 0 auto;
+                border: 1px solid black;
+                font-size: 0;
+            }
+            .box{
+                width: 100px;
+                height: 100px;
+                border: 1px solid red;
+                display: inline-block;
+                font-size: 12px;
+            }
+            #box2{
+                display: none; /* visibilty 랑 "유사" */
+            }
+      </style>
+</head>
+<body>
+    <div id="warp">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+&lt;/body&gt;
+  
+  
+  
+  
+  
+  
+  ```html
+<head>
+<head>
+      <style>
+            #warp{
+                width: 1024px;
+                margin: 0 auto;
+                border: 1px solid black;
+                font-size: 0;
+            }
+            .box{
+                width: 100px;
+                height: 100px;
+                border: 1px solid red;
+                display: inline-block;
+                font-size: 12px;
+            }
+            #box2{
+                display: none; /* visibilty 랑 "유사" */
+            }
+      </style>
+</head>
+<body>
+    <div id="warp">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+&lt;/body&gt;
+```
+</div></body></head></div></body>
+
+      </div>
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2024 Portfolio</p>
+  </footer>
+</body>
+</html>
