@@ -3,7 +3,7 @@ name: Jekyll site CI
 on:
   push:
     branches:
-      - master
+      - main  # 또는 master, 기본 브랜치 이름을 사용하세요
 
 jobs:
   build:
@@ -16,7 +16,7 @@ jobs:
     - name: Set up Ruby
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: '3.0' # 사용할 루비 버전
+        ruby-version: '3.0'
 
     - name: Install dependencies
       run: |
