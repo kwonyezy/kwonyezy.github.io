@@ -13,8 +13,8 @@ giscus_repoId: "R_kgDOJ6fqWg"
 giscus_category: "Q&A"
 giscus_categoryId: "DIC_kwDOJ6fqWs4Cc7p7"
 
-url: "https://kwonyezy.github.io"  # 자신의 GitHub Pages URL로 변경
-baseurl: ""
+baseurl: ""  # 루트 경로를 사용하므로 빈 문자열로 설정
+url: "https://kwonyezy.github.io"
 
 theme: jekyll-theme-satellite
 
@@ -39,7 +39,7 @@ defaults:
       type: "pages"
     values:
       layout: "page"
-      date: "2024-06-07" # 오늘 날짜로 설정
+      date: "2024-06-07"
 
 kramdown:
   input: GFM
