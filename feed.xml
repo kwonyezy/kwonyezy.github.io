@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://kwonyezy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kwonyezy.github.io/" rel="alternate" type="text/html" /><updated>2024-06-11T07:17:53+00:00</updated><id>https://kwonyezy.github.io/feed.xml</id><title type="html">Portfolio</title><subtitle>My development blog and portfolio</subtitle><entry><title type="html">html_#13 About CSS [7]</title><link href="https://kwonyezy.github.io/html/2021/07/03/html_13.html" rel="alternate" type="text/html" title="html_#13 About CSS [7]" /><published>2021-07-03T00:00:00+00:00</published><updated>2021-07-03T00:00:00+00:00</updated><id>https://kwonyezy.github.io/html/2021/07/03/html_13</id><content type="html" xml:base="https://kwonyezy.github.io/html/2021/07/03/html_13.html"><![CDATA[<h4 id="css-7-">CSS [7] <br /><br /></h4>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="https://kwonyezy.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://kwonyezy.github.io/" rel="alternate" type="text/html" /><updated>2024-06-11T13:55:59+00:00</updated><id>https://kwonyezy.github.io/feed.xml</id><title type="html">Portfolio</title><subtitle>My development blog and portfolio</subtitle><entry><title type="html">html_#13 About CSS [7]</title><link href="https://kwonyezy.github.io/blog/html/2021/07/03/html_13.html" rel="alternate" type="text/html" title="html_#13 About CSS [7]" /><published>2021-07-03T00:00:00+00:00</published><updated>2021-07-03T00:00:00+00:00</updated><id>https://kwonyezy.github.io/blog/html/2021/07/03/html_13</id><content type="html" xml:base="https://kwonyezy.github.io/blog/html/2021/07/03/html_13.html"><![CDATA[<h4 id="css-7-">CSS [7] <br /><br /></h4>
 
 <h3 id="div의-hidden">div의 hidden</h3>
 <p><br /><br /></p>
@@ -112,7 +112,7 @@
         <div class="box" id="box3"></div>
 &lt;/body&gt;
 ```
-</div></body></head></div></body>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#11 About CSS [5]</title><link href="https://kwonyezy.github.io/html/2021/06/29/html_11.html" rel="alternate" type="text/html" title="html_#11 About CSS [5]" /><published>2021-06-29T00:00:00+00:00</published><updated>2021-06-29T00:00:00+00:00</updated><id>https://kwonyezy.github.io/html/2021/06/29/html_11</id><content type="html" xml:base="https://kwonyezy.github.io/html/2021/06/29/html_11.html"><![CDATA[<h4 id="css-5-">CSS [5] <br /><br /></h4>
+</div></body></head></div></body>]]></content><author><name></name></author><category term="blog" /><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#11 About CSS [5]</title><link href="https://kwonyezy.github.io/blog/html/2021/06/29/html_11.html" rel="alternate" type="text/html" title="html_#11 About CSS [5]" /><published>2021-06-29T00:00:00+00:00</published><updated>2021-06-29T00:00:00+00:00</updated><id>https://kwonyezy.github.io/blog/html/2021/06/29/html_11</id><content type="html" xml:base="https://kwonyezy.github.io/blog/html/2021/06/29/html_11.html"><![CDATA[<h4 id="css-5-">CSS [5] <br /><br /></h4>
 
 <h3 id="ul-li-및-을-이용한-문단-바로가기">ul, li 및 #을 이용한 문단 바로가기</h3>
 <p><br /><br /></p>
@@ -232,7 +232,7 @@
 
     <span class="nt">&lt;span-inline</span> <span class="na">id=</span><span class="s">"author"</span><span class="nt">&gt;</span>저자<span class="ni">&amp;nbsp;</span>aa<span class="nt">&lt;/span-inline&gt;</span>aaa
 <span class="nt">&lt;/body&gt;</span>
-</code></pre></div></div>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#10 About CSS [4]</title><link href="https://kwonyezy.github.io/html/2021/06/28/html_10.html" rel="alternate" type="text/html" title="html_#10 About CSS [4]" /><published>2021-06-28T00:00:00+00:00</published><updated>2021-06-28T00:00:00+00:00</updated><id>https://kwonyezy.github.io/html/2021/06/28/html_10</id><content type="html" xml:base="https://kwonyezy.github.io/html/2021/06/28/html_10.html"><![CDATA[<h4 id="css-4-">CSS [4] <br /><br /></h4>
+</code></pre></div></div>]]></content><author><name></name></author><category term="blog" /><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#10 About CSS [4]</title><link href="https://kwonyezy.github.io/blog/html/2021/06/28/html_10.html" rel="alternate" type="text/html" title="html_#10 About CSS [4]" /><published>2021-06-28T00:00:00+00:00</published><updated>2021-06-28T00:00:00+00:00</updated><id>https://kwonyezy.github.io/blog/html/2021/06/28/html_10</id><content type="html" xml:base="https://kwonyezy.github.io/blog/html/2021/06/28/html_10.html"><![CDATA[<h4 id="css-4-">CSS [4] <br /><br /></h4>
 
 <h3 id="css를-이용한-div-태그">CSS를 이용한 div 태그</h3>
 <p><br /><br /></p>
@@ -499,7 +499,7 @@
 <span class="nt">&lt;body&gt;</span>
     <span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"box2-1"</span><span class="nt">&gt;&lt;/div&gt;</span>
 <span class="nt">&lt;/body&gt;</span>
-</code></pre></div></div>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#9 About CSS [3]</title><link href="https://kwonyezy.github.io/html/2021/06/26/html_09.html" rel="alternate" type="text/html" title="html_#9 About CSS [3]" /><published>2021-06-26T00:00:00+00:00</published><updated>2021-06-26T00:00:00+00:00</updated><id>https://kwonyezy.github.io/html/2021/06/26/html_09</id><content type="html" xml:base="https://kwonyezy.github.io/html/2021/06/26/html_09.html"><![CDATA[<h4 id="css-3-">CSS [3] <br /><br /></h4>
+</code></pre></div></div>]]></content><author><name></name></author><category term="blog" /><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#9 About CSS [3]</title><link href="https://kwonyezy.github.io/blog/html/2021/06/26/html_09.html" rel="alternate" type="text/html" title="html_#9 About CSS [3]" /><published>2021-06-26T00:00:00+00:00</published><updated>2021-06-26T00:00:00+00:00</updated><id>https://kwonyezy.github.io/blog/html/2021/06/26/html_09</id><content type="html" xml:base="https://kwonyezy.github.io/blog/html/2021/06/26/html_09.html"><![CDATA[<h4 id="css-3-">CSS [3] <br /><br /></h4>
 
 <h3 id="빈-태그의">빈 태그의</h3>
 <p><br /><br /></p>
@@ -567,7 +567,7 @@ css는 무조건 태그 기준으로 한다. 그런데 보통의 태그들은 �
     <span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"button"</span> <span class="na">value=</span><span class="s">"인풋태크"</span> <span class="na">style=</span><span class="s">"width: 150px; height: 80px; background-color: #d2f4ff; border: 2px solid #09c;"</span><span class="nt">&gt;</span> <span class="c">&lt;!--아무런 기능이 없다--&gt;</span>
     <span class="nt">&lt;button&gt;</span>버튼태그<span class="nt">&lt;/button&gt;</span> <span class="c">&lt;!--input type="submit"과 동일--&gt;</span>
 <span class="nt">&lt;/body&gt;</span>
-</code></pre></div></div>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#8 About CSS [2]</title><link href="https://kwonyezy.github.io/html/2021/06/24/html_08.html" rel="alternate" type="text/html" title="html_#8 About CSS [2]" /><published>2021-06-24T00:00:00+00:00</published><updated>2021-06-24T00:00:00+00:00</updated><id>https://kwonyezy.github.io/html/2021/06/24/html_08</id><content type="html" xml:base="https://kwonyezy.github.io/html/2021/06/24/html_08.html"><![CDATA[<h4 id="css-2-">CSS [2] <br /><br /></h4>
+</code></pre></div></div>]]></content><author><name></name></author><category term="blog" /><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#8 About CSS [2]</title><link href="https://kwonyezy.github.io/blog/html/2021/06/24/html_08.html" rel="alternate" type="text/html" title="html_#8 About CSS [2]" /><published>2021-06-24T00:00:00+00:00</published><updated>2021-06-24T00:00:00+00:00</updated><id>https://kwonyezy.github.io/blog/html/2021/06/24/html_08</id><content type="html" xml:base="https://kwonyezy.github.io/blog/html/2021/06/24/html_08.html"><![CDATA[<h4 id="css-2-">CSS [2] <br /><br /></h4>
 
 <h3 id="table에서-css">table에서 css</h3>
 <p><br /><br /></p>
@@ -709,7 +709,7 @@ css는 무조건 태그 기준으로 한다. 그런데 보통의 태그들은 �
         <span class="nt">&lt;/tr&gt;</span>
     <span class="nt">&lt;/table&gt;</span>
 <span class="nt">&lt;/body&gt;</span>
-</code></pre></div></div>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#7 About CSS [1]</title><link href="https://kwonyezy.github.io/html/2021/06/23/html_07.html" rel="alternate" type="text/html" title="html_#7 About CSS [1]" /><published>2021-06-23T00:00:00+00:00</published><updated>2021-06-23T00:00:00+00:00</updated><id>https://kwonyezy.github.io/html/2021/06/23/html_07</id><content type="html" xml:base="https://kwonyezy.github.io/html/2021/06/23/html_07.html"><![CDATA[<h4 id="css-1-">CSS [1] <br /><br /></h4>
+</code></pre></div></div>]]></content><author><name></name></author><category term="blog" /><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#7 About CSS [1]</title><link href="https://kwonyezy.github.io/blog/html/2021/06/23/html_07.html" rel="alternate" type="text/html" title="html_#7 About CSS [1]" /><published>2021-06-23T00:00:00+00:00</published><updated>2021-06-23T00:00:00+00:00</updated><id>https://kwonyezy.github.io/blog/html/2021/06/23/html_07</id><content type="html" xml:base="https://kwonyezy.github.io/blog/html/2021/06/23/html_07.html"><![CDATA[<h4 id="css-1-">CSS [1] <br /><br /></h4>
 
 <h3 id="선택자">선택자</h3>
 <p><br /><br /></p>
@@ -815,7 +815,7 @@ css는 무조건 태그 기준으로 한다. 그런데 보통의 태그들은 �
         가능은 하지만 id 중복은 쓰지 않기를 권함. 중복해야 한다면 클래스로!
     <span class="nt">&lt;/p&gt;</span>
 <span class="nt">&lt;/body&gt;</span>
-</code></pre></div></div>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#6 About HTML tag[5]</title><link href="https://kwonyezy.github.io/html/2021/06/21/html_06.html" rel="alternate" type="text/html" title="html_#6 About HTML tag[5]" /><published>2021-06-21T00:00:00+00:00</published><updated>2021-06-21T00:00:00+00:00</updated><id>https://kwonyezy.github.io/html/2021/06/21/html_06</id><content type="html" xml:base="https://kwonyezy.github.io/html/2021/06/21/html_06.html"><![CDATA[<h4 id="html-태그-5-">HTML 태그 [5] <br /><br /></h4>
+</code></pre></div></div>]]></content><author><name></name></author><category term="blog" /><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#6 About HTML tag[5]</title><link href="https://kwonyezy.github.io/blog/html/2021/06/21/html_06.html" rel="alternate" type="text/html" title="html_#6 About HTML tag[5]" /><published>2021-06-21T00:00:00+00:00</published><updated>2021-06-21T00:00:00+00:00</updated><id>https://kwonyezy.github.io/blog/html/2021/06/21/html_06</id><content type="html" xml:base="https://kwonyezy.github.io/blog/html/2021/06/21/html_06.html"><![CDATA[<h4 id="html-태그-5-">HTML 태그 [5] <br /><br /></h4>
 
 <h3 id="select">select</h3>
 <p><br /><br /><br />
@@ -888,7 +888,7 @@ css는 무조건 태그 기준으로 한다. 그런데 보통의 태그들은 �
 
 <p>아이프레임은 웹 조각을 원하는 곳에 붙여넣을 때 사용. <br /><br />
 주 사용은 유튜브에서 사용하고 있고 보통은 많이 사용되지는 않는다. <br /><br />
-소스는 다 src로 가져온다. <br /></p>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[html]]></summary></entry><entry><title type="html">html_#5 About HTML tag[4]</title><link href="https://kwonyezy.github.io/html/2021/06/20/html_05.html" rel="alternate" type="text/html" title="html_#5 About HTML tag[4]" /><published>2021-06-20T00:00:00+00:00</published><updated>2021-06-20T00:00:00+00:00</updated><id>https://kwonyezy.github.io/html/2021/06/20/html_05</id><content type="html" xml:base="https://kwonyezy.github.io/html/2021/06/20/html_05.html"><![CDATA[<h4 id="html-태그-4-">HTML 태그 [4] <br /><br /></h4>
+소스는 다 src로 가져온다. <br /></p>]]></content><author><name></name></author><category term="blog" /><category term="HTML" /><summary type="html"><![CDATA[html]]></summary></entry><entry><title type="html">html_#5 About HTML tag[4]</title><link href="https://kwonyezy.github.io/blog/html/2021/06/20/html_05.html" rel="alternate" type="text/html" title="html_#5 About HTML tag[4]" /><published>2021-06-20T00:00:00+00:00</published><updated>2021-06-20T00:00:00+00:00</updated><id>https://kwonyezy.github.io/blog/html/2021/06/20/html_05</id><content type="html" xml:base="https://kwonyezy.github.io/blog/html/2021/06/20/html_05.html"><![CDATA[<h4 id="html-태그-4-">HTML 태그 [4] <br /><br /></h4>
 
 <h3 id="input의-종류">input의 종류</h3>
 <p><br /><br /></p>
@@ -1020,7 +1020,7 @@ name이 자바에서 마치 변수와 같으며, 변수 값은 value에 담는�
     <div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;input</span> <span class="na">type=</span><span class="s">"url"</span><span class="nt">&gt;</span>
 </code></pre></div>    </div>
   </li>
-</ul>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[html]]></summary></entry><entry><title type="html">html_#12 About CSS [6]</title><link href="https://kwonyezy.github.io/html/2021/06/20/html_12.html" rel="alternate" type="text/html" title="html_#12 About CSS [6]" /><published>2021-06-20T00:00:00+00:00</published><updated>2021-06-20T00:00:00+00:00</updated><id>https://kwonyezy.github.io/html/2021/06/20/html_12</id><content type="html" xml:base="https://kwonyezy.github.io/html/2021/06/20/html_12.html"><![CDATA[<h4 id="css-6-">CSS [6] <br /><br /></h4>
+</ul>]]></content><author><name></name></author><category term="blog" /><category term="HTML" /><summary type="html"><![CDATA[html]]></summary></entry><entry><title type="html">html_#12 About CSS [6]</title><link href="https://kwonyezy.github.io/blog/html/2021/06/20/html_12.html" rel="alternate" type="text/html" title="html_#12 About CSS [6]" /><published>2021-06-20T00:00:00+00:00</published><updated>2021-06-20T00:00:00+00:00</updated><id>https://kwonyezy.github.io/blog/html/2021/06/20/html_12</id><content type="html" xml:base="https://kwonyezy.github.io/blog/html/2021/06/20/html_12.html"><![CDATA[<h4 id="css-6-">CSS [6] <br /><br /></h4>
 
 <h3 id="border-style의-종류">border-style의 종류</h3>
 <p><br /><br /></p>
@@ -1076,7 +1076,7 @@ name이 자바에서 마치 변수와 같으며, 변수 값은 value에 담는�
 &lt;/body&gt;
 ```
 
-</div></body></div></body>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#14 About CSS [8]</title><link href="https://kwonyezy.github.io/html/2021/06/20/html_14.html" rel="alternate" type="text/html" title="html_#14 About CSS [8]" /><published>2021-06-20T00:00:00+00:00</published><updated>2021-06-20T00:00:00+00:00</updated><id>https://kwonyezy.github.io/html/2021/06/20/html_14</id><content type="html" xml:base="https://kwonyezy.github.io/html/2021/06/20/html_14.html"><![CDATA[<h4 id="css-8-">CSS [8] <br /><br /></h4>
+</div></body></div></body>]]></content><author><name></name></author><category term="blog" /><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry><entry><title type="html">html_#14 About CSS [8]</title><link href="https://kwonyezy.github.io/blog/html/2021/06/20/html_14.html" rel="alternate" type="text/html" title="html_#14 About CSS [8]" /><published>2021-06-20T00:00:00+00:00</published><updated>2021-06-20T00:00:00+00:00</updated><id>https://kwonyezy.github.io/blog/html/2021/06/20/html_14</id><content type="html" xml:base="https://kwonyezy.github.io/blog/html/2021/06/20/html_14.html"><![CDATA[<h4 id="css-8-">CSS [8] <br /><br /></h4>
 
 <h3 id="ul과-li로-배너-만들기">ul과 li로 배너 만들기</h3>
 <p><br /><br /></p>
@@ -1218,4 +1218,4 @@ name이 자바에서 마치 변수와 같으며, 변수 값은 value에 담는�
             - katakana-iroha : 카타카나 이로하 수
     <span class="nt">&lt;/pre&gt;</span>
 <span class="nt">&lt;/body&gt;</span>
-</code></pre></div></div>]]></content><author><name></name></author><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry></feed>
+</code></pre></div></div>]]></content><author><name></name></author><category term="blog" /><category term="HTML" /><summary type="html"><![CDATA[css]]></summary></entry></feed>
