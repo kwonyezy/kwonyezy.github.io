@@ -13,6 +13,7 @@ giscus_repoId: "R_kgDOJ6fqWg"
 giscus_category: "Q&A"
 giscus_categoryId: "DIC_kwDOJ6fqWs4Cc7p7"
 
+url: "https://kwonyezy.github.io"  # 자신의 GitHub Pages URL로 변경
 baseurl: ""
 
 theme: jekyll-theme-satellite
