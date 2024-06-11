@@ -7,6 +7,7 @@ tags:
 date: "2024-06-11"
 thumbnail: ""
 bookmark: true
+categories: "My Info"
 ---
 
 # About Me
