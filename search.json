@@ -450,6 +450,17 @@
         "date"     : "2024-06-10 00:00:00 +0000",
         "content"  : ""
      
+   } ,
+  
+   {
+     
+        "title"    : "Portfolio",
+        "category" : "",
+        "tags"     : "introduce, self-introduction, portfolio",
+        "url"      : "https://kwonyezy.github.io/My%20Info/Portfolio.html",
+        "date"     : "2024-06-11 00:00:00 +0000",
+        "content"  : ""
+     
    } 
   
 ]
