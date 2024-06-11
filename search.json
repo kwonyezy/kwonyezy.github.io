@@ -439,28 +439,6 @@
         "date"     : "2024-06-07 00:00:00 +0000",
         "content"  : ""
      
-   } ,
-  
-   {
-     
-        "title"    : "Example Post",
-        "category" : "",
-        "tags"     : "introduce, self-introduction, portfolio",
-        "url"      : "https://kwonyezy.github.io/introduce/introduce.html",
-        "date"     : "2024-06-10 00:00:00 +0000",
-        "content"  : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Test Post",
-        "category" : "",
-        "tags"     : "introduce, self-introduction, portfolio",
-        "url"      : "https://kwonyezy.github.io/introduce/test.html",
-        "date"     : "2024-06-10 00:00:00 +0000",
-        "content"  : ""
-     
    } 
   
 ]
