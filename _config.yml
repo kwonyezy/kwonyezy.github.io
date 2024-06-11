@@ -45,6 +45,13 @@ defaults:
     values:
       layout: "page"
       date: "2024-06-07"
+  -
+    scope:
+      path: ""
+      type: "posts" # 블로그 카테고리 관련 설정 추가
+    values:
+      layout: "post"
+      categories: "blog"
 
 kramdown:
   input: GFM
