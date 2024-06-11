@@ -1,3 +1,8 @@
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# 기타 설정
 title: Portfolio
 description: "My development blog and portfolio"
 logo_img: "/assets/img/favicon.webp"
@@ -13,7 +18,7 @@ giscus_repoId: "R_kgDOJ6fqWg"
 giscus_category: "Q&A"
 giscus_categoryId: "DIC_kwDOJ6fqWs4Cc7p7"
 
-baseurl: ""  # 루트 경로를 사용하므로 빈 문자열로 설정
+baseurl: ""
 url: "https://kwonyezy.github.io"
 
 theme: jekyll-theme-satellite
