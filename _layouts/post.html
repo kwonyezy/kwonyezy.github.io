@@ -17,11 +17,13 @@
       <div>
         {{ content }}
       </div>
+      {% if page.categories %}
       <div class="post-info">
         <a class="info-box category-box" href="{{ site.baseurl }}/categories/{{ page.categories | first | downcase }}">
           <span>{{ page.categories | first }}</span>
         </a>
       </div>
+      {% endif %}
     </article>
   </main>
   <footer>
