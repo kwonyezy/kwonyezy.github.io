@@ -17,6 +17,11 @@
       <div>
         {{ content }}
       </div>
+      <div class="post-info">
+        <a class="info-box category-box" href="{{ site.baseurl }}/categories/{{ page.categories | first | downcase }}">
+          <span>{{ page.categories | first }}</span>
+        </a>
+      </div>
     </article>
   </main>
   <footer>
