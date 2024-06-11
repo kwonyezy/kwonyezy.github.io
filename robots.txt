@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://kwonyezy.github.io/sitemap.xml
