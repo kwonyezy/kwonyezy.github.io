@@ -7,6 +7,7 @@ tags:
 date: "2024-06-12"
 thumbnail: ""
 bookmark: true
+category: "Protfolio"
 ---
 
 # About Me
