@@ -6,6 +6,7 @@ tags:
     - portfolio
 date: "2024-06-12"
 thumbnail: ""
+bookmark: true
 ---
 
 # About Me
