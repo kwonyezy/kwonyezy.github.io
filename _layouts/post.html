@@ -18,22 +18,11 @@
         {{ content }}
       </div>
       <div class="post-info">
-        {% if page.category %}
-        <p>Category: {{ page.category }}</p>
-        <a class="info-box category-box" href="{{ site.baseurl }}/categories/{{ page.category | downcase }}">
-          <span>{{ page.category }}</span>
+        {% assign category = page.path | split: '/' | first %}
+        <p>Category: {{ category }}</p>
+        <a class="info-box category-box" href="{{ site.baseurl }}/categories/{{ category | downcase }}">
+          <span>{{ category }}</span>
         </a>
-        {% else %}
-        <p>No category found.</p>
-        {% endif %}
-        {% if page.categories %}
-        <p>Categories: {{ page.categories }}</p>
-        <a class="info-box category-box" href="{{ site.baseurl }}/categories/{{ page.categories | first | downcase }}">
-          <span>{{ page.categories | first }}</span>
-        </a>
-        {% else %}
-        <p>No categories found.</p>
-        {% endif %}
       </div>
     </article>
   </main>
