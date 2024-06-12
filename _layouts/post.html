@@ -17,20 +17,24 @@
       <div>
         {{ content }}
       </div>
-      {% if page.category %}
       <div class="post-info">
+        {% if page.category %}
+        <p>Category: {{ page.category }}</p>
         <a class="info-box category-box" href="{{ site.baseurl }}/categories/{{ page.category | downcase }}">
           <span>{{ page.category }}</span>
         </a>
-      </div>
-      {% endif %}
-      {% if page.categories %}
-      <div class="post-info">
+        {% else %}
+        <p>No category found.</p>
+        {% endif %}
+        {% if page.categories %}
+        <p>Categories: {{ page.categories }}</p>
         <a class="info-box category-box" href="{{ site.baseurl }}/categories/{{ page.categories | first | downcase }}">
           <span>{{ page.categories | first }}</span>
         </a>
+        {% else %}
+        <p>No categories found.</p>
+        {% endif %}
       </div>
-      {% endif %}
     </article>
   </main>
   <footer>
