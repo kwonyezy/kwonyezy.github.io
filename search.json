@@ -333,6 +333,17 @@
   
    {
      
+        "title"    : "Classic Literature #2: Don Quixote",
+        "category" : "",
+        "tags"     : "Writing Manual, 게시글 예제",
+        "url"      : "https://kwonyezy.github.io/Writing%20Manual/example/example_02.html",
+        "date"     : "2023-12-05 00:00:00 +0000",
+        "content"  : ""
+     
+   } ,
+  
+   {
+     
         "title"    : "Activate Goat Counter to know how many users visit your blog or posts",
         "category" : "",
         "tags"     : "user manual, utility, goatcounter",
