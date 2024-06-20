@@ -690,7 +690,7 @@ I hope you like it!
 
 <h2 id="게시글-썸네일-이미지-설정">게시글 썸네일 이미지 설정</h2>
 
-<p>Add <code class="language-plaintext highlighter-rouge">thumbnail</code> attribute to the post that you’d like to show a representative image when rendered.</p>
+<p><code class="language-plaintext highlighter-rouge">thumbnail</code> 렌더링 시 대표 이미지를 표시하려는 게시물에 속성을 추가</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 title: "Example Post: thumbnail exists"
@@ -701,9 +701,9 @@ thumbnail: "/assets/img/thumbnail/bricks.webp"
 
 <p><img src="https://i.ibb.co/T8Rsb6L/21312.webp" alt="" class="img-lg" loading="lazy"></p>
 
-<h2 id="category-tag">Category Tag</h2>
+<h2 id="카테고리-태그">카테고리 태그</h2>
 
-<p>You can use a grouping of post topics by specifying the <code class="language-plaintext highlighter-rouge">tags</code> field. It is helpful when you’d like to search related posts or pin them on the bottom of the page.</p>
+<p>관련 게시물을 검색하거나 페이지 하단에 고정하고 싶을 때 유용</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 title: "Classic Literature #1: Romeo and Juliet"
@@ -720,9 +720,9 @@ thumbnail: "/assets/img/thumbnail/nightgardenflower.jpg"
 
 <p>Note that the <code class="language-plaintext highlighter-rouge">tags</code> attribute won’t be reflected to the sidebar navigation.</p>
 
-<h2 id="bookmark">Bookmark</h2>
+<h2 id="북마크">북마크</h2>
 
-<p>Setting <code class="language-plaintext highlighter-rouge">bookmark: true</code> makes the sidebar nav list display the corresponding post entity.</p>
+<p><code class="language-plaintext highlighter-rouge">bookmark: true</code> 로 설정하면 목차에 해당 게시글이 표시</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 title: "Markdown from A to Z"
@@ -738,33 +738,34 @@ bookmark: true
 
 <p><img src="https://i.ibb.co/2sFZNNK/21313.webp" alt="" class="img-sm" loading="lazy"></p>
 
-<h1 id="example-_pages-structure">Example <code class="language-plaintext highlighter-rouge">_pages</code> structure</h1>
+<h1 id="_pages-구조">
+<code class="language-plaintext highlighter-rouge">_pages</code> 구조</h1>
 <hr>
-
-<p>Here is the structure introduced in our repo:</p>
 
 <pre><code class="language-txt">._pages
 └── index.md
 └── markdown guide.md
-├── Category A
+├── License
 |   └── index.md
-|   ├── Subcatecory a
+|   ├── 네트워크관리사
 |       └── index.md
-|       └── post-01.md
-|       └── post-02.md
-├── Category B
+|       └── TCP-IP.md
+|       └── 기타 프로토콜.md
+├── Portfolio
 |   └── index.md
-|   ├── Subcatecory b    
+|   └── Introduce.md
+├── Writing Manual
+|   └── index.md
+|   ├── Guide
 |       └── index.md
-|       └── post-03.md
-|       ├── Subsubcategory 1
-|           └── index.md
-|           └── post-04.md
-|       ├── Subsubcategory 2
-|           └── index.md
-|           └── post-05.md
-|   ├── Subcatecory c
+|       └── Posting Guide.md
+|       └── Markdown Guide.md
+|       └── Comment System.md
+|       └── Vistor counter.md
+|   ├── example
 |       └── index.md
+|       └── example_01.md
+|       └── example_02.md
 </code></pre>
 
     <!-- see https://giscus.app/ -->
