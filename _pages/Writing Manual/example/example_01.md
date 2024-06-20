@@ -1,10 +1,11 @@
 ---
-title: "Example Post: no thumbnail image"
-date: "2023-12-01"
+title: "Example Post: thumbnail exists"
+date: "2023-12-02"
 tags:
     - Writing Manual
     - 게시글 예제
 bookmark: true
+thumbnail: "/assets/img/thumbnail/bricks.webp"
 ---
 
 # Follow the guidance
