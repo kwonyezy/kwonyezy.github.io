@@ -1,5 +1,5 @@
 ---
-title: "필기 이론 정리_TCP/IP"
+title: "TCP/IP"
 tags:
     - License
     - 네트워크관리사
