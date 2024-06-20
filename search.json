@@ -278,6 +278,17 @@
   
    {
      
+        "title"    : "Example Post: no thumbnail image",
+        "category" : "",
+        "tags"     : "Writing Manual, 게시글 예제",
+        "url"      : "https://kwonyezy.github.io/Writing%20Manual/example/example_01.html",
+        "date"     : "2023-12-01 00:00:00 +0000",
+        "content"  : ""
+     
+   } ,
+  
+   {
+     
         "title"    : "Example Post: thumbnail exists",
         "category" : "",
         "tags"     : "",
