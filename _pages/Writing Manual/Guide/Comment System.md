@@ -35,7 +35,7 @@ GitHub 저장소 설정에서 `General` > `Features` > `Discussions`  기능이 
 ![Discussion](https://i.ibb.co/P1FV02D/giscus-00.png)
 
 
-# 3. Giscus API 활성화
+# Giscus API 활성화
 ---
 
 \* [Configuration guide](https://giscus.app/) 를 참고하여 단계별로 진행
@@ -47,7 +47,7 @@ GitHub 저장소 설정에서 `General` > `Features` > `Discussions`  기능이 
 
 ![Verification](https://i.ibb.co/0hqLWX0/giscus-03.png)
 
-## 4. `_config.yml` 복사
+## 1. `_config.yml` 복사
 
 giscus script를 얻었으며, 아래에 표시된 것처럼 빨간 상자로 표시된 네 가지 속성을 복사
 
