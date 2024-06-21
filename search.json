@@ -355,6 +355,17 @@
   
    {
      
+        "title"    : "Giscus로 블로그 댓글 관리",
+        "category" : "",
+        "tags"     : "Writing Manual, 게시 가이드",
+        "url"      : "https://kwonyezy.github.io/Writing%20Manual/Guide/Comment%20System.html",
+        "date"     : "2024-02-03 00:00:00 +0000",
+        "content"  : ""
+     
+   } ,
+  
+   {
+     
         "title"    : "Manage blog comments with Giscus",
         "category" : "",
         "tags"     : "user manual, utility, giscus",

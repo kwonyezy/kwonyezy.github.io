@@ -211,6 +211,9 @@
         
     
 
+        
+    
+
     
     
     
@@ -390,6 +393,14 @@
                         </button>
 </div>
 <ul class="nav-list">
+<li id="nav-third" aria-label="Comment System">
+                                <div class="nav-item">
+                                    <a href="/Writing%20Manual/Guide/Comment%20System.html" class="nav-list-link nav-sh">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
+                                        <span>Comment System</span>
+                                    </a>
+                                </div>
+                            </li>
 <li id="nav-third" aria-label="Markdown Guide">
                                 <div class="nav-item">
                                     <a href="/Writing%20Manual/Guide/Markdown%20Guide.html" class="nav-list-link nav-sh">
@@ -1879,6 +1890,82 @@ giscus_categoryId: "[ENTER CATEGORY ID HERE]"
                 <div id="article_content">
                     <div class="thumbnail_zone">
                         
+                            <a href="/Writing%20Manual/Guide/Comment%20System.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url('https://i.ibb.co/V9j2Qsg/giscus-Wl0-X3byd-az-U68-1.webp') !important"></a>
+                        
+                    </div>
+                    <div class="box_contents">
+                        <a href="/Writing%20Manual/Guide/Comment%20System.html"><h1 class="title_post">Giscus로 블로그 댓글 관리</h1></a>
+                        <a href="/Writing%20Manual/Guide/Comment%20System.html" class="txt_post">
+                            
+  해당 글은 단순 게시글 가이드용이며, 기존 테마 (https://github.com/byanko55/jekyll-theme-satellite)에 게재된 글을 변형하였습니다.
+
+
+
+
+Giscus 는 자체 DB 없이 운영되는 무료 댓글 시스템
+Giscus는 GitHub Discussions를 사용하여 선택한 매핑(URL, 경로 이름, 제목 등)에 따라 관련 댓글을 저장하고 불러옴
+
+방문자가 댓글을 달기 위해서는 GitHub OAut 통해 giscus 앱이 그들의 대신 게시할 수 있도록 승인해야 하며, 
+방문자가 GitHub Discussion에 직접 댓글을 달 수도 있고, 댓글은 GitHub에서 관리 가능
+
+전제 조건
+
+
+github 저장소 만들기
+
+웹 사이트 호스팅에 GitHub Pages 를 사용할 예정이라면 해당 저장소 (i.e., [userID].github.io) 를 선택 가능
+
+public 방문자가 토론을 볼 수 있도록 하려면 repository는 public 으로 지정
+
+토론 기능 켜기
+
+GitHub 저장소 설정에서 General &gt; Features &gt; Discussions  기능이 활성화되어 있는지 확인
+
+
+
+Giscus API 활성화
+
+
+Configuration guide 를 참고하여 단계별로 진행
+
+
+
+다음 매뉴얼 페이지에서 아래로 스크롤하여 Discussion Category 옵션을 선택
+(다른 옵션은 별도 선택 불필요)
+
+
+
+_config.yml 복사
+
+giscus script를 얻었으며, 아래에 표시된 것처럼 빨간 상자로 표시된 네 가지 속성을 복사
+
+
+
+그 값을 루트 디렉터리에 있는 _config.yml 에 붙여넣기
+
+# External API
+giscus_repo: "[ENTER REPO HERE]"
+giscus_repoId: "[ENTER REPO ID HERE]"
+giscus_category: "[ENTER CATEGORY NAME HERE]"
+giscus_categoryId: "[ENTER CATEGORY ID HERE]"
+
+
+                        </a>
+                        <div class="info-post">
+                                <a href="/Writing%20Manual" class="category">Writing Manual</a>
+                            
+                                <span class="date">· 2024-02-03</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
+        <li class="paginated-item">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
                             <a href="/visitor%20counter.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url('https://i.ibb.co/xj20N3N/card.webp') !important"></a>
                         
                     </div>
@@ -2714,6 +2801,17 @@ This word is bold. This word is italic.
             'url'      : "/visitor%20counter.html",
             'image'    : "https://i.ibb.co/xj20N3N/card.webp",
             'date'     : "2024-02-02"
+        });
+    
+
+        posts.push({
+            'title'    : "Giscus로 블로그 댓글 관리",
+            'path'     : "Writing Manual > Guide",
+            'type'     : "post",
+            'tags'     : "Writing Manual, 게시 가이드",
+            'url'      : "/Writing%20Manual/Guide/Comment%20System.html",
+            'image'    : "https://i.ibb.co/V9j2Qsg/giscus-Wl0-X3byd-az-U68-1.webp",
+            'date'     : "2024-02-03"
         });
     
 
