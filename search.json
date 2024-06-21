@@ -369,6 +369,17 @@
         "title"    : "블로그 게시 가이드",
         "category" : "",
         "tags"     : "Writing Manual, 게시 가이드",
+        "url"      : "https://kwonyezy.github.io/Writing%20Manual/Guide/Markdown%20Guide.html",
+        "date"     : "2024-02-04 00:00:00 +0000",
+        "content"  : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "블로그 게시 가이드",
+        "category" : "",
+        "tags"     : "Writing Manual, 게시 가이드",
         "url"      : "https://kwonyezy.github.io/Writing%20Manual/Guide/Posting%20Guide.html",
         "date"     : "2024-02-04 00:00:00 +0000",
         "content"  : ""

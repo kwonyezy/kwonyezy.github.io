@@ -208,6 +208,9 @@
         
     
 
+        
+    
+
     
     
     
@@ -386,14 +389,24 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M201.4 342.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 274.7 86.6 137.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z"></path></svg>
                         </button>
 </div>
-<ul class="nav-list"><li id="nav-third" aria-label="Posting Guide">
+<ul class="nav-list">
+<li id="nav-third" aria-label="Markdown Guide">
+                                <div class="nav-item">
+                                    <a href="/Writing%20Manual/Guide/Markdown%20Guide.html" class="nav-list-link nav-sh">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
+                                        <span>Markdown Guide</span>
+                                    </a>
+                                </div>
+                            </li>
+<li id="nav-third" aria-label="Posting Guide">
                                 <div class="nav-item">
                                     <a href="/Writing%20Manual/Guide/Posting%20Guide.html" class="nav-list-link nav-sh">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
                                         <span>Posting Guide</span>
                                     </a>
                                 </div>
-                            </li></ul>
+                            </li>
+</ul>
 </li>
 <li id="nav-second" aria-label="example">
                     <div class="nav-item">
@@ -734,6 +747,322 @@ _pages 구조
                 </div>
             </li>
         
+        
+        <li class="paginated-item">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="/Writing%20Manual/Guide/Markdown%20Guide.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url('/assets/img/thumbnail/sample.png') !important"></a>
+                        
+                    </div>
+                    <div class="box_contents">
+                        <a href="/Writing%20Manual/Guide/Markdown%20Guide.html"><h1 class="title_post">블로그 게시 가이드</h1></a>
+                        <a href="/Writing%20Manual/Guide/Markdown%20Guide.html" class="txt_post">
+                            
+  해당 글은 단순 게시글 가이드용이며, 기존 테마 (https://github.com/byanko55/jekyll-theme-satellite)에 게재된 글을 변형하였습니다.
+
+
+제목
+
+
+단어나 구문 앞에 # 기호를 추가
+#의 개수에 따라 강조의 차이가 있음
+
+
+  
+    
+      Markdown
+      HTML
+      Rendered Output
+    
+  
+  
+    
+      # Header 1
+      &lt;h1&gt;Header 1&lt;/h1&gt;
+      Header 1
+    
+    
+      ## Header 2
+      &lt;h2&gt;Header 2&lt;/h2&gt;
+      Header 2
+    
+    
+      ### Header 3
+      &lt;h3&gt;Header 3&lt;/h3&gt;
+      Header 3
+    
+  
+
+
+문자 속성
+
+
+텍스트를 굵게 또는 기울임꼴로 만들어 강조를 추가
+
+Bold
+asterisks(*)를 두 개 추가 (예시 : **text** = text) 
+단어 중간을 굵게 표시하려면 글자 주위에 공백 없이 별표 두 개를 추가
+
+Italic
+asterisks(*)를 한 개 추가 (예시 : *text* = text)
+단어 중간을 이탤릭체로 표시하려면 글자 주위에 공백 없이 별표 한 개를 추가
+
+Blockquotes
+인용문을 만들려면 단락 앞에  &gt; 를 추가
+
+&gt; Kwonyezy is the best developer in the world.
+&gt;
+&gt; Factos 👍👀
+
+
+
+  Kwonyezy is the best developer in the world.
+
+  Factos 👍👀
+
+
+Lists
+순서가 있는 목록과 순서가 없는 목록으로 구성 가능
+
+순서가 있는 리스트
+숫자와 마침표가 있는 항목을 추가
+
+1. First item
+2. Second item
+3. Third item
+4. Fourth item
+
+
+
+  First item
+  Second item
+  Third item
+  Fourth item
+
+
+순서가 없는 리스트
+각 항목 앞에 대시(-), 별표(*) 또는 더하기 기호(+)를 추가
+하나 이상의 항목을 들여쓰면 중첩된 목록 생성 가능
+
+* First item
+- Second item
++ Third item
+  * Fourth item
+
+
+
+  First item
+  Second item
+  Third item
+    
+      Fourth item
+    
+  
+
+
+Code
+단어나 구문을 코드로 표시하려면 backticks (`) 사용
+
+
+  
+    
+      Markdown
+      HTML
+      Rendered Output
+    
+  
+  
+    
+      명령 프롬포트에 `nano`  입력
+      명령 프롬프트에 &lt;code&gt;nano&lt;/code&gt; 로 입력
+      명령 프롬프트에 nano 로 입력
+    
+  
+
+
+Escaping Backticks
+하나 이상의 백틱(backtick)이 포함된 경우, 그 단어나 구절을 이중 백틱(``)으로 감싸서 이스케이프 가능
+
+
+  
+    
+      Markdown
+      HTML
+      Rendered Output
+    
+  
+  
+    
+      ``마크다운 파일에 `code` 추가``
+      &lt;code&gt;마크다운 파일에 `code` 추가&lt;/code&gt;
+      마크다운 파일에 `code` 추가
+    
+  
+
+
+Code Blocks
+여러 줄의 코드에 걸쳐 있는 코드 블록을 만들려면 세 개 이상의 역따옴표( ``` ) 또는 물결( ~~ ) 안에 텍스트를 입력
+
+&lt;html&gt;
+  &lt;head&gt;
+  &lt;/head&gt;
+&lt;/html&gt;
+
+
+def foo():
+  a = 1
+  for i in [1,2,3]:
+    a += i
+
+
+수평선
+한 줄에 3개 이상의 별표 (***), 대 (---), or 밑줄 (___) 을 입력
+
+***
+---
+_________________
+
+
+링크
+링크 텍스트를 괄호로 묶은 다음 (예시 : [League of Legends]) 바로 뒤에 괄호 안에 URL을 입력 (예시 : (https://www.leagueoflegends.com/ko-kr/))
+
+요즘 내가 즐겨하는 게임 [League of Legends](https://www.leagueoflegends.com/ko-kr/)
+
+
+요즘 내가 즐겨하는 게임 League of Legends
+
+제목 추가
+
+선택적으로 링크 제목 추가 가능
+사용자가 링크 위로 마우스를 가져가면 도구 설명으로 표시
+제목을 추가하려면 URL 뒤에 따옴표를 추가
+
+요즘 내가 즐겨하는 게임 [League of Legends](https://www.leagueoflegends.com/ko-kr/ "리그오브레전드")
+
+
+요즘 내가 즐겨하는 게임 League of Legends
+
+URL 및 이메일 주소
+URL이나 이메일 주소를 링크로 빠르게 변환하려면 해당 주소를 꺾쇠 괄호로 묶기
+
+&lt;https://www.youtube.com/&gt;
+&lt;kwonyezy@naver.com&gt;
+
+
+https://www.youtube.com/
+kwonyezy@naver.com
+
+이미지
+느낌표 (!) 를 추가한 다음 괄호 ([]) 안에 대체 텍스트를 추가하고, 괄호 (()) 안에 이미지에 대한 경로 또는 URL을 추가
+
+![Tropical Paradise](/assets/img/example.jpg "Maldives, in October")
+
+
+
+
+이미지에 링크 추가
+해당 이미지의 마크다운을 괄호로 묶은 다음 링크를 괄호 안에 추가
+
+[![La Mancha](/assets/img/La-Mancha.jpg "La Mancha: Spain, Don Quixote")](https://www.britannica.com/place/La-Mancha)
+
+
+The rendered output looks like this: 
+
+Escaping Characters
+프로그래밍이나 마크업 언어에서 특정 문자를 특별한 의미로 인식하지 않도록 처리하는 방법
+Markdown 문서에서 텍스트 서식을 지정하는 데 사용되는 리터럴 문자를 표시하려면 문자 앞에 백슬래시 (\) 추가
+
+\* Without the backslash, this would be a bullet in an unordered list.
+
+
+* Without the backslash, this would be a bullet in an unordered list.
+
+Escape 가능한 문자
+
+
+  
+    
+      Character
+      Name
+    
+  
+  
+    
+      `
+      backtick
+    
+    
+      *
+      asterisk
+    
+    
+      _
+      underscore
+    
+    
+      {}
+      curly braces
+    
+    
+      []
+      brackets
+    
+    
+      &lt;&gt;
+      angle brackets
+    
+    
+      ()
+      parentheses
+    
+    
+      #
+      pound sign
+    
+    
+      +
+      plus sign
+    
+    
+      -
+      minus sign (hyphen)
+    
+    
+      .
+      dot
+    
+    
+      !
+      exclamation mark
+    
+    
+      |
+      pipe
+    
+  
+
+
+HTML
+마크다운 형식의 텍스트에 HTML 태그를 사용이 가능하며, 특정 HTML 태그를 마크다운 문법 대신 사용하고 싶을 때 유용
+텍스트의 색상을 지정하거나 이미지의 너비를 변경하는 등 요소의 속성을 변경해야 할 때도 HTML을 사용하는 것이 유용
+
+이 단어는 **BOLD** 로 표현하였으며, 이 단어는 &lt;span style="font-style: italic;"&gt;italic&lt;/span&gt; 으로 표현.
+
+
+이 단어는 BOLD 로 표현하였으며, 이 단어는 italic 으로 표현.
+
+                        </a>
+                        <div class="info-post">
+                                <a href="/Writing%20Manual" class="category">Writing Manual</a>
+                            
+                                <span class="date">· 2024-02-04</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
         </ul>
     
 </div>
@@ -895,6 +1224,17 @@ _pages 구조
             'url'      : "/comment%20system.html",
             'image'    : "https://i.ibb.co/V9j2Qsg/giscus-Wl0-X3byd-az-U68-1.webp",
             'date'     : "2024-02-03"
+        });
+    
+
+        posts.push({
+            'title'    : "블로그 게시 가이드",
+            'path'     : "Writing Manual > Guide",
+            'type'     : "post",
+            'tags'     : "Writing Manual, 게시 가이드",
+            'url'      : "/Writing%20Manual/Guide/Markdown%20Guide.html",
+            'image'    : "/assets/img/thumbnail/sample.png",
+            'date'     : "2024-02-04"
         });
     
 
