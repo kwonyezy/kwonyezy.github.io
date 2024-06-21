@@ -788,6 +788,48 @@ OSPF
                             TCP/UDP
 
 
+TCP 헤더 영역
+
+
+  
+    0 ~ 3
+    4 ~ 9
+    10
+    11
+    12
+    13
+    14
+    15
+    16 ~ 31
+  
+  
+      Source Port  송신쪽 포트 번호
+      Destination Port  목적지 포트 번호
+  
+  
+      Sequence Number  송신용 순서 번호
+  
+  
+      ACK  응답 확인 번호  수신 측에 맞춰 송신 측에서 데이터의 크기를 적절하게 조절하는 필드  Sliding Window 
+  
+  
+      HLEN (Data Offset)  헤더의 길이
+      Reserved  예약
+      플래그비트
+      Window Size  한번에 전송할 수 있는 크기
+  
+  
+      Checksum  TCP헤더와 데이터가 제대로 전송됐는지 검사하는 영역
+      Urgent Pointer  긴급 전송 시 사용
+  
+  
+      Option  선택 가능
+  
+  
+       DATA 
+  
+
+
 TCP와 UDP 비교 정리
 
 
