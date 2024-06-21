@@ -21,24 +21,24 @@ Giscus는 GitHub Discussions를 사용하여 선택한 매핑(URL, 경로 이름
 # 전제 조건
 ---
 
-## github 저장소 만들기
+## 1. github 저장소 만들기
 
 웹 사이트 호스팅에 *GitHub Pages* 를 사용할 예정이라면 해당 저장소 (i.e., `[userID].github.io`) 를 선택 가능
 
 **public** 방문자가 토론을 볼 수 있도록 하려면 repository는 **public** 으로 지정
 
 
-## 토론 기능 켜기
+## 2. 토론 기능 켜기
 
 GitHub 저장소 설정에서 `General` > `Features` > `Discussions`  기능이 활성화되어 있는지 확인
 
 ![Discussion](https://i.ibb.co/P1FV02D/giscus-00.png)
 
 
-# Giscus API 활성화
+# 3. Giscus API 활성화
 ---
 
-[Configuration guide](https://giscus.app/) 를 참고하여 단계별로 진행
+\* [Configuration guide](https://giscus.app/) 를 참고하여 단계별로 진행
 
 ![Verification](https://i.ibb.co/y87w8rB/giscus-02.png)
 
@@ -47,7 +47,7 @@ GitHub 저장소 설정에서 `General` > `Features` > `Discussions`  기능이 
 
 ![Verification](https://i.ibb.co/0hqLWX0/giscus-03.png)
 
-## `_config.yml` 복사
+## 4. `_config.yml` 복사
 
 giscus script를 얻었으며, 아래에 표시된 것처럼 빨간 상자로 표시된 네 가지 속성을 복사
 
