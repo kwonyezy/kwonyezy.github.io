@@ -559,11 +559,12 @@
 * 여러 대의 PC가 있는 곳에서 DHCP를 설정하는 것이 적합
 </code></pre></div></div>
 
-<h2 id="ospf">OSPF</h2>
+<h2 id="ospf-ip-프로토콜-89">OSPF (IP 프로토콜 89)</h2>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* Open Shortest Path First
 * OSI 3계층 네트워크 계층
 * 라우터 간 라우팅 정보 교환을 통해 최적의 경로를 결정하는 프로토콜
+* 자동 링크 기반의 동적 라우팅 (&lt;-&gt; RIP : 거리벡터 기반의 수동 라우팅)
 </code></pre></div></div>
 
 <ul>
@@ -597,6 +598,18 @@
 </code></pre></div>    </div>
   </li>
 </ol>
+
+<h2 id="rip">RIP</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* 제한된 최대 홉(Hop) 수 카운팅 기반의 경로 설정하는 프로토콜
+* OSI 3계층 네트워크 계층
+* IP 통신망의 경로지정 통신 규약
+* 거리 벡터 알고리즘을 기반으로 라우터 수에 따라 최단 경로를 동적으로 결정
+* OSPF 대비 간단한 메커니즘, 적은 부하
+
+* 메트릭으로 유일하게 Hop Count만을 고려
+* 기본 라우팅 업데이트는 30초 주기
+</code></pre></div></div>
 
     <!-- see https://giscus.app/ -->
     <div class="giscus" id="giscus" style="margin: 4rem auto;"></div>
