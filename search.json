@@ -421,6 +421,17 @@
   
    {
      
+        "title"    : "IP",
+        "category" : "",
+        "tags"     : "License, 네트워크관리사, 필기, 이론",
+        "url"      : "https://kwonyezy.github.io/License/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EA%B4%80%EB%A6%AC%EC%82%AC/IP.html",
+        "date"     : "2024-06-19 00:00:00 +0000",
+        "content"  : ""
+     
+   } ,
+  
+   {
+     
         "title"    : "TCP",
         "category" : "",
         "tags"     : "License, 네트워크관리사, 필기, 이론",
@@ -458,6 +469,17 @@
         "category" : "",
         "tags"     : "License, 네트워크관리사, 필기, 이론",
         "url"      : "https://kwonyezy.github.io/License/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EA%B4%80%EB%A6%AC%EC%82%AC/OSI%207%EA%B3%84%EC%B8%B5.html",
+        "date"     : "2024-06-21 00:00:00 +0000",
+        "content"  : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "서브넷 마스크/클래스",
+        "category" : "",
+        "tags"     : "License, 네트워크관리사, 필기, 이론",
+        "url"      : "https://kwonyezy.github.io/License/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EA%B4%80%EB%A6%AC%EC%82%AC/%EC%84%9C%EB%B8%8C%EB%84%B7%20%EB%A7%88%EC%8A%A4%ED%81%AC-%ED%81%B4%EB%9E%98%EC%8A%A4.html",
         "date"     : "2024-06-21 00:00:00 +0000",
         "content"  : ""
      
