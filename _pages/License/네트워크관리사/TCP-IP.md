@@ -14,7 +14,7 @@ bookmark: true
 # TCP/UDP
 ---
 
-### TCP 헤더 영역
+## TCP 헤더 영역
 
 <table>
   <tr>
@@ -57,7 +57,7 @@ bookmark: true
 </table>
 
 
-### TCP와 UDP 비교 정리
+## TCP와 UDP 비교 정리
 
 | |TCP|UDP|
 |-|---|---|
@@ -77,7 +77,7 @@ bookmark: true
 IP주소란 TCP/IP 네트워크 모델 구조에서 컴퓨터를 식별하기 위해 사용하는 것
 
 
-### IP 헤더 영역
+## IP 헤더 영역
 
 <table>
   <tr>
@@ -119,7 +119,7 @@ IP주소란 TCP/IP 네트워크 모델 구조에서 컴퓨터를 식별하기 �
 
 
 
-### IP 주소 체계
+## IP 주소 체계
 주소 체계에 따라 IPv4와 IPv6로 구분되며, Internet Protocol Version의 약어
 
 |IPv4|IPv6|
