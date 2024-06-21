@@ -344,6 +344,17 @@
   
    {
      
+        "title"    : "Goat Counter로 방문자 수 집계",
+        "category" : "",
+        "tags"     : "Writing Manual, 게시 가이드",
+        "url"      : "https://kwonyezy.github.io/Writing%20Manual/Guide/Vistior%20Countor.html",
+        "date"     : "2024-02-02 00:00:00 +0000",
+        "content"  : ""
+     
+   } ,
+  
+   {
+     
         "title"    : "Activate Goat Counter to know how many users visit your blog or posts",
         "category" : "",
         "tags"     : "user manual, utility, goatcounter",
