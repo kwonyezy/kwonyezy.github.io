@@ -1,5 +1,5 @@
 ---
-title: "블로그 게시 가이드"
+title: "마크다운 가이드"
 tags:
     - Writing Manual
     - 게시 가이드
