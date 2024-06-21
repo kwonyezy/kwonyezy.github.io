@@ -225,11 +225,11 @@
                                     </a>
                                 </div>
                             </li>
-<li id="nav-third" aria-label="TCP-IP">
+<li id="nav-third" aria-label="TCP">
                                 <div class="nav-item">
-                                    <a href="/License/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EA%B4%80%EB%A6%AC%EC%82%AC/TCP-IP.html" class="nav-list-link nav-sh">
+                                    <a href="/License/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EA%B4%80%EB%A6%AC%EC%82%AC/TCP.html" class="nav-list-link nav-sh">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
-                                        <span>TCP-IP</span>
+                                        <span>TCP</span>
                                     </a>
                                 </div>
                             </li>
@@ -878,12 +878,12 @@ RIP
                 <div id="article_content">
                     <div class="thumbnail_zone">
                         
-                            <a href="/License/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EA%B4%80%EB%A6%AC%EC%82%AC/TCP-IP.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url('') !important"></a>
+                            <a href="/License/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EA%B4%80%EB%A6%AC%EC%82%AC/TCP.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url('') !important"></a>
                         
                     </div>
                     <div class="box_contents">
-                        <a href="/License/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EA%B4%80%EB%A6%AC%EC%82%AC/TCP-IP.html"><h1 class="title_post">TCP/IP</h1></a>
-                        <a href="/License/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EA%B4%80%EB%A6%AC%EC%82%AC/TCP-IP.html" class="txt_post">
+                        <a href="/License/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EA%B4%80%EB%A6%AC%EC%82%AC/TCP.html"><h1 class="title_post">TCP</h1></a>
+                        <a href="/License/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EA%B4%80%EB%A6%AC%EC%82%AC/TCP.html" class="txt_post">
                             TCP/UDP
 
 
@@ -979,80 +979,6 @@ TCP와 UDP 비교 정리
       응용계층
       FTP(21), Telnet(23), SMTP(25), HTTP(80)
       DNS(53), SNMP(161), TFTP(69), NFS
-    
-  
-
-
-IP
-
-IP주소란 TCP/IP 네트워크 모델 구조에서 컴퓨터를 식별하기 위해 사용하는 것
-
-IP 헤더 영역
-
-
-  
-    0 ~ 3bit
-    4 ~ 7bit
-    8 ~ 15bit
-    16 ~ 18bit
-    19 ~ 31bit
-  
-  
-    Version (VER)  IP 프로토콜 버전
-    Header Length (HLEN)  헤더의 길이
-    Type of Service (TOS)  서비스 등급 유형
-    Total Length  헤더 + 데이터의 전체 크기
-  
-  
-    Identification (식별자)  상위 계층으로 데이터 전달 시 참고하는 정보
-    Flags DF, MD  패킷 분할 관련
-    Fragment offset (분할간격)  몇번째 분할인지 기억
-  
-  
-      Time to live (TTL)  패킷 지속 시간
-      Protocol  상위 프로토콜의 정보 표시
-      Header Checksum  헤더 검사 영역  하위 데이터의 문제 확인, IP헤더의 완전성 검사, 필드를 '0'으로 하여 계산
-  
-  
-      Source IP Address  송신 측 IP 주소 (32bit)
-  
-  
-      Destination IP Address  수신 측 IP 주소 (32bit)
-  
-  
-      Options (IP Option)  보안, 패킷을 전달하는 방식 등 다양한 옵션 지정 영역
-  
-  
-       DATA 
-  
-
-
-IP 주소 체계
-주소 체계에 따라 IPv4와 IPv6로 구분되며, Internet Protocol Version의 약어
-
-
-  
-    
-      IPv4
-      IPv6
-    
-  
-  
-    
-      브로드캐스트, 유니캐스트, 멀티캐스트
-      애니캐스트, 유니캐스트, 멀티캐스트
-    
-    
-      브로드캐스트는 과부하를 많이 발생 시킴
-      애니캐스트로 대체하여 과부하 저하
-    
-    
-       
-      IETF(국제 인터넷 표준화 기구)에서 채택  IP 주소의 확장, 호스트 주소 자동 할당  등급별, 서비스별로 패킷을 구분할 수 있어 품질보장이 용이
-    
-    
-      예시 : 192.168.100.100  8비트씩 4부분 (32비트) 으로 10진수로 표시  0~255까지 표현
-      예시 : 2001:0230:abcd:ffff:0000:0000:ffff:1111  16비트씩 8부분 (128비트) 으로 16진수로 표시
     
   
 
@@ -1291,11 +1217,11 @@ IP 주소 체계
     
 
         posts.push({
-            'title'    : "TCP/IP",
+            'title'    : "TCP",
             'path'     : "License > 네트워크관리사",
             'type'     : "post",
             'tags'     : "License, 네트워크관리사, 필기, 이론",
-            'url'      : "/License/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EA%B4%80%EB%A6%AC%EC%82%AC/TCP-IP.html",
+            'url'      : "/License/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%EA%B4%80%EB%A6%AC%EC%82%AC/TCP.html",
             'image'    : "",
             'date'     : "2024-06-19"
         });
