@@ -256,28 +256,6 @@
   
    {
      
-        "title"    : "Example Post: no thumbnail image",
-        "category" : "",
-        "tags"     : "",
-        "url"      : "https://kwonyezy.github.io/Category%20A/Subcategory%20a/post-01.html",
-        "date"     : "2023-12-01 00:00:00 +0000",
-        "content"  : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Example Post: thumbnail exists",
-        "category" : "",
-        "tags"     : "",
-        "url"      : "https://kwonyezy.github.io/Category%20A/Subcategory%20a/post-02.html",
-        "date"     : "2023-12-02 00:00:00 +0000",
-        "content"  : ""
-     
-   } ,
-  
-   {
-     
         "title"    : "Example Post: thumbnail exists",
         "category" : "",
         "tags"     : "Writing Manual, 게시글 예제",
@@ -344,17 +322,6 @@
   
    {
      
-        "title"    : "Activate Goat Counter to know how many users visit your blog or posts",
-        "category" : "",
-        "tags"     : "user manual, utility, goatcounter",
-        "url"      : "https://kwonyezy.github.io/visitor%20counter.html",
-        "date"     : "2024-02-02 00:00:00 +0000",
-        "content"  : ""
-     
-   } ,
-  
-   {
-     
         "title"    : "Giscus로 블로그 댓글 관리",
         "category" : "",
         "tags"     : "Writing Manual, 게시 가이드",
@@ -382,28 +349,6 @@
         "tags"     : "Writing Manual, 게시 가이드",
         "url"      : "https://kwonyezy.github.io/Writing%20Manual/Guide/Posting%20Guide.html",
         "date"     : "2024-02-04 00:00:00 +0000",
-        "content"  : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Index",
-        "category" : "",
-        "tags"     : "",
-        "url"      : "https://kwonyezy.github.io/Category%20A/Subcategory%20a/index.html",
-        "date"     : "2024-06-07 00:00:00 +0000",
-        "content"  : ""
-     
-   } ,
-  
-   {
-     
-        "title"    : "Index",
-        "category" : "",
-        "tags"     : "",
-        "url"      : "https://kwonyezy.github.io/Category%20A/index.html",
-        "date"     : "2024-06-07 00:00:00 +0000",
         "content"  : ""
      
    } ,

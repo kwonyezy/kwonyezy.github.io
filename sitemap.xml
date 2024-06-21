@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://kwonyezy.github.io/Category%20A/Subcategory%20a/post-01.html</loc>
-<lastmod>2023-12-01T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://kwonyezy.github.io/Category%20A/Subcategory%20a/post-02.html</loc>
-<lastmod>2023-12-02T00:00:00+00:00</lastmod>
-</url>
-<url>
 <loc>https://kwonyezy.github.io/Writing%20Manual/example/example_01.html</loc>
 <lastmod>2023-12-02T00:00:00+00:00</lastmod>
 </url>
@@ -33,10 +25,6 @@
 <lastmod>2024-02-02T00:00:00+00:00</lastmod>
 </url>
 <url>
-<loc>https://kwonyezy.github.io/visitor%20counter.html</loc>
-<lastmod>2024-02-02T00:00:00+00:00</lastmod>
-</url>
-<url>
 <loc>https://kwonyezy.github.io/Writing%20Manual/Guide/Comment%20System.html</loc>
 <lastmod>2024-02-03T00:00:00+00:00</lastmod>
 </url>
@@ -47,14 +35,6 @@
 <url>
 <loc>https://kwonyezy.github.io/Writing%20Manual/Guide/Posting%20Guide.html</loc>
 <lastmod>2024-02-04T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://kwonyezy.github.io/Category%20A/Subcategory%20a/</loc>
-<lastmod>2024-06-07T00:00:00+00:00</lastmod>
-</url>
-<url>
-<loc>https://kwonyezy.github.io/Category%20A/</loc>
-<lastmod>2024-06-07T00:00:00+00:00</lastmod>
 </url>
 <url>
 <loc>https://kwonyezy.github.io/Category%20B/Subcategory%20b/Subsubcategory%201/</loc>
