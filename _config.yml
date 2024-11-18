@@ -3,7 +3,7 @@ sass:
   style: compressed
 
 # 기타 설정
-title: Portfolio
+title: KYZ Portfolio
 description: "My development blog and portfolio"
 logo_img: "/assets/img/favicon.webp"
 profile_img: "/assets/img/profile.webp"
