@@ -219,6 +219,9 @@
         
     
 
+        
+    
+
     
     
     
@@ -309,6 +312,14 @@
                                     <a href="/License/SQLD/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81.html" class="nav-list-link nav-sh">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
                                         <span>데이터 모델링</span>
+                                    </a>
+                                </div>
+                            </li>
+<li id="nav-third" aria-label="엔터티">
+                                <div class="nav-item">
+                                    <a href="/License/SQLD/%EC%97%94%ED%84%B0%ED%8B%B0.html" class="nav-list-link nav-sh">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
+                                        <span>엔터티</span>
                                     </a>
                                 </div>
                             </li>
@@ -535,6 +546,83 @@
 </h1>
 <div id="category-list">
     <ul class="paginated-list" data-current-page="1" aria-live="polite">
+        <li class="paginated-item">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="/License/SQLD/%EC%97%94%ED%84%B0%ED%8B%B0.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url('') !important"></a>
+                        
+                    </div>
+                    <div class="box_contents">
+                        <a href="/License/SQLD/%EC%97%94%ED%84%B0%ED%8B%B0.html"><h1 class="title_post">엔터티</h1></a>
+                        <a href="/License/SQLD/%EC%97%94%ED%84%B0%ED%8B%B0.html" class="txt_post">
+                            엔터티
+
+
+개념
+
+  독립적으로 식별 가능한 객체나 사물
+  데이터 표현의 최소한의 단위
+  엔터티는 인스턴스의 집합
+  인스턴스는 속성의 집합
+
+
+예시
+- 엔터티 : 학생
+- 속성 : 학번 / 이름 / 학과
+- 식별자 : 학번
+- 인스턴스 : 특정 학생의 데이터 (권예지 / 0001 / 컴퓨터공학과)
+
+
+특징
+
+  유일한 식별자에 의해 식별 가능 (사번, 학번 등 고유 번호)
+  엡무에 필요하고 관리하고자 하는 정보
+  2개 이상의 인스턴스의 집합
+  엔터티는 반드시 **속성 필요 **
+  타 엔터티와 최소 1개 이상의 관계 성립
+
+
+분류
+ 유형/무형에 따른
+- 유형엔터티 : 실체가 있음 (사원, 물품 등)
+- 개념엔터티 : 물리적 형태가 없음 (보험상품, 조직 등)
+- 사건엔터티 : 파생된 엔터티 (주문, 청구 등)
+
+ 발생 시점에 따른
+- 기본엔터티 : 원래 존재하던 정보로 독립적으로 생성되며, 주식별자 필수 (사원, 부서 등)
+- 중심엔터티 : 기본엔터티로부터 파생된 엔터티 (계약, 주문 등)
+- 행위엔터티 : 2개 이상의 부모 엔터티로부터 발생하여 자주 바뀌고 양이 증가함 (이력 등)
+
+
+명명 규칙
+
+  현업에서 사용
+  약어 사용 X
+  단수 명사
+  유일한 이름 부여
+  생성 의미대로 이름 부여
+
+
+표기법
+
+  엔터티는 사각형
+  IE 표기법 : 최상단에 주식별자, 하위에 타식별자
+  BARKER 표기법 : 최상단에 엔터티, #주식별자, 하위에 타식별자
+
+
+                        </a>
+                        <div class="info-post">
+                                <a href="/License" class="category">License</a>
+                            
+                                <span class="date">· 2024-11-26</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
         <li class="paginated-item">
                 <div id="article_content">
                     <div class="thumbnail_zone">
@@ -2718,6 +2806,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
             'type'     : "post",
             'tags'     : "License, SQLD, SQL, DB",
             'url'      : "/License/SQLD/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81.html",
+            'image'    : "",
+            'date'     : "2024-11-26"
+        });
+    
+
+        posts.push({
+            'title'    : "엔터티",
+            'path'     : "License > SQLD",
+            'type'     : "post",
+            'tags'     : "License, SQLD, SQL, DB",
+            'url'      : "/License/SQLD/%EC%97%94%ED%84%B0%ED%8B%B0.html",
             'image'    : "",
             'date'     : "2024-11-26"
         });
