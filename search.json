@@ -663,6 +663,17 @@
   
    {
      
+        "title"    : "정규화",
+        "category" : "",
+        "tags"     : "License, SQLD, SQL, DB",
+        "url"      : "https://kwonyezy.github.io/License/SQLD/%EC%A0%95%EA%B7%9C%ED%99%94.html",
+        "date"     : "2024-11-27 00:00:00 +0000",
+        "content"  : ""
+     
+   } ,
+  
+   {
+     
         "title"    : "에러 코드 정리",
         "category" : "",
         "tags"     : "Study, ERROR",
