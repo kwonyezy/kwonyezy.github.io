@@ -697,7 +697,34 @@
   </ul>
 </blockquote>
 
-<p><img src="https://github.com/user-attachments/assets/54831e56-d956-4af5-bd70-df01faa2024e" alt="image" loading="lazy"></p>
+<p><img src="https://github.com/user-attachments/assets/10b13eed-658c-4fdf-a6c6-ab6b1c520377" alt="image" loading="lazy"></p>
+
+<h3 id="제-2-정규화">제 2 정규화</h3>
+<blockquote>
+  <ul>
+    <li>
+<strong>완전 함수 종속</strong>을 만들도록 분리<br>
+ 완전 함수 종속 : 기본키가 해당 컬럼을 완전히 결정할 수 있도록</li>
+    <li>강의실의 경우 완전 함수 종속을 위배한 부분 함수 종속 이므로, PK 강의명으로부터 분리</li>
+  </ul>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li><img src="https://github.com/user-attachments/assets/0d84e4ea-38b7-4ad5-9e0b-f2dacfdc1d31" alt="image" loading="lazy"></li>
+  </ul>
+</blockquote>
+
+<h3 id="제-3-정규화">제 3 정규화</h3>
+<blockquote>
+  <ul>
+    <li>
+<strong>이행적 종속</strong>을 없애도록 테이블을 분리<br>
+  이행적 종속 : A → B, B → c 일 때, A → C 성립</li>
+    <li>상품명과 가격은 분리 불가, 고객번호와 가격은 분리 가능</li>
+  </ul>
+</blockquote>
+
 
     <!-- see https://giscus.app/ -->
     <div class="giscus" id="giscus" style="margin: 4rem auto;"></div>
