@@ -641,17 +641,6 @@
   
    {
      
-        "title"    : "조인",
-        "category" : "",
-        "tags"     : "License, SQLD, SQL, DB",
-        "url"      : "https://kwonyezy.github.io/License/SQLD/%EA%B4%80%EA%B3%84%EC%99%80%20%EC%A1%B0%EC%9D%B8.html",
-        "date"     : "2024-11-27 00:00:00 +0000",
-        "content"  : ""
-     
-   } ,
-  
-   {
-     
         "title"    : "속성",
         "category" : "",
         "tags"     : "License, SQLD, SQL, DB",
@@ -678,6 +667,17 @@
         "category" : "",
         "tags"     : "License, SQLD, SQL, DB",
         "url"      : "https://kwonyezy.github.io/License/SQLD/%EC%A0%95%EA%B7%9C%ED%99%94.html",
+        "date"     : "2024-11-27 00:00:00 +0000",
+        "content"  : ""
+     
+   } ,
+  
+   {
+     
+        "title"    : "조인",
+        "category" : "",
+        "tags"     : "License, SQLD, SQL, DB",
+        "url"      : "https://kwonyezy.github.io/License/SQLD/%EC%A1%B0%EC%9D%B8.html",
         "date"     : "2024-11-27 00:00:00 +0000",
         "content"  : ""
      

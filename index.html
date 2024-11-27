@@ -317,14 +317,6 @@
                         </button>
 </div>
 <ul class="nav-list">
-<li id="nav-third" aria-label="관계와 조인">
-                                <div class="nav-item">
-                                    <a href="/License/SQLD/%EA%B4%80%EA%B3%84%EC%99%80%20%EC%A1%B0%EC%9D%B8.html" class="nav-list-link nav-sh">
-                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
-                                        <span>관계와 조인</span>
-                                    </a>
-                                </div>
-                            </li>
 <li id="nav-third" aria-label="관계">
                                 <div class="nav-item">
                                     <a href="/License/SQLD/%EA%B4%80%EA%B3%84.html" class="nav-list-link nav-sh">
@@ -378,6 +370,14 @@
                                     <a href="/License/SQLD/%EC%A0%95%EA%B7%9C%ED%99%94.html" class="nav-list-link nav-sh">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
                                         <span>정규화</span>
+                                    </a>
+                                </div>
+                            </li>
+<li id="nav-third" aria-label="조인">
+                                <div class="nav-item">
+                                    <a href="/License/SQLD/%EC%A1%B0%EC%9D%B8.html" class="nav-list-link nav-sh">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
+                                        <span>조인</span>
                                     </a>
                                 </div>
                             </li>
@@ -676,6 +676,64 @@
                         </a>
                         <div class="info-post">
                                 <a href="/Study" class="category">Study</a>
+                            
+                                <span class="date">· 2024-11-27</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
+        <li class="paginated-item">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="/License/SQLD/%EC%A1%B0%EC%9D%B8.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url('') !important"></a>
+                        
+                    </div>
+                    <div class="box_contents">
+                        <a href="/License/SQLD/%EC%A1%B0%EC%9D%B8.html"><h1 class="title_post">조인</h1></a>
+                        <a href="/License/SQLD/%EC%A1%B0%EC%9D%B8.html" class="txt_post">
+                            조인
+
+
+개념
+
+  
+    정규화에 의해 분리된 엔터티를 동시에 출력해야 하는 경우 연결되는 코드를 통해 출력
+  
+
+
+
+
+계층형 데이터 모델
+
+  
+    셀프 조인 : 사원 테이블에 사원번호, 이름, 상위관리자 번호가 있을 경우 상위 관리자 또한 사원 테이블로 조회 가능한 경우 진행
+  
+
+
+SELECT E1.ENAME AS 사원이름,
+       E2.ENAME AS 매니저이름
+FROM EMP E1, EMP E2
+WHERE E1.MGR = E2.EMPNO;
+
+
+
+
+상호배타적 관계
+
+  
+    두 테이블 중 하나만 가능한 관계
+    주문 엔터티에는 개인/법인 번호 둘 중 하나만 상속 가능
+    [로 표기
+  
+
+
+                        </a>
+                        <div class="info-post">
+                                <a href="/License" class="category">License</a>
                             
                                 <span class="date">· 2024-11-27</span>
                             
@@ -1017,64 +1075,6 @@ BCNF 정규화
 
   
     속성이 가질 수 있는 값의 범위
-  
-
-
-                        </a>
-                        <div class="info-post">
-                                <a href="/License" class="category">License</a>
-                            
-                                <span class="date">· 2024-11-27</span>
-                            
-                        </div>
-                    </div>
-                </div>
-            </li>
-        
-        
-        <li class="paginated-item">
-                <div id="article_content">
-                    <div class="thumbnail_zone">
-                        
-                            <a href="/License/SQLD/%EA%B4%80%EA%B3%84%EC%99%80%20%EC%A1%B0%EC%9D%B8.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url('') !important"></a>
-                        
-                    </div>
-                    <div class="box_contents">
-                        <a href="/License/SQLD/%EA%B4%80%EA%B3%84%EC%99%80%20%EC%A1%B0%EC%9D%B8.html"><h1 class="title_post">조인</h1></a>
-                        <a href="/License/SQLD/%EA%B4%80%EA%B3%84%EC%99%80%20%EC%A1%B0%EC%9D%B8.html" class="txt_post">
-                            조인
-
-
-개념
-
-  
-    정규화에 의해 분리된 엔터티를 동시에 출력해야 하는 경우 연결되는 코드를 통해 출력
-  
-
-
-
-
-계층형 데이터 모델
-
-  
-    셀프 조인 : 사원 테이블에 사원번호, 이름, 상위관리자 번호가 있을 경우 상위 관리자 또한 사원 테이블로 조회 가능한 경우 진행
-  
-
-
-SELECT E1.ENAME AS 사원이름,
-       E2.ENAME AS 매니저이름
-FROM EMP E1, EMP E2
-WHERE E1.MGR = E2.EMPNO;
-
-
-
-
-상호배타적 관계
-
-  
-    두 테이블 중 하나만 가능한 관계
-    주문 엔터티에는 개인/법인 번호 둘 중 하나만 상속 가능
-    [로 표기
   
 
 
@@ -3517,17 +3517,6 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
     
 
         posts.push({
-            'title'    : "조인",
-            'path'     : "License > SQLD",
-            'type'     : "post",
-            'tags'     : "License, SQLD, SQL, DB",
-            'url'      : "/License/SQLD/%EA%B4%80%EA%B3%84%EC%99%80%20%EC%A1%B0%EC%9D%B8.html",
-            'image'    : "",
-            'date'     : "2024-11-27"
-        });
-    
-
-        posts.push({
             'title'    : "속성",
             'path'     : "License > SQLD",
             'type'     : "post",
@@ -3555,6 +3544,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
             'type'     : "post",
             'tags'     : "License, SQLD, SQL, DB",
             'url'      : "/License/SQLD/%EC%A0%95%EA%B7%9C%ED%99%94.html",
+            'image'    : "",
+            'date'     : "2024-11-27"
+        });
+    
+
+        posts.push({
+            'title'    : "조인",
+            'path'     : "License > SQLD",
+            'type'     : "post",
+            'tags'     : "License, SQLD, SQL, DB",
+            'url'      : "/License/SQLD/%EC%A1%B0%EC%9D%B8.html",
             'image'    : "",
             'date'     : "2024-11-27"
         });
