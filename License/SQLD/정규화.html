@@ -686,8 +686,7 @@
 - 정규화를 하지 않아 발생하는 현상
 - 다른 부분까지 인서트 되거나 삭제되는 이상 현상
 </code></pre></div></div>
-<p><br><br>
-<br></p>
+<p><br></p>
 
 <h3 id="제-1-정규화">제 1 정규화</h3>
 <blockquote>
@@ -696,12 +695,12 @@
 <strong>원자성</strong>을 갖도록 테이블을 분해<br>
  원자성 : 한 속성이 하나의 값을 갖는 것</li>
     <li>구매 상품 컬럼에 여러 값이 있으므로, 이를 여러 인스턴스로 분해<br>
-<img src="https://github.com/user-attachments/assets/10b13eed-658c-4fdf-a6c6-ab6b1c520377" alt="image" loading="lazy"><br>
-<br><br>
-<br>
+<img src="https://github.com/user-attachments/assets/10b13eed-658c-4fdf-a6c6-ab6b1c520377" alt="image" loading="lazy">
 </li>
   </ul>
 </blockquote>
+
+<p><br></p>
 
 <h3 id="제-2-정규화">제 2 정규화</h3>
 <blockquote>
@@ -710,12 +709,12 @@
 <strong>완전 함수 종속</strong>을 만들도록 분리<br>
  완전 함수 종속 : 기본키가 해당 컬럼을 완전히 결정할 수 있도록</li>
     <li>강의실의 경우 완전 함수 종속을 위배한 부분 함수 종속 이므로, PK 강의명으로부터 분리<br>
-<img src="https://github.com/user-attachments/assets/0d84e4ea-38b7-4ad5-9e0b-f2dacfdc1d31" alt="image" loading="lazy"><br>
-<br><br>
-<br>
+<img src="https://github.com/user-attachments/assets/0d84e4ea-38b7-4ad5-9e0b-f2dacfdc1d31" alt="image" loading="lazy">
 </li>
   </ul>
 </blockquote>
+
+<p><br></p>
 
 <h3 id="제-3-정규화">제 3 정규화</h3>
 <blockquote>
@@ -724,45 +723,40 @@
 <strong>이행적 종속</strong>을 없애도록 테이블을 분리<br>
   이행적 종속 : A → B, B → c 일 때, A → C 성립</li>
     <li>상품명과 가격은 분리 불가, 고객번호와 가격은 분리 가능<br>
-<img src="https://github.com/user-attachments/assets/b99fec71-bcb2-4f65-bc3a-4628288f5a32" alt="image" loading="lazy"><br>
-<br><br>
-<br>
+<img src="https://github.com/user-attachments/assets/b99fec71-bcb2-4f65-bc3a-4628288f5a32" alt="image" loading="lazy">
 </li>
   </ul>
 </blockquote>
+
+<p><br></p>
 
 <h3 id="bcnf-정규화">BCNF 정규화</h3>
 <blockquote>
   <ul>
     <li>Boyce-Codd Normal Form 정규화</li>
-    <li>모든 결정자가 후보키가 되도록 테이블을 분해<br>
-<br><br>
-<br>
-</li>
+    <li>모든 결정자가 후보키가 되도록 테이블을 분해</li>
   </ul>
 </blockquote>
+
+<p><br></p>
 
 <h3 id="제-4-정규화">제 4 정규화</h3>
 <blockquote>
   <ul>
-    <li>여러 컬럼들이 하나의 컬럼을 종속시키는 경우 분해야하여 다중 값 종속성 제거<br>
-<br><br>
-<br>
-</li>
+    <li>여러 컬럼들이 하나의 컬럼을 종속시키는 경우 분해야하여 다중 값 종속성 제거</li>
   </ul>
 </blockquote>
+
+<p><br></p>
 
 <h3 id="제-5-정규화">제 5 정규화</h3>
 <blockquote>
   <ul>
-    <li>조인에 의해 종속성이 발생되는 경우 분리<br>
-<br><br>
-<br><br>
-<br>
-</li>
+    <li>조인에 의해 종속성이 발생되는 경우 분리</li>
   </ul>
 </blockquote>
 
+<p><br></p>
 <h2 id="반정규화">반정규화</h2>
 <hr>
 
