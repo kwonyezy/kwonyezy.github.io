@@ -228,6 +228,9 @@
         
     
 
+        
+    
+
     
     
     
@@ -334,6 +337,14 @@
                                     <a href="/License/SQLD/%EC%86%8D%EC%84%B1.html" class="nav-list-link nav-sh">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
                                         <span>속성</span>
+                                    </a>
+                                </div>
+                            </li>
+<li id="nav-third" aria-label="식별자">
+                                <div class="nav-item">
+                                    <a href="/License/SQLD/%EC%8B%9D%EB%B3%84%EC%9E%90.html" class="nav-list-link nav-sh">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
+                                        <span>식별자</span>
                                     </a>
                                 </div>
                             </li>
@@ -568,6 +579,115 @@
 </h1>
 <div id="category-list">
     <ul class="paginated-list" data-current-page="1" aria-live="polite">
+        <li class="paginated-item">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="/License/SQLD/%EC%8B%9D%EB%B3%84%EC%9E%90.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url('') !important"></a>
+                        
+                    </div>
+                    <div class="box_contents">
+                        <a href="/License/SQLD/%EC%8B%9D%EB%B3%84%EC%9E%90.html"><h1 class="title_post">식별자</h1></a>
+                        <a href="/License/SQLD/%EC%8B%9D%EB%B3%84%EC%9E%90.html" class="txt_post">
+                            식별자
+
+
+개념
+
+  
+    엔터티를 대표할 수 있는 속성
+    유일한 식별자 존재
+    식별자 = 논리모델링 / 키 = 물리모델링
+  
+
+
+주식별자의 특징
+
+  
+    유일성
+    최소성
+    불변성
+    존재성 (Not null)
+  
+
+
+분류
+
+  대표성 여부
+  
+    주식별자
+    보조식별자 : 유일성과 최소성은 만족하지만 보안 등의 의유로 대표성을 만족할 수는 없는 식별자 (주민번호)
+  
+
+
+
+  생성 여부
+  
+    내부식별자 : 타 엔터티 참조 없이
+    외부식별자 : 타 엔터티 참조 필요
+  
+
+
+
+  속성의 수
+  
+    단일식별자
+    복합식별자
+  
+
+
+
+  대체 여부
+  
+    본질식별자 : 비즈니스 프로세스에 의해 만들어지는 식별자
+    인조식별자 : 자동 증가하는 일련번호 형태의 인위적인 식별자
+  
+
+
+주식별자 도출 기준
+
+  
+    업무적으로 자주 이용되는 속성
+    명칭, 내역 등은 사용 불가
+    최소한으로 지정 (많을 경우 조인 시 성능 저하)
+  
+
+
+구분
+
+  
+    강한 개체 : 독립적으로 존재 가능 (고객, 계좌 중 고객에 해당)
+    약한 개체 : 독립적으로 존재 불가능 (고객, 계좌 중 계좌에 해당)
+  
+
+
+식별관계와 비식별관계
+
+  식별관계
+  
+    기본키를 타 엔터티가 기본 키로 공유
+    ERD에서는 실선
+  
+
+  비식별관계
+  
+    일반 속성으로 공유
+    ERD에서는 점선
+  
+
+
+                        </a>
+                        <div class="info-post">
+                                <a href="/License" class="category">License</a>
+                            
+                                <span class="date">· 2024-11-27</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
         <li class="paginated-item">
                 <div id="article_content">
                     <div class="thumbnail_zone">
@@ -3113,6 +3233,17 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
             'type'     : "post",
             'tags'     : "License, SQLD, SQL, DB",
             'url'      : "/License/SQLD/%EC%86%8D%EC%84%B1.html",
+            'image'    : "",
+            'date'     : "2024-11-27"
+        });
+    
+
+        posts.push({
+            'title'    : "식별자",
+            'path'     : "License > SQLD",
+            'type'     : "post",
+            'tags'     : "License, SQLD, SQL, DB",
+            'url'      : "/License/SQLD/%EC%8B%9D%EB%B3%84%EC%9E%90.html",
             'image'    : "",
             'date'     : "2024-11-27"
         });
