@@ -240,6 +240,9 @@
         
     
 
+        
+    
+
     
     
     
@@ -378,6 +381,14 @@
                                     <a href="/License/SQLD/%EC%A1%B0%EC%9D%B8.html" class="nav-list-link nav-sh">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
                                         <span>조인</span>
+                                    </a>
+                                </div>
+                            </li>
+<li id="nav-third" aria-label="트랜잭션">
+                                <div class="nav-item">
+                                    <a href="/License/SQLD/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.html" class="nav-list-link nav-sh">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
+                                        <span>트랜잭션</span>
                                     </a>
                                 </div>
                             </li>
@@ -620,6 +631,53 @@
 </h1>
 <div id="category-list">
     <ul class="paginated-list" data-current-page="1" aria-live="polite">
+        <li class="paginated-item">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="/License/SQLD/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url('') !important"></a>
+                        
+                    </div>
+                    <div class="box_contents">
+                        <a href="/License/SQLD/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.html"><h1 class="title_post">트랜잭션</h1></a>
+                        <a href="/License/SQLD/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.html" class="txt_post">
+                            트랜잭션
+
+
+개념
+
+  
+    하나의 연속적인 업무 단위
+    트랜잭션에 의한 관계는 필수적인 관계 형태를 가짐
+    서로 독립적으로 발생하면 안됨
+    부분 커밋은 불가능하며, 동시에 커밋 및 롤백이 이루어져야 함
+  
+
+
+예시
+A 고객이 B 고객에게 100만원을 이체하려는 상황
+  step 1) A 고객의 잔액이 100만원 이상인 지 확인
+  step 2) 이상일 경우, A 고객의 잔액을 -100만원 UPDATE
+  step 3) B 고객 잔액에 +100만원 UPDATE
+
+이 때 2번과 3번 과정이 동시에 수행되어야 하며, 모두 성공 또는 모두 취소되어야 함
+
+
+
+
+
+                        </a>
+                        <div class="info-post">
+                                <a href="/License" class="category">License</a>
+                            
+                                <span class="date">· 2024-11-27</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
         <li class="paginated-item">
                 <div id="article_content">
                     <div class="thumbnail_zone">
@@ -1838,6 +1896,17 @@ RDBMS
             'type'     : "post",
             'tags'     : "License, SQLD, SQL, DB",
             'url'      : "/License/SQLD/%EC%A1%B0%EC%9D%B8.html",
+            'image'    : "",
+            'date'     : "2024-11-27"
+        });
+    
+
+        posts.push({
+            'title'    : "트랜잭션",
+            'path'     : "License > SQLD",
+            'type'     : "post",
+            'tags'     : "License, SQLD, SQL, DB",
+            'url'      : "/License/SQLD/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.html",
             'image'    : "",
             'date'     : "2024-11-27"
         });

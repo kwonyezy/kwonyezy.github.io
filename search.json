@@ -685,6 +685,17 @@
   
    {
      
+        "title"    : "트랜잭션",
+        "category" : "",
+        "tags"     : "License, SQLD, SQL, DB",
+        "url"      : "https://kwonyezy.github.io/License/SQLD/%ED%8A%B8%EB%9E%9C%EC%9E%AD%EC%85%98.html",
+        "date"     : "2024-11-27 00:00:00 +0000",
+        "content"  : ""
+     
+   } ,
+  
+   {
+     
         "title"    : "에러 코드 정리",
         "category" : "",
         "tags"     : "Study, ERROR",
