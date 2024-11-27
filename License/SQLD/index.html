@@ -222,6 +222,9 @@
         
     
 
+        
+    
+
     
     
     
@@ -312,6 +315,14 @@
                                     <a href="/License/SQLD/%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%AA%A8%EB%8D%B8%EB%A7%81.html" class="nav-list-link nav-sh">
                                         <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
                                         <span>데이터 모델링</span>
+                                    </a>
+                                </div>
+                            </li>
+<li id="nav-third" aria-label="속성">
+                                <div class="nav-item">
+                                    <a href="/License/SQLD/%EC%86%8D%EC%84%B1.html" class="nav-list-link nav-sh">
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 448 512"><path d="M432 256c0 17.7-14.3 32-32 32L48 288c-17.7 0-32-14.3-32-32s14.3-32 32-32l352 0c17.7 0 32 14.3 32 32z"></path></svg>
+                                        <span>속성</span>
                                     </a>
                                 </div>
                             </li>
@@ -552,6 +563,121 @@
 </h1>
 <div id="category-list">
     <ul class="paginated-list" data-current-page="1" aria-live="polite">
+        <li class="paginated-item">
+                <div id="article_content">
+                    <div class="thumbnail_zone">
+                        
+                            <a href="/License/SQLD/%EC%86%8D%EC%84%B1.html" class="thumbnail_post" loading="lazy" aria-label="thumbnail_post" style="background-image:url('') !important"></a>
+                        
+                    </div>
+                    <div class="box_contents">
+                        <a href="/License/SQLD/%EC%86%8D%EC%84%B1.html"><h1 class="title_post">속성</h1></a>
+                        <a href="/License/SQLD/%EC%86%8D%EC%84%B1.html" class="txt_post">
+                            속성
+
+
+개념
+
+
+  
+    업무에서 필요로 하는 고유한 성질
+    더이상 분리되지 않는 최소한의 단위
+  
+
+
+엔터티 / 인스턴스 / 속성 / 속성값의 관계
+
+
+  
+    1개 엔터티는 2개 이상의 인스턴스
+    1개 엔터티는 2개 이상의 속성
+    1개 속성은 1개의 속성값 (원자성 : 두 개 이상의 값을 가질 수 없음)
+  
+
+
+특징
+
+
+  
+    업무에 필요해야
+    주식별자에 함수적 종속성을 가져야
+  (학번이 달라지면 이름이 달라지므로 이름이라는 속성은 주식별자 학번에 함수적 종속성을 띤다)
+    하나의 속성에 여러 값이 있을 경우 분리해야
+  
+
+
+함수적 종속성
+
+
+  
+    완전 함수적 종속
+  PK 구성하는 컬럼이 2개 이상일 때 타 컬럼의 값이 정해지는 경우
+  (주문번호, 제품번호에 따라 수량이 정해지는 경우)
+    부분 함수적 종속
+  일부 PK로도 결정 가능
+  
+
+
+분류
+
+
+  특성에 따른
+  
+    기본속성 : 모든 속성
+    설계속성 : 기본속성 이외 업무 규칙화하기 위해 변형 (상품코드 등)
+    파생속성 : 타 속성에 의해 계산된 값들이 해당 (매출, 합계 등)
+  
+
+
+
+  구성방식에 따른
+  
+    PK : 주식별자
+    FK : 타 엔터티와의 관계에 포함된 속성
+    일반속성 : PK, FK가 아닌 다른 속성
+  
+
+
+
+  분해여부에 따른
+  
+    단일속성 : 하나의 의미
+    복합속성 : 여러개의 의미 (주소 : 시, 군, 구, 동 등으로 분할 가능)
+    다중속성 : 전화번호와 같이 여러개
+  
+
+
+명명규칙
+
+
+  
+    해당 업무에 사용
+    서술식 X
+    약어 사용 X
+    유일한 명칭
+  
+
+
+도메인
+
+
+  
+    속성이 가질 수 있는 값의 범위
+  
+
+
+                        </a>
+                        <div class="info-post">
+                                <a href="/License" class="category">License</a>
+                            
+                                <span class="date">· 2024-11-27</span>
+                            
+                        </div>
+                    </div>
+                </div>
+            </li>
+        
+        
         <li class="paginated-item">
                 <div id="article_content">
                     <div class="thumbnail_zone">
@@ -1219,6 +1345,17 @@ RDBMS
             'url'      : "/License/SQLD/%EC%97%94%ED%84%B0%ED%8B%B0.html",
             'image'    : "",
             'date'     : "2024-11-26"
+        });
+    
+
+        posts.push({
+            'title'    : "속성",
+            'path'     : "License > SQLD",
+            'type'     : "post",
+            'tags'     : "License, SQLD, SQL, DB",
+            'url'      : "/License/SQLD/%EC%86%8D%EC%84%B1.html",
+            'image'    : "",
+            'date'     : "2024-11-27"
         });
     
 
