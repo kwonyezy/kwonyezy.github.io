@@ -7,13 +7,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>
     
-        정규화
+        정규화/반정규화
     
 </title>
 <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>정규화 | KYZ Portfolio</title>
+<title>정규화/반정규화 | KYZ Portfolio</title>
 <meta name="generator" content="Jekyll v4.2.2">
-<meta property="og:title" content="정규화">
+<meta property="og:title" content="정규화/반정규화">
 <meta property="og:locale" content="en_US">
 <meta name="description" content="정규화">
 <meta property="og:description" content="정규화">
@@ -23,9 +23,9 @@
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2024-11-27T00:00:00+00:00">
 <meta name="twitter:card" content="summary">
-<meta property="twitter:title" content="정규화">
+<meta property="twitter:title" content="정규화/반정규화">
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-11-27T00:00:00+00:00","datePublished":"2024-11-27T00:00:00+00:00","description":"정규화","headline":"정규화","mainEntityOfPage":{"@type":"WebPage","@id":"https://kwonyezy.github.io/License/SQLD/%EC%A0%95%EA%B7%9C%ED%99%94.html"},"url":"https://kwonyezy.github.io/License/SQLD/%EC%A0%95%EA%B7%9C%ED%99%94.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-11-27T00:00:00+00:00","datePublished":"2024-11-27T00:00:00+00:00","description":"정규화","headline":"정규화/반정규화","mainEntityOfPage":{"@type":"WebPage","@id":"https://kwonyezy.github.io/License/SQLD/%EC%A0%95%EA%B7%9C%ED%99%94.html"},"url":"https://kwonyezy.github.io/License/SQLD/%EC%A0%95%EA%B7%9C%ED%99%94.html"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -618,7 +618,7 @@
                 &gt;
             
                 
-                    정규화
+                    정규화/반정규화
                 
             </p>
 </div>
@@ -627,7 +627,7 @@
     <div class="thumbnail">
         <div class="transbox">
             
-                <span class="post-title">정규화</span>
+                <span class="post-title">정규화/반정규화</span>
             
             <div class="post-info">
                 
@@ -693,11 +693,11 @@
     <li>
 <strong>원자성</strong>을 갖도록 테이블을 분해<br>
  원자성 : 한 속성이 하나의 값을 갖는 것</li>
-    <li>구매 상품 컬럼에 여러 값이 있으므로, 이를 여러 인스턴스로 분해</li>
+    <li>구매 상품 컬럼에 여러 값이 있으므로, 이를 여러 인스턴스로 분해<br>
+<img src="https://github.com/user-attachments/assets/10b13eed-658c-4fdf-a6c6-ab6b1c520377" alt="image" loading="lazy">
+</li>
   </ul>
 </blockquote>
-
-<p><img src="https://github.com/user-attachments/assets/10b13eed-658c-4fdf-a6c6-ab6b1c520377" alt="image" loading="lazy"></p>
 
 <h3 id="제-2-정규화">제 2 정규화</h3>
 <blockquote>
@@ -705,13 +705,9 @@
     <li>
 <strong>완전 함수 종속</strong>을 만들도록 분리<br>
  완전 함수 종속 : 기본키가 해당 컬럼을 완전히 결정할 수 있도록</li>
-    <li>강의실의 경우 완전 함수 종속을 위배한 부분 함수 종속 이므로, PK 강의명으로부터 분리</li>
-  </ul>
-</blockquote>
-
-<blockquote>
-  <ul>
-    <li><img src="https://github.com/user-attachments/assets/0d84e4ea-38b7-4ad5-9e0b-f2dacfdc1d31" alt="image" loading="lazy"></li>
+    <li>강의실의 경우 완전 함수 종속을 위배한 부분 함수 종속 이므로, PK 강의명으로부터 분리<br>
+<img src="https://github.com/user-attachments/assets/0d84e4ea-38b7-4ad5-9e0b-f2dacfdc1d31" alt="image" loading="lazy">
+</li>
   </ul>
 </blockquote>
 
@@ -721,10 +717,52 @@
     <li>
 <strong>이행적 종속</strong>을 없애도록 테이블을 분리<br>
   이행적 종속 : A → B, B → c 일 때, A → C 성립</li>
-    <li>상품명과 가격은 분리 불가, 고객번호와 가격은 분리 가능</li>
+    <li>상품명과 가격은 분리 불가, 고객번호와 가격은 분리 가능<br>
+<img src="https://github.com/user-attachments/assets/b99fec71-bcb2-4f65-bc3a-4628288f5a32" alt="image" loading="lazy">
+</li>
   </ul>
 </blockquote>
 
+<h3 id="bcnf-정규화">BCNF 정규화</h3>
+<blockquote>
+  <ul>
+    <li>Boyce-Codd Normal Form 정규화</li>
+    <li>모든 결정자가 후보키가 되도록 테이블을 분해</li>
+  </ul>
+</blockquote>
+
+<h3 id="제-4-정규화">제 4 정규화</h3>
+<blockquote>
+  <ul>
+    <li>여러 컬럼들이 하나의 컬럼을 종속시키는 경우 분해야하여 다중 값 종속성 제거</li>
+  </ul>
+</blockquote>
+
+<h3 id="제-5-정규화">제 5 정규화</h3>
+<blockquote>
+  <ul>
+    <li>조인에 의해 종속성이 발생되는 경우 분리</li>
+  </ul>
+</blockquote>
+
+<h2 id="반정규화">반정규화</h2>
+<hr>
+
+<h2 id="개념-1">개념</h2>
+<blockquote>
+  <ul>
+    <li>데이터 중복을 허용하고 조인을 줄이는 데이터베이스 성능 향상 방법</li>
+    <li>조인이 오히려 성능에 문제를 발생시키는 경우 진행</li>
+    <li>select 속도는 향상되지만 유연성은 낮아짐</li>
+    <li>수행하는 케이스
+      <ul>
+        <li>수행 속도 저하 시</li>
+        <li>다량의 범위를 자주 처리하는 경우</li>
+        <li>특정 범위 데이터만 자주 처리하는 경우</li>
+      </ul>
+    </li>
+  </ul>
+</blockquote>
 
     <!-- see https://giscus.app/ -->
     <div class="giscus" id="giscus" style="margin: 4rem auto;"></div>
@@ -1188,7 +1226,7 @@
     
 
         posts.push({
-            'title'    : "정규화",
+            'title'    : "정규화/반정규화",
             'path'     : "License > SQLD",
             'type'     : "post",
             'tags'     : "License, SQLD, SQL, DB",
